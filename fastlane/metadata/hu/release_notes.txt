@@ -1,4 +1,2 @@
-- Frissítettük a beépített Tor-t a legújabb, 0.4.8.10-es verzióra.
-- A beépített Snowflake frissítve a legújabb, 2.8.1-es verzióra.
-- Frissített fordítások.
-- Javítottuk az összeomlást.
+- A beépített Snowflake frissítve a legújabb, 2.9.2 verzióra.
+- Indonéz fordítás hozzáadva.

@@ -1,4 +1,2 @@
-- Zaktualizowano wbudowany Tor do najnowszej wersji 0.4.8.10.
-- Zaktualizowano wbudowany Snowflake do najnowszej wersji 2.8.1.
-- Zaktualizowano tłumaczenia.
-- Naprawiono awarię.
+- Zaktualizowano wbudowaną aplikację Snowflake do najnowszej wersji 2.9.2.
+- Dodano tłumaczenie na język indonezyjski.

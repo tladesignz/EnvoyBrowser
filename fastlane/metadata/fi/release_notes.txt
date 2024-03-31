@@ -1,4 +1,2 @@
-- Sisäänrakennettu Tor päivitetty uusimpaan versioon 0.4.8.10.
-- Sisäänrakennettu Snowflake päivitetty uusimpaan versioon 2.8.1.
-- Päivitetyt käännökset.
-- Korjattu kaatuminen.
+- Sisäänrakennettu Snowflake päivitetty uusimpaan versioon 2.9.2.
+- Lisätty indonesian käännökset.

@@ -1,4 +1,2 @@
-- Đã cập nhật Tor tích hợp lên phiên bản mới nhất 0.4.8.10.
-- Đã cập nhật Snowflake tích hợp lên phiên bản mới nhất 2.8.1.
-- Cập nhật bản dịch.
-- Đã sửa lỗi sự cố.
+- Đã cập nhật Snowflake tích hợp lên phiên bản mới nhất 2.9.2.
+- Đã thêm bản dịch tiếng Indonesia.

@@ -1,4 +1,2 @@
-- Ingebouwde Tor bijgewerkt naar de nieuwste versie 0.4.8.10.
-- Ingebouwde Snowflake bijgewerkt naar de nieuwste versie 2.8.1.
-- Vertalingen bijgewerkt.
-- Crash verholpen.
+- Ingebouwde Snowflake bijgewerkt naar de nieuwste versie 2.9.2.
+- Indonesische vertaling toegevoegd.

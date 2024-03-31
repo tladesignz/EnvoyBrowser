@@ -1,4 +1,2 @@
-- Aktualizace vestavěného Tor na nejnovější verzi 0.4.8.10.
-- Aktualizováno integrované rozhraní Snowflake na nejnovější verzi 2.8.1.
-- Aktualizovány překlady.
-- Opraven pád.
+- Aktualizace vestavěného systému Snowflake na nejnovější verzi 2.9.2.
+- Přidán indonéský překlad.

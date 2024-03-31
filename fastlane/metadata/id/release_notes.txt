@@ -1,1 +1,2 @@
-
+- Memperbarui Snowflake bawaan ke versi terbaru 2.9.2.
+- Menambahkan terjemahan bahasa Indonesia.

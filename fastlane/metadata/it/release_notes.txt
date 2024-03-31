@@ -1,4 +1,2 @@
-- Aggiornato Tor alla versione 0.4.8.10.
-- Aggiornato Snowflake integrato all'ultima versione 2.8.1.
-- Traduzioni aggiornate.
-- Arresto anomalo corretto.
+- Aggiornato Snowflake integrato all'ultima versione 2.9.2.
+- Aggiunta la traduzione in indonesiano.

@@ -1,4 +1,2 @@
-- Tor încorporat a fost actualizat la cea mai recentă versiune 0.4.8.10.
-- Actualizat Snowflake încorporat la cea mai recentă versiune 2.8.1.
-- Traduceri actualizate.
-- A fost reparat un accident.
+- Actualizat fulgul de zăpadă încorporat la cea mai recentă versiune 2.9.2.
+- Adăugat traducere în indoneziană.

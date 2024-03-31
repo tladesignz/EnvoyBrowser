@@ -1,4 +1,2 @@
-- Yerleşik Tor en son 0.4.8.10 sürümüne güncellendi.
-- Yerleşik Snowflake en son 2.8.1 sürümüne güncellendi.
-- Çeviriler güncellendi.
-- Kilitlenme düzeltildi.
+- Yerleşik Snowflake en son 2.9.2 sürümüne güncellendi.
+- Endonezce çeviri eklendi.

@@ -1,4 +1,2 @@
-- Ažuriran ugrađeni Tor na najnoviju verziju 0.4.8.10.
-- Ugrađeni Snowflake ažuriran na najnoviju verziju 2.8.1.
-- Ažurirani prijevodi.
-- Popravljeno rušenje.
+- Ugrađeni Snowflake ažuriran na najnoviju verziju 2.9.2.
+- Dodan prijevod na indonezijski.

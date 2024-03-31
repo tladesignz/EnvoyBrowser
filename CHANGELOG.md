@@ -1,5 +1,9 @@
 #  Onion Browser Changelog
 
+## 3.1.2
+- Updated built-in Snowflake to latest version 2.9.2.
+- Added Indonesian translation.
+
 ## 3.1.1
 - Updated built-in Tor to latest version 0.4.8.10.
 - Updated built-in Snowflake to latest version 2.8.1.

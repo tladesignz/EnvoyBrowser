@@ -1,4 +1,2 @@
-- Atualização do Tor integrado para a versão mais recente 0.4.8.10.
-- Atualização do Snowflake incorporado para a versão mais recente 2.8.1.
-- Atualizadas as traduções.
-- Corrigido o travamento.
+- Atualização do Snowflake incorporado para a versão mais recente 2.9.2.
+- Adicionada a tradução para o indonésio.

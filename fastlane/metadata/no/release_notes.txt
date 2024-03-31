@@ -1,4 +1,2 @@
-- Oppdatert innebygd Tor til siste versjon 0.4.8.10.
-- Oppdatert innebygd Snowflake til siste versjon 2.8.1.
-- Oppdaterte oversettelser.
-- Fikset krasj.
+- Oppdatert innebygd Snowflake til siste versjon 2.9.2.
+- Lagt til indonesisk oversettelse.
