@@ -6,24 +6,24 @@ PODS:
   - FavIcon (3.1.0)
   - ImageRow (4.1.0):
     - Eureka (~> 5.3.5)
-  - IPtProxy (3.7.0)
-  - IPtProxyUI (4.5.0):
+  - IPtProxy (3.8.1)
+  - IPtProxyUI (4.6.1):
     - Eureka (~> 5.3)
-    - IPtProxy (~> 3.7.0)
-    - IPtProxyUI/App (= 4.5.0)
-  - IPtProxyUI/App (4.5.0):
+    - IPtProxy (~> 3.8.1)
+    - IPtProxyUI/App (= 4.6.1)
+  - IPtProxyUI/App (4.6.1):
     - Eureka (~> 5.3)
-    - IPtProxy (~> 3.7.0)
+    - IPtProxy (~> 3.8.1)
     - ProgressHUD (~> 14.1)
   - MBProgressHUD (1.2.0)
   - OCMock (3.9.3)
   - OrbotKit (1.1.0)
   - ProgressHUD (14.1.1)
   - SDCAlertView (10.0)
-  - Tor/Core (408.10.1)
-  - Tor/CTor (408.10.1):
+  - Tor/Core (408.11.1)
+  - Tor/CTor (408.11.1):
     - Tor/Core
-  - Tor/GeoIP (408.10.1):
+  - Tor/GeoIP (408.11.1):
     - Tor/CTor
   - TUSafariActivity (1.0.4)
 
@@ -32,12 +32,12 @@ DEPENDENCIES:
   - Eureka (~> 5.3)
   - FavIcon (from `https://github.com/tladesignz/FavIcon.git`)
   - ImageRow (~> 4.1)
-  - IPtProxyUI (~> 4.5)
+  - IPtProxyUI (~> 4.6)
   - MBProgressHUD (~> 1.2)
   - OCMock
   - OrbotKit (~> 1.1)
   - SDCAlertView (~> 10)
-  - Tor/GeoIP (~> 408.10)
+  - Tor/GeoIP (~> 408.11)
   - TUSafariActivity
 
 SPEC REPOS:
@@ -69,16 +69,16 @@ SPEC CHECKSUMS:
   Eureka: 28ad9dec6286cd7cd601fdf8e8df39bb7356a8f4
   FavIcon: 21651b47d8f6b33517973859f85e2cb6f9fcfaee
   ImageRow: 880c0f052c5a89c80521b485c86ccf723a124e99
-  IPtProxy: 8c7d61173524729180f6285beebba5d6eb3fc88d
-  IPtProxyUI: 0592abce3d6b206a6b78f1529439c0dfcfc56cbc
+  IPtProxy: d7e37d1faa9b2608b8b5b2743b1a4ae3eb723c5e
+  IPtProxyUI: b30db38039f283bdb92ef39c9911ffe64f0f4067
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   OCMock: 300b1b1b9155cb6378660b981c2557448830bdc6
   OrbotKit: 5e69508dee1943144fefa18a197fbf2030dfbe36
   ProgressHUD: abb9136ae23c85204236828562cb9a8ec98efb44
   SDCAlertView: 5fbc48cae6d7bf9781097e3f27883924ef3b922c
-  Tor: 4aa4aee031f892efa43d1afb01c90565990c6312
+  Tor: ff5a5dc3f0317e7db8f4e863ac535ae5ff3d8ef1
   TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
 
-PODFILE CHECKSUM: 3822b5fe8b3e4a42b1162e84af862139d7498ab7
+PODFILE CHECKSUM: e27a31b5488161c981145a21cbedaca24ba6ac2e
 
 COCOAPODS: 1.15.2

@@ -301,23 +301,26 @@ class TorManager {
 		conf.geoipFile = Bundle.geoIp?.geoipFile
 		conf.geoip6File = Bundle.geoIp?.geoip6File
 
-		conf.arguments += transportConf(Transport.asArguments).joined()
+		var arguments = [String]()
+		arguments.append(contentsOf: transportConf(Transport.asArguments).joined())
+		arguments.append(contentsOf: ipStatus.torConf(transport, Transport.asArguments).joined())
 
-		conf.arguments += ipStatus.torConf(transport, Transport.asArguments).joined()
+		conf.arguments = arguments as? NSMutableArray
+
+#if DEBUG
+		let log = "notice stdout"
+#else
+		let log = "err file /dev/null"
+#endif
 
 		conf.options = [
 			// Log
+			"Log": log,
 			"LogMessageDomains": "1",
 			"SafeLogging": "1",
 
 			// SOCKS5
 			"SocksPort": "auto"]
-
-#if DEBUG
-		conf.options["Log"] = "notice stdout"
-#else
-		conf.options["Log"] = "err file /dev/null"
-#endif
 
 		return conf
 	}
