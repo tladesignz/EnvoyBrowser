@@ -42,11 +42,6 @@ class HostSettings: NSObject {
 		get {
 			if _raw == nil, let url = fileUrl {
 				_raw = NSDictionary(contentsOf: url) as? [String: [String: String]]
-
-				// Fix later introduced setting, which defaults to true.
-				if _raw?[HostSettings.defaultHost]?[followOnionLocationHeaderKey] == nil {
-					_raw?[HostSettings.defaultHost]?[followOnionLocationHeaderKey] = HostSettings.true
-				}
 			}
 
 			return _raw ?? [:]
@@ -294,7 +289,7 @@ class HostSettings: NSObject {
 				Self.ignoreTlsErrorsKey: Self.false,
 				Self.whitelistCookiesKey: Self.false,
 				Self.universalLinkProtectionKey: Self.true,
-				Self.followOnionLocationHeaderKey: Self.true,
+				Self.followOnionLocationHeaderKey: Self.false,
 				Self.userAgentKey: "",
 				Self.javaScriptKey: Self.true,
 				Self.orientationAndMotionKey: Self.false,

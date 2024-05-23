@@ -18,6 +18,10 @@ can be reached.
 
 An alternative service is defined by a protocol/host/port combination.
 
+ **ATTENTION**: This is currently not used in Onion Browser, and it should actually never be used,
+ because it turns out, that both automatic `Onion-Location` and `Alt-Svc` header following
+ will make the guard node be able to find out to what server you're talking to.
+
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Alt-Svc
 */
 @objcMembers
