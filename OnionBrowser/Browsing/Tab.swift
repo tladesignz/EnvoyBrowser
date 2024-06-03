@@ -179,7 +179,11 @@ class Tab: UIView {
 		return webView?.scrollView
 	}
 
-	weak var scrollViewDelegate: UIScrollViewDelegate?
+	weak var scrollViewDelegate: UIScrollViewDelegate? {
+		didSet {
+			scrollView?.delegate = scrollViewDelegate
+		}
+	}
 
 	var canGoBack: Bool {
 		return  parentId != nil || webView?.canGoBack ?? false
@@ -483,7 +487,7 @@ class Tab: UIView {
 
 		webView?.uiDelegate = self
 		webView?.navigationDelegate = self
-		webView?.scrollView.delegate = scrollViewDelegate
+		scrollView?.delegate = scrollViewDelegate
 
 		webView?.add(to: self)
 
@@ -508,17 +512,17 @@ class Tab: UIView {
 	private func destructWebView() {
 		NotificationCenter.default.removeObserver(self)
 
-		self.scrollView?.delegate = nil
-		self.webView?.uiDelegate = nil
-		self.webView?.navigationDelegate = nil
+		scrollView?.delegate = nil
+		webView?.uiDelegate = nil
+		webView?.navigationDelegate = nil
 
-		self.removeGestureRecognizers()
+		removeGestureRecognizers()
 
-		self.stop()
-		self.webView?.loadHTMLString("", baseURL: nil)
+		stop()
+		webView?.loadHTMLString("", baseURL: nil)
 
-		self.webView?.removeFromSuperview()
-		self.webView = nil
+		webView?.removeFromSuperview()
+		webView = nil
 	}
 
 	@objc
