@@ -1,4 +1,4 @@
-- S'ha actualitzat Tor integrat a la darrera versió 0.4.8.10.
-- S'ha actualitzat el Floquet de neu integrat a la darrera versió 2.8.1.
-- Traduccions actualitzades.
-- S'ha solucionat l'error.
+- S'ha actualitzat Tor a la darrera versió 0.4.8.11.
+- S'ha afegit suport per a ponts personalitzats mixts: ara podeu barrejar meek, obfs4 i el nou tipus de pont WebTunnel a la vostra llista de ponts personalitzats.
+- S'ha solucionat un problema amb la barra d'eines inferior que s'amagava i es mostrava.
+- Actualitzacions menors a les traduccions.

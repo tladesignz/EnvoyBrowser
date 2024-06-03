@@ -1,2 +1,4 @@
-- Oppdatert innebygd Snowflake til siste versjon 2.9.2.
-- Lagt til indonesisk oversettelse.
+- Oppdatert Tor til nyeste versjon 0.4.8.11.
+- Lagt til støtte for blandede egendefinerte broer: Du kan nå blande meek, obfs4 og den nye WebTunnel-brotypen i listen over egendefinerte broer.
+- Løste et problem med den nederste verktøylinjen som skjules og vises.
+- Mindre oppdateringer av oversettelser.

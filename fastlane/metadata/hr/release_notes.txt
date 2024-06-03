@@ -1,2 +1,4 @@
-- Ugrađeni Snowflake ažuriran na najnoviju verziju 2.9.2.
-- Dodan prijevod na indonezijski.
+- Ažuriran Tor na najnoviju verziju 0.4.8.11.
+- Dodana podrška za mješovite prilagođene mostove: sada možete miješati meek, obfs4 i novu vrstu mosta WebTunnel na svom popisu prilagođenih mostova.
+- Riješen je problem sa skrivanjem i prikazivanjem donje alatne trake.
+- Manja ažuriranja prijevoda.

@@ -1,2 +1,4 @@
-- Ingebouwde Snowflake bijgewerkt naar de nieuwste versie 2.9.2.
-- Indonesische vertaling toegevoegd.
+- Tor bijgewerkt naar de nieuwste versie 0.4.8.11.
+- Ondersteuning toegevoegd voor gemengde aangepaste bridges: Je kunt nu meek, obfs4 en het nieuwe WebTunnel bridge type mixen in je aangepaste bridge lijst.
+- Probleem opgelost met het verbergen en tonen van de onderste werkbalk.
+- Kleine updates aan vertalingen.

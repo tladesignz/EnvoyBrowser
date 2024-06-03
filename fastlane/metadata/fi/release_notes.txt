@@ -1,2 +1,4 @@
-- Sisäänrakennettu Snowflake päivitetty uusimpaan versioon 2.9.2.
-- Lisätty indonesian käännökset.
+- Tor päivitetty uusimpaan versioon 0.4.8.11.
+- Lisätty tuki sekoitetuille mukautetuille silloille: Voit nyt sekoittaa meek-, obfs4- ja uutta WebTunnel-siltatyyppiä mukautettujen siltojen luettelossa.
+- Korjattu ongelma, jossa alin työkalupalkki piilotettiin ja näytettiin.
+- Pieniä päivityksiä käännöksiin.

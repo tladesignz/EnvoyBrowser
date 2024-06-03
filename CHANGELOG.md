@@ -1,5 +1,11 @@
 #  Onion Browser Changelog
 
+## 3.1.3
+- Updated Tor to latest version 0.4.8.11.
+- Added support for mixed custom bridges: You can now mix meek, obfs4 and the new WebTunnel bridge type in your custom bridge list.
+- Fixed an issue with the bottom toolbar hiding and showing.
+- Minor updates to translations.
+
 ## 3.1.2
 - Updated built-in Snowflake to latest version 2.9.2.
 - Added Indonesian translation.

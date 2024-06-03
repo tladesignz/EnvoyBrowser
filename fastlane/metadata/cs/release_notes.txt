@@ -1,2 +1,4 @@
-- Aktualizace vestavěného systému Snowflake na nejnovější verzi 2.9.2.
-- Přidán indonéský překlad.
+- Aktualizován Tor na nejnovější verzi 0.4.8.11.
+- Přidána podpora pro smíšené vlastní mosty: Nyní můžete v seznamu vlastních mostů kombinovat mosty meek, obfs4 a nový typ mostu WebTunnel.
+- Opraven problém se skrýváním a zobrazováním spodního panelu nástrojů.
+- Drobné aktualizace překladů.

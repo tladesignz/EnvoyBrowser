@@ -1,2 +1,4 @@
-- Actualizat fulgul de zăpadă încorporat la cea mai recentă versiune 2.9.2.
-- Adăugat traducere în indoneziană.
+- Tor a fost actualizat la cea mai recentă versiune 0.4.8.11.
+- Adăugat suport pentru punți personalizate mixte: Acum puteți amesteca meek, obfs4 și noul tip de punte WebTunnel în lista de punți personalizate.
+- S-a rezolvat o problemă cu ascunderea și afișarea barei de instrumente de jos.
+- Actualizări minore la traduceri.

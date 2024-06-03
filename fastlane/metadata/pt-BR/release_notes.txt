@@ -1,2 +1,4 @@
-- Atualização do Snowflake incorporado para a versão mais recente 2.9.2.
-- Adicionada a tradução para o indonésio.
+- Atualização do Tor para a versão mais recente 0.4.8.11.
+- Adicionado suporte para pontes personalizadas mistas: Agora você pode misturar meek, obfs4 e o novo tipo de ponte WebTunnel em sua lista de pontes personalizadas.
+- Correção de um problema com a exibição e o ocultamento da barra de ferramentas inferior.
+- Pequenas atualizações nas traduções.

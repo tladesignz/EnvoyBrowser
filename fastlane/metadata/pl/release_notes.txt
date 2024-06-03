@@ -1,2 +1,4 @@
-- Zaktualizowano wbudowaną aplikację Snowflake do najnowszej wersji 2.9.2.
-- Dodano tłumaczenie na język indonezyjski.
+- Zaktualizowano Tor do najnowszej wersji 0.4.8.11.
+- Dodano obsługę mieszanych mostów niestandardowych: Możesz teraz mieszać meek, obfs4 i nowy typ mostu WebTunnel na liście mostów niestandardowych.
+- Naprawiono błąd związany z ukrywaniem i wyświetlaniem dolnego paska narzędzi.
+- Drobne aktualizacje tłumaczeń.

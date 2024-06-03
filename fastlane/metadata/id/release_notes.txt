@@ -1,2 +1,4 @@
-- Memperbarui Snowflake bawaan ke versi terbaru 2.9.2.
-- Menambahkan terjemahan bahasa Indonesia.
+- Memperbarui Tor ke versi terbaru 0.4.8.11.
+- Menambahkan dukungan untuk jembatan kustom campuran: Anda sekarang dapat menggabungkan meek, obfs4 dan tipe jembatan WebTunnel baru dalam daftar jembatan kustom Anda.
+- Memperbaiki masalah dengan toolbar bawah yang menyembunyikan dan menampilkan.
+- Pembaruan kecil untuk terjemahan.
