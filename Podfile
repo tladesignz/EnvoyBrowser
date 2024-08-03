@@ -17,7 +17,7 @@ target 'OnionBrowser' do
   pod 'ImageRow', '~> 4.1'
 
   pod 'Tor/GeoIP',
-    '~> 408.11'
+    '~> 408.12'
 #    :path => '../Tor.framework'
 
   pod 'IPtProxyUI',
