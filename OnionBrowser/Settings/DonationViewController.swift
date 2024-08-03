@@ -143,11 +143,13 @@ import StoreKit
 	// MARK: UITableViewDelegate
 	
 	override public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-		if !(indexPath.section == 1 || indexPath.section == 2 || indexPath.section == 3) {
+		tableView.deselectRow(at: indexPath, animated: true)
+
+		guard indexPath.section >= 1 && indexPath.section <= 3 else {
 			return
 		}
 
-		if !SKPaymentQueue.canMakePayments() {
+		if !SKPaymentQueue.canMakePayments() || indexPath.section > iapProducts.count {
 			return showError()
 		}
 		else {
@@ -235,12 +237,9 @@ import StoreKit
 	Fetch available IAP products
 	*/
 	private func fetchAvailableProducts()  {
+		let ids = Set(arrayLiteral: Self.TIER_0_99, Self.TIER_4_99, Self.TIER_9_99)
 
-		let productIdentifiers = Set(arrayLiteral: DonationViewController.TIER_0_99,
-									 DonationViewController.TIER_4_99,
-									 DonationViewController.TIER_9_99)
-
-		productsRequest = SKProductsRequest(productIdentifiers: productIdentifiers)
+		productsRequest = SKProductsRequest(productIdentifiers: ids)
 		productsRequest.delegate = self
 		productsRequest.start()
 	}
