@@ -43,7 +43,7 @@
 - Replaced old `UIWebView` with newer `WKWebView`. Parallelized loading, newer web standards support.
 - Finally supports media streaming over Tor!
 - Minimum iOS version is now 15, as that's what Orbot supports.
-- Removed HTTPSEverywhere. That's built into iOS 15, already.
+- Removed HTTPSEverywhere. That's built into iOS 15, already. (https://webkit.org/blog/11989/new-webkit-features-in-safari-15/)
 - Removed WebRTC blocking. Not a danger anymore.
 - Replaced outdated DNT header ("Do-Not-Track") with new GPC header ("Global-Privacy-Control").
 - Added support for multiple windows on iPad.
