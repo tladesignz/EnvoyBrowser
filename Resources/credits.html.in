@@ -41,7 +41,7 @@
 <a href="https://github.com/OnionBrowser/OnionBrowser/wiki/Help">https://github.com/OnionBrowser/OnionBrowser/wiki/Help</a>
 </p>
 
-<p>Onion Browser is developed by Mike Tigas (<a href="https://mike.tig.as/">https://mike.tig.as/</a>) with assistance from the Guardian Project (<a href="https://guardianproject.info/">guardianproject.info</a>). Benjamin Erhart (<a href="https://die.netzarchitekten.com/">Die Netzarchitekten</a>) and Carrie Winfrey (<a href="http://okthankscreative.com/">okthankscreative.com</a>) contributed additional design and development effort for Onion Browser 2 and 3.</p>
+<p>Onion Browser is developed by Mike Tigas (<a href="https://mike.tig.as/">https://mike.tig.as/</a>) with assistance from the Guardian Project (<a href="https://guardianproject.info/">guardianproject.info</a>). Benjamin Erhart (<a href="https://die.netzarchitekten.com/">Die Netzarchitekten</a>) and Carrie Winfrey (<a href="https://okthanks.com">okthanks.com</a>) contributed additional design and development effort for Onion Browser 2 and 3.</p>
 <p>Work on Onion Browser is supported by individual donors and organizations
 committed to furthering free speech and digital privacy. Please consider donating to support continued development of Onion Browser and other Tor iOS initiatives:<br><a href="https://onionbrowser.com/donate">https://onionbrowser.com/donate</a></p>
 <p>Onion Browser 2.0 and newer is based on the open-source Endless Browser; special thanks to joshua stein for creating Endless and for granting permission to use it in Onion Browser.</p>
@@ -333,7 +333,7 @@ Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-http://www.apache.org/licenses/LICENSE-2.0
+https://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,

@@ -20,7 +20,7 @@ exit 1
 }
 
 # convert to hex
-# http://stackoverflow.com/a/379422/9636
+# https://stackoverflow.com/a/379422/9636
 MAYBE_ONE_PREFIXED_GIT_HASH=$( echo "ibase=10;obase=16;${DECIMALIZED_MAYBE_ONE_PREFIXED_GIT_HASH}" | bc )
 
 #grep doesn't allow + metacharacter. Thus match any one: (.) then any zero or more: (.*)
@@ -31,7 +31,7 @@ exit 2
 
 # Read ${ONE_PREFIXED_GIT_HASH} starting at position 1.
 # See "Variable expansion / Substring replacement" in
-# http://www.tldp.org/LDP/abs/html/parameter-substitution.html
+# https://www.tldp.org/LDP/abs/html/parameter-substitution.html
 UPPERCASED_GIT_HASH="${ONE_PREFIXED_GIT_HASH:1}"
 
 # bc uses uppercase letters for hex because

@@ -27,5 +27,5 @@ ONE_PREFIXED_GIT_HASH=1"${GIT_HASH}"
 UPPERCASE_ONE_PREFIXED_GIT_HASH=$( echo "${ONE_PREFIXED_GIT_HASH}" | tr "[:lower:]" "[:upper:]" )
 
 # convert to decimal
-# See "with bc": http://stackoverflow.com/a/13280173/9636
+# See "with bc": https://stackoverflow.com/a/13280173/9636
 echo "ibase=16;obase=A;${UPPERCASE_ONE_PREFIXED_GIT_HASH}" | bc
