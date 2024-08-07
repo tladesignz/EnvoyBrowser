@@ -16,8 +16,6 @@
 			<string>עוגייה %d</string>
 			<key>two</key>
 			<string>%d עוגיות</string>
-			<key>many</key>
-			<string>%d עוגיות</string>
 			<key>other</key>
 			<string>%d עוגיות</string>
 		</dict>
