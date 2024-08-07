@@ -25,6 +25,7 @@ platform :ios do
       skip_screenshots: true,
 
       force: true,
+      precheck_include_in_app_purchases: false,
     )
   end
 
