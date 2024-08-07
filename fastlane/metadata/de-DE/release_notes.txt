@@ -1,4 +1,2 @@
-- Tor wurde auf die neueste Version 0.4.8.11 aktualisiert.
-- Unterstützung für gemischte benutzerdefinierte Brücken hinzugefügt: Du kannst nun meek, obfs4 und den neuen WebTunnel-Bridge-Typ in deiner eigenen Bridge-Liste mischen.
-- Ein Problem mit dem Ein- und Ausblenden der unteren Symbolleiste wurde behoben.
-- Kleinere Aktualisierungen der Übersetzungen.
+- Tor wurde auf die neueste Version 0.4.8.12 aktualisiert.
+- Verwende immer `https` bei Clearnet-Adressen, wenn der Benutzer kein URL-Schema angegeben hat.

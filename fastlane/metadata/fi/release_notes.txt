@@ -1,4 +1,2 @@
-- Tor päivitetty uusimpaan versioon 0.4.8.11.
-- Lisätty tuki sekoitetuille mukautetuille silloille: Voit nyt sekoittaa meek-, obfs4- ja uutta WebTunnel-siltatyyppiä mukautettujen siltojen luettelossa.
-- Korjattu ongelma, jossa alin työkalupalkki piilotettiin ja näytettiin.
-- Pieniä päivityksiä käännöksiin.
+- Tor päivitetty uusimpaan versioon 0.4.8.12.
+- Käytä aina `https` clearnet-osoitteisiin, kun käyttäjä ei ole antanut URL-suunnitelmaa.

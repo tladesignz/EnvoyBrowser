@@ -1,4 +1,2 @@
-- Frissítettük a Tor-t a legújabb, 0.4.8.11-es verzióra.
-- Hozzáadva a vegyes egyéni hidak támogatását: Most már keverheted a meek, obfs4 és az új WebTunnel hídtípust az egyéni hídlistádban.
-- Az alsó eszköztár elrejtésével és megjelenítésével kapcsolatos hiba kijavítva.
-- Kisebb frissítések a fordításokhoz.
+- Frissítettük a Tor-t a legújabb, 0.4.8.12-es verzióra.
+- Mindig az `https`-t használja a clearnet címeken, ha a felhasználó nem adott meg URL sémát.

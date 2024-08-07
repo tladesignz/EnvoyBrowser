@@ -1,4 +1,2 @@
-- Oppdatert Tor til nyeste versjon 0.4.8.11.
-- Lagt til støtte for blandede egendefinerte broer: Du kan nå blande meek, obfs4 og den nye WebTunnel-brotypen i listen over egendefinerte broer.
-- Løste et problem med den nederste verktøylinjen som skjules og vises.
-- Mindre oppdateringer av oversettelser.
+- Oppdatert Tor til siste versjon 0.4.8.12.
+- Bruk alltid `https` på clearnet-adresser, når brukeren ikke har angitt et URL-skjema.

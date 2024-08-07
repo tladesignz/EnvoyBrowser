@@ -1,4 +1,2 @@
-- Đã cập nhật Tor lên phiên bản mới nhất 0.4.8.11.
-- Đã thêm hỗ trợ cho các cầu nối tùy chỉnh hỗn hợp: Giờ đây, bạn có thể kết hợp các loại cầu nối nhu mì, obfs4 và loại cầu WebTunnel mới trong danh sách cầu nối tùy chỉnh của mình.
-- Đã sửa lỗi ẩn và hiển thị thanh công cụ phía dưới.
-- Cập nhật nhỏ cho bản dịch.
+- Đã cập nhật Tor lên phiên bản mới nhất 0.4.8.12.
+- Luôn sử dụng `https` trên các địa chỉ Clearnet, khi người dùng không nhập lược đồ URL.

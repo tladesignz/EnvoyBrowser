@@ -1,5 +1,9 @@
 #  Onion Browser Changelog
 
+## 3.1.4
+- Updated Tor to latest version 0.4.8.12.
+- Always use `https` on clearnet addresses, when the user didn't enter a URL scheme.
+
 ## 3.1.3
 - Updated Tor to latest version 0.4.8.11.
 - Added support for mixed custom bridges: You can now mix meek, obfs4 and the new WebTunnel bridge type in your custom bridge list.

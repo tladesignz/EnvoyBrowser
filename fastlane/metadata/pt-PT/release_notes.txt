@@ -1,4 +1,2 @@
-- Atualização do Tor para a última versão 0.4.8.11.
-- Adicionado suporte para pontes personalizadas mistas: Agora é possível misturar meek, obfs4 e o novo tipo de ponte WebTunnel na sua lista de pontes personalizadas.
-- Corrigido um problema com a barra de ferramentas inferior escondendo e mostrando.
-- Pequenas actualizações às traduções.
+- Atualizado o Tor para a última versão 0.4.8.12.
+- Sempre usar `https` em endereços da clearnet, quando o usuário não entrou com um esquema de URL.

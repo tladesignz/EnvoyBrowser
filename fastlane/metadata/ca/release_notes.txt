@@ -1,4 +1,2 @@
-- S'ha actualitzat Tor a la darrera versió 0.4.8.11.
-- S'ha afegit suport per a ponts personalitzats mixts: ara podeu barrejar meek, obfs4 i el nou tipus de pont WebTunnel a la vostra llista de ponts personalitzats.
-- S'ha solucionat un problema amb la barra d'eines inferior que s'amagava i es mostrava.
-- Actualitzacions menors a les traduccions.
+- S'ha actualitzat Tor a la darrera versió 0.4.8.12.
+- Feu servir sempre `https` a les adreces de Clearnet, quan l'usuari no ha introduït un esquema d'URL.

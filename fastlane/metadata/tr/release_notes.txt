@@ -1,4 +1,2 @@
-- Tor en son 0.4.8.11 sürümüne güncellendi.
-- Karışık özel köprüler için destek eklendi: Artık özel köprü listenizde meek, obfs4 ve yeni WebTunnel köprü türünü karıştırabilirsiniz.
-- Alt araç çubuğunun gizlenmesi ve gösterilmesiyle ilgili bir sorun düzeltildi.
-- Çevirilerde küçük güncellemeler.
+- Tor en son 0.4.8.12 sürümüne güncellendi.
+- Kullanıcı bir URL şeması girmediğinde, clearnet adreslerinde her zaman `https` kullanın.

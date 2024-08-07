@@ -1,4 +1,2 @@
-- Ažuriran Tor na najnoviju verziju 0.4.8.11.
-- Dodana podrška za mješovite prilagođene mostove: sada možete miješati meek, obfs4 i novu vrstu mosta WebTunnel na svom popisu prilagođenih mostova.
-- Riješen je problem sa skrivanjem i prikazivanjem donje alatne trake.
-- Manja ažuriranja prijevoda.
+- Ažuriran Tor na najnoviju verziju 0.4.8.12.
+- Uvijek koristite `https` na clearnet adresama, kada korisnik nije unio URL shemu.

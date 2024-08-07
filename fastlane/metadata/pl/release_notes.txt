@@ -1,4 +1,2 @@
-- Zaktualizowano Tor do najnowszej wersji 0.4.8.11.
-- Dodano obsługę mieszanych mostów niestandardowych: Możesz teraz mieszać meek, obfs4 i nowy typ mostu WebTunnel na liście mostów niestandardowych.
-- Naprawiono błąd związany z ukrywaniem i wyświetlaniem dolnego paska narzędzi.
-- Drobne aktualizacje tłumaczeń.
+- Zaktualizowano Tora do najnowszej wersji 0.4.8.12.
+- Zawsze używaj `https` na adresach clearnet, gdy użytkownik nie wprowadził schematu URL.

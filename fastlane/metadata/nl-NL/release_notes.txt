@@ -1,4 +1,2 @@
-- Tor bijgewerkt naar de nieuwste versie 0.4.8.11.
-- Ondersteuning toegevoegd voor gemengde aangepaste bridges: Je kunt nu meek, obfs4 en het nieuwe WebTunnel bridge type mixen in je aangepaste bridge lijst.
-- Probleem opgelost met het verbergen en tonen van de onderste werkbalk.
-- Kleine updates aan vertalingen.
+- Tor bijgewerkt naar de nieuwste versie 0.4.8.12.
+- Gebruik altijd `https` op clearnet-adressen, wanneer de gebruiker geen URL-schema heeft ingevoerd.
