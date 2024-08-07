@@ -183,9 +183,9 @@ extension BrowsingViewController: UITextFieldDelegate {
 	private func parseSearch(_ search: String?) -> URL? {
 		// Must not be empty, must not be the explicit blank page.
 		if let search = search,
-			!search.isEmpty {
-
-			// blank page, return that.
+		   !search.isEmpty
+		{
+			// Blank page, return that.
 			if search.caseInsensitiveCompare(URL.blank.absoluteString) == .orderedSame {
 				return URL.blank
 			}
@@ -200,7 +200,8 @@ extension BrowsingViewController: UITextFieldDelegate {
 			}
 
 			if search.range(of: #"\s+"#, options: .regularExpression) != nil
-				|| !search.contains(".") {
+				|| !search.contains(".")
+			{
 				// Search contains spaces or contains no dots. That's really a search!
 				return nil
 			}
@@ -211,15 +212,15 @@ extension BrowsingViewController: UITextFieldDelegate {
 
 				if scheme.isEmpty {
 					// Set missing scheme to HTTP.
-					return URL(string: "http://\(search)")
+					return setHttpsScheme(search)
 				}
 
 				if scheme != "about" && scheme != "file" {
 					if urlc.host?.isEmpty ?? true
-						&& urlc.path.range(of: #"^\d+"#, options: .regularExpression) != nil {
-
+						&& urlc.path.range(of: #"^\d+"#, options: .regularExpression) != nil
+					{
 						// A scheme, no host, path begins with numbers. Seems like "example.com:1234" was parsed wrongly.
-						return URL(string: "http://\(search)")
+						return setHttpsScheme(search)
 					}
 
 					// User has simply entered a valid URL?!?
@@ -234,5 +235,29 @@ extension BrowsingViewController: UITextFieldDelegate {
 
 		//  Return start page.
 		return URL.start
+	}
+
+	/**
+	 Will try to create a URL from the given text. If the resulting URL has a `.onion`  host,
+	 it will use the `http` scheme, otherwise, it will use the `https`  scheme.
+
+	 Onion-servers often don't use an additional TLS encryption for their traffic, as Tor already adds
+	 6 layers of TLS encryption to it and the last layer is only decrypted at the Onion-server itself, anyway.
+	 Hence, technically there's no need for an additional encryption layer.
+
+	 For servers on the clearnet, however, where most of them moved to TLS encryption, we finally want to secure
+	 the users by never auto-complete an insecure option. They would need to fall back by hand, then.
+
+	 - parameter search: The search input given by the user, which might resemble some URL.
+	 - returns: a URL, if the given `search` argument can be parsed as such.
+	 */
+	private func setHttpsScheme(_ search: String) -> URL? {
+		let url = URL(string: "https://\(search)")
+
+		if url?.host?.lowercased().hasSuffix(".onion") ?? false {
+			return URL(string: "http://\(search)")
+		}
+
+		return url
 	}
 }
