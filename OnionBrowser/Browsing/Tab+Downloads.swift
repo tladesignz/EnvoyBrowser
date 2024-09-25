@@ -10,7 +10,7 @@
 
 import Foundation
 import QuickLook
-import WebKit
+@preconcurrency import WebKit
 
 extension Tab: WKDownloadDelegate, QLPreviewControllerDelegate, QLPreviewControllerDataSource {
 

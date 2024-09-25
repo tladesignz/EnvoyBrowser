@@ -11,7 +11,7 @@
 import Tor
 import OrbotKit
 
-extension TorCircuit: Encodable {
+extension TorCircuit: @retroactive Encodable {
 
 	enum CodingKeys: CodingKey {
 		case raw
@@ -83,7 +83,7 @@ extension TorCircuit: Encodable {
 	}
 }
 
-extension TorNode: Encodable {
+extension TorNode: @retroactive Encodable {
 
 	enum CodingKeys: CodingKey {
 		case fingerprint

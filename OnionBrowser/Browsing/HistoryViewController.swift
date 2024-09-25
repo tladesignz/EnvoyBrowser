@@ -17,12 +17,12 @@ class HistoryViewController: UITableViewController {
 		var title: String?
 	}
 
-	private weak var tab: Tab?
+	private weak var browserTab: Tab?
 	private var history: [Item]?
 
 	class func instantiate(_ tab: Tab) -> UINavigationController {
 		let vc = HistoryViewController()
-		vc.tab = tab
+		vc.browserTab = tab
 
 		return UINavigationController(rootViewController: vc)
 	}
@@ -34,7 +34,7 @@ class HistoryViewController: UITableViewController {
 		navigationItem.leftBarButtonItem = UIBarButtonItem(
 			barButtonSystemItem: .done, target: self, action: #selector(_dismiss))
 
-		history = tab?.history.reversed()
+		history = browserTab?.history.reversed()
 		history?.removeFirst()
     }
 
@@ -42,7 +42,7 @@ class HistoryViewController: UITableViewController {
     // MARK: UITableViewDataSource
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-		return max(1, tab?.history.count ?? 1) - 1
+		return max(1, browserTab?.history.count ?? 1) - 1
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -62,7 +62,7 @@ class HistoryViewController: UITableViewController {
 
 	override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 		if let item = history?[indexPath.row] {
-			tab?.load(item.url)
+			browserTab?.load(item.url)
 		}
 
 		_dismiss()

@@ -8,7 +8,7 @@
 //  This file is part of Onion Browser. See LICENSE file for redistribution terms.
 //
 
-import WebKit
+@preconcurrency import WebKit
 import OrbotKit
 
 extension Tab: WKNavigationDelegate {

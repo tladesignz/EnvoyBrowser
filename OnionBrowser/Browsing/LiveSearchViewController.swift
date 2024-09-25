@@ -17,7 +17,7 @@ class LiveSearchViewController: UITableViewController {
 	private var lastQuery: String?
 	private var results = [String]()
 
-	private weak var tab: Tab?
+	private weak var browserTab: Tab?
 
 	private lazy var closeButton: UIButton = {
 		let button = UIButton(type: .custom)
@@ -78,9 +78,9 @@ class LiveSearchViewController: UITableViewController {
 
 
 	override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-		tab?.tabDelegate?.unfocusSearchField()
+		browserTab?.tabDelegate?.unfocusSearchField()
 
-		tab?.search(for: results[indexPath.row])
+		browserTab?.search(for: results[indexPath.row])
 
 		hide()
 	}
@@ -117,7 +117,7 @@ class LiveSearchViewController: UITableViewController {
 			return
 		}
 
-		self.tab = tab
+		browserTab = tab
 
 		let task = URLSession.shared.dataTask(with: request) { data, response, error in
 			if let error = error {
