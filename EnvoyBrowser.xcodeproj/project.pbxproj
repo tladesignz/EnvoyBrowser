@@ -134,7 +134,7 @@
 
 /* Begin PBXFileReference section */
 		016B2FCC1A5648AE002D2730 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		01801E921A32CA2A002B4718 /* OnionBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnionBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01801E921A32CA2A002B4718 /* EnvoyBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnvoyBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01801E961A32CA2A002B4718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		018333CF1A351B3B00670CD1 /* Endless-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Endless-Prefix.pch"; sourceTree = "<group>"; };
 		018333DA1A35727C00670CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -403,7 +403,7 @@
 		A0BF522D23AFC3580096624A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		A0BF522E23AFC3580096624A /* AddSiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSiteViewController.swift; sourceTree = "<group>"; };
 		A0BF522F23AFC3580096624A /* DonationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonationViewController.swift; sourceTree = "<group>"; };
-		A0BF523023AFC3580096624A /* OnionBrowser-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OnionBrowser-Bridging-Header.h"; sourceTree = "<group>"; };
+		A0BF523023AFC3580096624A /* EnvoyBrowser-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EnvoyBrowser-Bridging-Header.h"; sourceTree = "<group>"; };
 		A0BF523623AFC3580096624A /* BlurredSnapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurredSnapshot.swift; sourceTree = "<group>"; };
 		A0BF523723AFC3580096624A /* SilenceWarnings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SilenceWarnings.h; sourceTree = "<group>"; };
 		A0BF523823AFC3580096624A /* UIViewController+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Helpers.swift"; sourceTree = "<group>"; };
@@ -452,7 +452,7 @@
 				A025F27421F62C100034B947 /* Config.xcconfig */,
 				A00436111E8185AA0067652D /* Build */,
 				01801E941A32CA2A002B4718 /* Endless */,
-				A0BF51F523AFC3580096624A /* OnionBrowser */,
+				A0BF51F523AFC3580096624A /* EnvoyBrowser */,
 				A0BF519D23AFBF250096624A /* Resources */,
 				018333D81A35727C00670CD1 /* Endless Tests */,
 				01801E931A32CA2A002B4718 /* Products */,
@@ -465,7 +465,7 @@
 		01801E931A32CA2A002B4718 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01801E921A32CA2A002B4718 /* OnionBrowser.app */,
+				01801E921A32CA2A002B4718 /* EnvoyBrowser.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -610,7 +610,7 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		A0BF51F523AFC3580096624A /* OnionBrowser */ = {
+		A0BF51F523AFC3580096624A /* EnvoyBrowser */ = {
 			isa = PBXGroup;
 			children = (
 				A0A8E5F523C88FFB007E5FAD /* Startup */,
@@ -620,11 +620,11 @@
 				A07037C523C7571B00D670EC /* AppDelegate.swift */,
 				A003A1922A0D1628008D8845 /* SceneDelegate.swift */,
 				A07DD6B42AC5914B00441B48 /* TorManager.swift */,
-				A0BF523023AFC3580096624A /* OnionBrowser-Bridging-Header.h */,
+				A0BF523023AFC3580096624A /* EnvoyBrowser-Bridging-Header.h */,
 				A0BF520023AFC3580096624A /* version.h */,
 				A0BF523523AFC3580096624A /* Helpers */,
 			);
-			path = OnionBrowser;
+			path = EnvoyBrowser;
 			sourceTree = "<group>";
 		};
 		A0BF520123AFC3580096624A /* Browsing */ = {
@@ -746,7 +746,7 @@
 			);
 			name = EnvoyBrowser;
 			productName = Endless;
-			productReference = 01801E921A32CA2A002B4718 /* OnionBrowser.app */;
+			productReference = 01801E921A32CA2A002B4718 /* EnvoyBrowser.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1275,7 +1275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_PREFIX_HEADER = OnionBrowser/version.h;
+				INFOPLIST_PREFIX_HEADER = EnvoyBrowser/version.h;
 				INFOPLIST_PREPROCESS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1328,7 +1328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_PREFIX_HEADER = OnionBrowser/version.h;
+				INFOPLIST_PREFIX_HEADER = EnvoyBrowser/version.h;
 				INFOPLIST_PREPROCESS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -1351,15 +1351,16 @@
 				CODE_SIGN_STYLE = Manual;
 				GCC_NO_COMMON_BLOCKS = NO;
 				INFOPLIST_FILE = Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EnvoyBrowser;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_NAME = OnionBrowser;
+				PRODUCT_NAME = EnvoyBrowser;
 				PROVISIONING_PROFILE = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OBJC_BRIDGING_HEADER = "OnionBrowser/OnionBrowser-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "EnvoyBrowser/EnvoyBrowser-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1378,14 +1379,15 @@
 				CODE_SIGN_STYLE = Manual;
 				GCC_NO_COMMON_BLOCKS = NO;
 				INFOPLIST_FILE = Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EnvoyBrowser;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_NAME = OnionBrowser;
+				PRODUCT_NAME = EnvoyBrowser;
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "OnionBrowser/OnionBrowser-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "EnvoyBrowser/EnvoyBrowser-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

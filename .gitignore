@@ -16,7 +16,7 @@ Carthage/Checkouts/
 
 fabric.apikey
 fabric.buildsecret
-OnionBrowser/version.h
+EnvoyBrowser/version.h
 
 Resources/credits.html
 Resources/geoip
