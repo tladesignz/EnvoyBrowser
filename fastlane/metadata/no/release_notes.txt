@@ -1,2 +1,0 @@
-- Oppdatert Tor til siste versjon 0.4.8.12.
-- Bruk alltid `https` på clearnet-adresser, når brukeren ikke har angitt et URL-skjema.

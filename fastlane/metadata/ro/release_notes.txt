@@ -1,2 +1,0 @@
-- Am actualizat Tor la ultima versiune 0.4.8.12.
-- Utilizați întotdeauna `https` pe adresele clearnet, atunci când utilizatorul nu a introdus o schemă URL.

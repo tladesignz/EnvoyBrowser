@@ -1,2 +1,0 @@
-- Aktualizace Tor na nejnovější verzi 0.4.8.12.
-- Vždy používat `https` na clearnetových adresách, pokud uživatel nezadal schéma URL.

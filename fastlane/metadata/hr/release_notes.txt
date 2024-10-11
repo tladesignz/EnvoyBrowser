@@ -1,2 +1,0 @@
-- Ažuriran Tor na najnoviju verziju 0.4.8.12.
-- Uvijek koristite `https` na clearnet adresama, kada korisnik nije unio URL shemu.

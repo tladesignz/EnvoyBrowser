@@ -1,2 +1,0 @@
-- Tor päivitetty uusimpaan versioon 0.4.8.12.
-- Käytä aina `https` clearnet-osoitteisiin, kun käyttäjä ei ole antanut URL-suunnitelmaa.

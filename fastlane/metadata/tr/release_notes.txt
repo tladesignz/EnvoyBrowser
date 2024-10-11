@@ -1,2 +1,0 @@
-- Tor en son 0.4.8.12 sürümüne güncellendi.
-- Kullanıcı bir URL şeması girmediğinde, clearnet adreslerinde her zaman `https` kullanın.

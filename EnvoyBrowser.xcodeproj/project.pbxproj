@@ -203,7 +203,6 @@
 		A06F5F49275692060023622E /* .bartycrouch.toml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .bartycrouch.toml; sourceTree = "<group>"; };
 		A07037C223C74DC900D670EC /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		A07037C523C7571B00D670EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0759DEA20975DDE000DFBFE /* config */ = {isa = PBXFileReference; lastKnownFileType = text; name = config; path = .tx/config; sourceTree = "<group>"; };
 		A07B55FB23D736D60051663B /* CertificateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateViewController.swift; sourceTree = "<group>"; };
 		A07D65582208A2540002D775 /* mk_build_versions.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = mk_build_versions.sh; sourceTree = "<group>"; };
 		A07D65592208A2540002D775 /* decode_bundle_version.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = decode_bundle_version.sh; sourceTree = "<group>"; };
@@ -357,7 +356,6 @@
 		A0A1A37B2A03DB5600DE4991 /* tr-TR */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "tr-TR"; path = "tr-TR.lproj/security-levels.html"; sourceTree = "<group>"; };
 		A0A1A37C2A03DB5800DE4991 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = uk; path = "uk.lproj/security-levels.html"; sourceTree = "<group>"; };
 		A0A1A37D2A03DB5A00DE4991 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = vi; path = "vi.lproj/security-levels.html"; sourceTree = "<group>"; };
-		A0A4F6A42818530E0089E7D5 /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = "<group>"; };
 		A0A83AC128A14CAB005C15C9 /* Tab+WKScriptMessageHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tab+WKScriptMessageHandler.swift"; sourceTree = "<group>"; };
 		A0AF2C052A123E65000BCC85 /* BrowsingViewController+UIResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BrowsingViewController+UIResponder.swift"; sourceTree = "<group>"; };
 		A0B2240E23A92B2700EA2C47 /* OnionBrowser2_Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OnionBrowser2_Tests-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -553,9 +551,7 @@
 				A07D655D2208A6DA0002D775 /* .gitignore */,
 				A010FA191E798C0400E04222 /* BUILD.md */,
 				A07D65572208A2540002D775 /* build-util */,
-				A0A4F6A42818530E0089E7D5 /* fastlane */,
 				A0894E36236AE7C800EE2743 /* CHANGELOG.md */,
-				A0759DEA20975DDE000DFBFE /* config */,
 				A06F5F49275692060023622E /* .bartycrouch.toml */,
 				A07D655C2208A4320002D775 /* LICENSE */,
 				A004360B1E81856F0067652D /* Podfile */,

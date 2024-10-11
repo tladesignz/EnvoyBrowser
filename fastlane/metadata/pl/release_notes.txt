@@ -1,2 +1,0 @@
-- Zaktualizowano Tora do najnowszej wersji 0.4.8.12.
-- Zawsze używaj `https` na adresach clearnet, gdy użytkownik nie wprowadził schematu URL.

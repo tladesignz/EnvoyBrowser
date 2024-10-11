@@ -1,2 +1,0 @@
-- Atualização do Tor para a versão mais recente 0.4.8.12.
-- Sempre use `https` em endereços clearnet, quando o usuário não inserir um esquema de URL.

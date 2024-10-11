@@ -1,2 +1,0 @@
-- Memperbarui Tor ke versi terbaru 0.4.8.12.
-- Selalu gunakan `https` pada alamat clearnet, ketika pengguna tidak memasukkan skema URL.

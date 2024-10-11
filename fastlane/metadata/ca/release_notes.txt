@@ -1,2 +1,0 @@
-- S'ha actualitzat Tor a la darrera versió 0.4.8.12.
-- Feu servir sempre `https` a les adreces de Clearnet, quan l'usuari no ha introduït un esquema d'URL.

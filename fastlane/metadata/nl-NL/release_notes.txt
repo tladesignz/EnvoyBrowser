@@ -1,2 +1,0 @@
-- Tor bijgewerkt naar de nieuwste versie 0.4.8.12.
-- Gebruik altijd `https` op clearnet-adressen, wanneer de gebruiker geen URL-schema heeft ingevoerd.
