@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "01801E911A32CA2A002B4718"
-               BuildableName = "OnionBrowser.app"
-               BlueprintName = "OnionBrowser"
-               ReferencedContainer = "container:OnionBrowser.xcodeproj">
+               BlueprintIdentifier = "8AC3B3A721700AD300E0CB4A"
+               BuildableName = "OBVersion"
+               BlueprintName = "OBVersion"
+               ReferencedContainer = "container:EnvoyBrowser.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -39,16 +39,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "01801E911A32CA2A002B4718"
-            BuildableName = "OnionBrowser.app"
-            BlueprintName = "OnionBrowser"
-            ReferencedContainer = "container:OnionBrowser.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -56,16 +46,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "01801E911A32CA2A002B4718"
-            BuildableName = "OnionBrowser.app"
-            BlueprintName = "OnionBrowser"
-            ReferencedContainer = "container:OnionBrowser.xcodeproj">
+            BlueprintIdentifier = "8AC3B3A721700AD300E0CB4A"
+            BuildableName = "OBVersion"
+            BlueprintName = "OBVersion"
+            ReferencedContainer = "container:EnvoyBrowser.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

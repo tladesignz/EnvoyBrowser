@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8AC3B3A721700AD300E0CB4A"
-               BuildableName = "OBVersion"
-               BlueprintName = "OBVersion"
-               ReferencedContainer = "container:OnionBrowser.xcodeproj">
+               BlueprintIdentifier = "01801E911A32CA2A002B4718"
+               BuildableName = "OnionBrowser.app"
+               BlueprintName = "EnvoyBrowser"
+               ReferencedContainer = "container:EnvoyBrowser.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -39,6 +39,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "01801E911A32CA2A002B4718"
+            BuildableName = "OnionBrowser.app"
+            BlueprintName = "EnvoyBrowser"
+            ReferencedContainer = "container:EnvoyBrowser.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -46,15 +56,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8AC3B3A721700AD300E0CB4A"
-            BuildableName = "OBVersion"
-            BlueprintName = "OBVersion"
-            ReferencedContainer = "container:OnionBrowser.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

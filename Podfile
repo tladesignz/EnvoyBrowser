@@ -1,12 +1,12 @@
 use_frameworks!
 
-platform :ios, '15.0'
+platform :ios, '17.0'
 
 #source 'https://cdn.cocoapods.org/'
 #source 'https://cocoapods-cdn.netlify.app/'
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'OnionBrowser' do
+target 'EnvoyBrowser' do
   pod 'DTFoundation/DTASN1'
   pod 'TUSafariActivity'
 
@@ -16,21 +16,7 @@ target 'OnionBrowser' do
   pod 'Eureka', '~> 5.3'
   pod 'ImageRow', '~> 4.1'
 
-  pod 'Tor/GeoIP',
-    '~> 408.12'
-#    :path => '../Tor.framework'
-
-  pod 'IPtProxyUI',
-    '~> 4.6'
-#    :git => 'https://github.com/tladesignz/IPtProxyUI-ios'
-#    :path => '../IPtProxyUI'
-
-  pod 'OrbotKit', '~> 1.1'
-end
-
-target 'OnionBrowser Tests' do
-  pod 'OCMock'
-  pod 'DTFoundation/DTASN1'
+  pod 'GreatfireEnvoy', '~> 0.1'
 end
 
 # Fix Xcode 15 compile issues.

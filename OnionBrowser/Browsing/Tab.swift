@@ -11,6 +11,7 @@
 import UIKit
 import QuickLook
 import WebKit
+import GreatfireEnvoy
 
 protocol TabDelegate: AnyObject {
 	func updateChrome()
@@ -173,7 +174,7 @@ class Tab: UIView {
 	/**
 	 https://www.hackingwithswift.com/articles/112/the-ultimate-guide-to-wkwebview
 	 */
-	private(set) var webView: WKWebView?
+	private(set) var webView: EnvoyWebView?
 
 	var scrollView: UIScrollView? {
 		return webView?.scrollView
@@ -466,25 +467,7 @@ class Tab: UIView {
 	// MARK: Private Methods
 
 	private func setup() {
-		if #available(iOS 17.0, *), Settings.useBuiltInTor == true {
-			if let proxy = TorManager.shared.torSocks5 {
-				conf.websiteDataStore.proxyConfigurations.removeAll()
-				conf.websiteDataStore.proxyConfigurations.append(ProxyConfiguration(socksv5Proxy: proxy))
-			}
-			else {
-				// Delay setup until we have Tor available and somebody tells us.
-				return
-			}
-		}
-
-		webView = WKWebView(frame: .zero, configuration: conf)
-
-#if DEBUG
-		if #available(iOS 16.4, *) {
-			webView?.isInspectable = true
-		}
-#endif
-
+		webView = EnvoyWebView(frame: .zero, configuration: conf)
 		webView?.uiDelegate = self
 		webView?.navigationDelegate = self
 		scrollView?.delegate = scrollViewDelegate

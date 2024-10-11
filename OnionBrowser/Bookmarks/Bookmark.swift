@@ -48,15 +48,6 @@ open class Bookmark: NSObject {
 		return defaults
 	}()
 
-	private static let v2ToV3 = [
-		"https://3g2upl4pq6kufc4m.onion/": "https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/",
-		"https://mobile.nytimes3xbfgragh.onion/": "https://www.nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion/",
-		"https://bbcnewsv2vjtpsuy.onion/": "https://www.bbcnewsd73hkzno2ini43t4gblxvycyac5aw4gnv7t2rccijh7745uqd.onion/",
-		"https://m.facebookcorewwwi.onion/": "https://m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion/",
-		"https://www.propub3r6espa33w.onion/": "https://p53lf57qovyuvwsc6xnrppyply3vtqm7l6pcobkmyqsiofyeznfu5uqd.onion/",
-		"https://freedom.press/": "http://fpfjxcrmw437h6z2xl3w4czl55kvkmxpapg37bbopsafdu7q454byxid.onion/",
-		"http://expyuzz4wqqyqhjn.onion/": "http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion/"]
-
 	private static var startPageNeedsUpdate = true
 
 	static var all: [Bookmark] = {
@@ -103,34 +94,6 @@ open class Bookmark: NSObject {
 			}
 
 			Settings.bookmarkFirstRunDone = true
-		}
-	}
-
-	class func migrateToV3() {
-		guard !Settings.bookmarksMigratedToOnionV3 else {
-			return
-		}
-
-		for bookmark in all {
-			if let v2 = bookmark.url?.absoluteString,
-			   let v3 = v2ToV3[v2]
-			{
-				bookmark.url = URL(string: v3)
-			}
-		}
-
-		store()
-
-		Settings.bookmarksMigratedToOnionV3 = true
-
-		DispatchQueue.global(qos: .background).async {
-			for bookmark in all {
-				bookmark.acquireIcon() { updated in
-					if updated {
-						store()
-					}
-				}
-			}
 		}
 	}
 

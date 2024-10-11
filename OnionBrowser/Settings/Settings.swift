@@ -9,7 +9,6 @@
 //
 
 import UIKit
-import IPtProxyUI
 
 struct SearchEngine: Equatable {
 
@@ -126,35 +125,11 @@ enum TabSecurityLevel: String, CustomStringConvertible {
 
 
 @objcMembers
-class Settings: IPtProxyUI.Settings {
+class Settings {
 
-	private static let transportTranslationTable = [
-		// Type .none is identical in IPtProxyUI and OnionBrowser.
-		0: 0,
-
-		// Type .obfs4 is identical in IPtProxyUI and OnionBrowser.
-		1: 1,
-
-		// Deprecated legacy type .meekamazon. Retaining this number for future use if meek-amazon comes back.
-		2: 0,
-
-		/**
-		Deprecated legacy type .meekazure. Retaining this number for future use if meek-azure comes back.
-
-		Microsoft announced to start blocking domain fronting:
-		[Microsoft: Securing our approach to domain fronting within Azure](https://www.microsoft.com/security/blog/2021/03/26/securing-our-approach-to-domain-fronting-within-azure/)
-		*/
-		3: 0,
-
-		// Type .snowflake is 4 in OnionBrowser and 2 in IPtProxyUI.
-		4: 2,
-
-		// Type .snowflakeAmp is 5 in OnionBrowser and 4 in IPtProxyUI.
-		5: 4,
-
-		// Type .custom is 99 in OnionBrowser and 3 in IPtProxyUI.
-		99: 3]
-
+	open class var defaults: UserDefaults? {
+		UserDefaults.standard
+	}
 
 	class var stateRestoreLock: Bool {
 		get {
@@ -183,15 +158,6 @@ class Settings: IPtProxyUI.Settings {
 		}
 		set {
 			UserDefaults.standard.set(newValue, forKey: "did_first_run_bookmarks")
-		}
-	}
-
-	class var bookmarksMigratedToOnionV3: Bool {
-		get {
-			UserDefaults.standard.bool(forKey: "bookmarks_migrated_to_onion_v3")
-		}
-		set {
-			UserDefaults.standard.set(newValue, forKey: "bookmarks_migrated_to_onion_v3")
 		}
 	}
 
@@ -382,42 +348,4 @@ class Settings: IPtProxyUI.Settings {
 			UserDefaults.standard.set(newValue, forKey: "nextcloud_password")
 		}
 	}
-
-	class var orbotApiToken: String? {
-		get {
-			UserDefaults.standard.string(forKey: "orbot_api_token")
-		}
-		set {
-			UserDefaults.standard.set(newValue, forKey: "orbot_api_token")
-		}
-	}
-
-	class var orbotWasAlreadyInstalled: Bool {
-		get {
-			// Defaults to true!
-			if UserDefaults.standard.object(forKey: "orbot_was_already_installed") == nil {
-				return true
-			}
-
-			return UserDefaults.standard.bool(forKey: "orbot_was_already_installed")
-		}
-		set {
-			UserDefaults.standard.set(newValue, forKey: "orbot_was_already_installed")
-		}
-	}
-
-	class var useBuiltInTor: Bool? {
-		get {
-			if UserDefaults.standard.object(forKey: "use_builtin_tor") == nil {
-				return nil
-			}
-
-			return UserDefaults.standard.bool(forKey: "use_builtin_tor")
-		}
-		set {
-			UserDefaults.standard.setValue(newValue, forKey: "use_builtin_tor")
-		}
-	}
-
-	static let orbotAccessDenied = "***DENIED***"
 }

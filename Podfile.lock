@@ -4,55 +4,34 @@ PODS:
     - DTFoundation/Core
   - Eureka (5.3.6)
   - FavIcon (3.1.0)
+  - GreatfireEnvoy (0.1.0):
+    - IEnvoyProxy (~> 2.0)
+  - IEnvoyProxy (2.0.1)
   - ImageRow (4.1.0):
     - Eureka (~> 5.3.5)
-  - IPtProxy (3.8.1)
-  - IPtProxyUI (4.6.1):
-    - Eureka (~> 5.3)
-    - IPtProxy (~> 3.8.1)
-    - IPtProxyUI/App (= 4.6.1)
-  - IPtProxyUI/App (4.6.1):
-    - Eureka (~> 5.3)
-    - IPtProxy (~> 3.8.1)
-    - ProgressHUD (~> 14.1)
   - MBProgressHUD (1.2.0)
-  - OCMock (3.9.4)
-  - OrbotKit (1.1.0)
-  - ProgressHUD (14.1.1)
   - SDCAlertView (12.0.4)
-  - Tor/Core (408.12.2)
-  - Tor/CTor (408.12.2):
-    - Tor/Core
-  - Tor/GeoIP (408.12.2):
-    - Tor/CTor
   - TUSafariActivity (1.0.4)
 
 DEPENDENCIES:
   - DTFoundation/DTASN1
   - Eureka (~> 5.3)
   - FavIcon (from `https://github.com/tladesignz/FavIcon.git`)
+  - GreatfireEnvoy (~> 0.1)
   - ImageRow (~> 4.1)
-  - IPtProxyUI (~> 4.6)
   - MBProgressHUD (~> 1.2)
-  - OCMock
-  - OrbotKit (~> 1.1)
   - SDCAlertView (~> 12)
-  - Tor/GeoIP (~> 408.12)
   - TUSafariActivity
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - DTFoundation
     - Eureka
+    - GreatfireEnvoy
+    - IEnvoyProxy
     - ImageRow
-    - IPtProxy
-    - IPtProxyUI
     - MBProgressHUD
-    - OCMock
-    - OrbotKit
-    - ProgressHUD
     - SDCAlertView
-    - Tor
     - TUSafariActivity
 
 EXTERNAL SOURCES:
@@ -68,17 +47,13 @@ SPEC CHECKSUMS:
   DTFoundation: 76b624967cf5bcaae6bb057d622c536c36ef36d0
   Eureka: 28ad9dec6286cd7cd601fdf8e8df39bb7356a8f4
   FavIcon: 21651b47d8f6b33517973859f85e2cb6f9fcfaee
+  GreatfireEnvoy: 6a467155cacac44aa79a7a4645d4e98ab3ac0793
+  IEnvoyProxy: 51bc3a4909edcc0eea86841072a1ea2fd49e7b5c
   ImageRow: 880c0f052c5a89c80521b485c86ccf723a124e99
-  IPtProxy: d7e37d1faa9b2608b8b5b2743b1a4ae3eb723c5e
-  IPtProxyUI: b30db38039f283bdb92ef39c9911ffe64f0f4067
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  OCMock: 589f2c84dacb1f5aaf6e4cec1f292551fe748e74
-  OrbotKit: 5e69508dee1943144fefa18a197fbf2030dfbe36
-  ProgressHUD: abb9136ae23c85204236828562cb9a8ec98efb44
   SDCAlertView: 051ba84cc526eddd546c8b716d41ac08d1577ac1
-  Tor: 19907fc430953434a233c7532166d6409b9d509b
   TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
 
-PODFILE CHECKSUM: e6eb80c4c3689356589325a18c776d2883e37c0c
+PODFILE CHECKSUM: 247329eb6577c653d3ee2fa80b5f199867bd02ef
 
 COCOAPODS: 1.15.2
