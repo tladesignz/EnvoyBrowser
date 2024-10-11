@@ -135,7 +135,6 @@
 		01801E921A32CA2A002B4718 /* EnvoyBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnvoyBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01801E961A32CA2A002B4718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		018333CF1A351B3B00670CD1 /* Endless-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Endless-Prefix.pch"; sourceTree = "<group>"; };
-		018333EB1A357D8B00670CD1 /* libPods-OCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-OCMock.a"; path = "Pods/build/Debug-iphoneos/libPods-OCMock.a"; sourceTree = "<group>"; };
 		019516D01B7D8B400078586A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		01F2AE371B7FEF5E00D5651A /* SSLCertificate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLCertificate.h; sourceTree = "<group>"; };
 		01F2AE381B7FEF5E00D5651A /* SSLCertificate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLCertificate.m; sourceTree = "<group>"; };
@@ -143,13 +142,8 @@
 		01F7CB4D1A52FC4E00F42B73 /* NSString+IPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IPAddress.m"; sourceTree = "<group>"; };
 		01F879391A4108DD00A63654 /* URLBlocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLBlocker.h; sourceTree = "<group>"; };
 		01F8793A1A4108DD00A63654 /* URLBlocker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLBlocker.m; sourceTree = "<group>"; };
-		0B6C8A679F0E1774945F3777 /* Pods-OnionBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnionBrowser.release.xcconfig"; path = "Target Support Files/Pods-OnionBrowser/Pods-OnionBrowser.release.xcconfig"; sourceTree = "<group>"; };
-		0F209831E77CACB3F2BAE200 /* Pods-OnionBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnionBrowser.debug.xcconfig"; path = "Target Support Files/Pods-OnionBrowser/Pods-OnionBrowser.debug.xcconfig"; sourceTree = "<group>"; };
-		12570C301D8FEF51AB9F5CDD /* Pods_OnionBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnionBrowser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		281D1B5875D0F60491D274CE /* Pods_EnvoyBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnvoyBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F7DBC7281C189700CBEFDB /* CALayer+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Helpers.swift"; sourceTree = "<group>"; };
-		5FE3172A8893F37ED0730F03 /* Pods-OnionBrowser Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnionBrowser Tests.release.xcconfig"; path = "Target Support Files/Pods-OnionBrowser Tests/Pods-OnionBrowser Tests.release.xcconfig"; sourceTree = "<group>"; };
-		693145FD1D3EEAE400D08A6A /* Tor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Tor.framework; path = Carthage/Build/iOS/Tor.framework; sourceTree = "<group>"; };
 		69CBCD451E934228009D5352 /* URLBlockerRuleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLBlockerRuleController.h; sourceTree = "<group>"; };
 		69CBCD461E934228009D5352 /* URLBlockerRuleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLBlockerRuleController.m; sourceTree = "<group>"; };
 		69CBCD481E934249009D5352 /* RuleEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleEditorController.h; sourceTree = "<group>"; };
@@ -179,7 +173,6 @@
 		A02AB5C42AA5F34000CC6779 /* tt */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = tt; path = "tt.lproj/security-levels.html"; sourceTree = "<group>"; };
 		A02CB2B423D0B0B300880720 /* AddBookmarkActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookmarkActivity.swift; sourceTree = "<group>"; };
 		A036C3B12937A06C0035AA4F /* AddSearchEngineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSearchEngineViewController.swift; sourceTree = "<group>"; };
-		A03A5C05EE3C1632DC4828FF /* Pods-OnionBrowser Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnionBrowser Tests.debug.xcconfig"; path = "Target Support Files/Pods-OnionBrowser Tests/Pods-OnionBrowser Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A03CFA032892B05500F01DB5 /* DownloadHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadHelper.swift; sourceTree = "<group>"; };
 		A0550648271094A900922E18 /* ua-strings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ua-strings.plist"; sourceTree = "<group>"; };
 		A06881D02A66ADF60084D26D /* release.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = release.entitlements; sourceTree = "<group>"; };
@@ -305,7 +298,6 @@
 		A08563822A04EAC600A3A7FF /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A08563832A04EAC700A3A7FF /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A08563842A05419000A3A7FF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		A085A1EC270DAB8600800A29 /* SECURITY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SECURITY.md; sourceTree = "<group>"; };
 		A0894E36236AE7C800EE2743 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		A0970A462BB31E4C00176402 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A0970A472BB31E4C00176402 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = id; path = id.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
@@ -403,7 +395,6 @@
 		A0C582572AE9136200A81084 /* Thread+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thread+Helpers.swift"; sourceTree = "<group>"; };
 		A0CD36972890194900628DA6 /* Tab+WKNavigationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tab+WKNavigationDelegate.swift"; sourceTree = "<group>"; };
 		A0D070FC275A513700922D70 /* FileManager+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Helpers.swift"; sourceTree = "<group>"; };
-		A0DB59522747D36200B20436 /* Tor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Tor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E8E8B02938CDFB00DC2A2F /* SearchEnginesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEnginesViewController.swift; sourceTree = "<group>"; };
 		A0FA965B2A015EBB005EDC3F /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
 		A0FA965C2A015EBB005EDC3F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -430,7 +421,6 @@
 			isa = PBXGroup;
 			children = (
 				A010FA171E7986DE00E04222 /* README.md */,
-				A085A1EC270DAB8600800A29 /* SECURITY.md */,
 				A025F27421F62C100034B947 /* Config.xcconfig */,
 				A00436111E8185AA0067652D /* Build */,
 				01801E941A32CA2A002B4718 /* Endless */,
@@ -476,10 +466,6 @@
 		1D12FDC84D38C4B31A5E3DFB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0F209831E77CACB3F2BAE200 /* Pods-OnionBrowser.debug.xcconfig */,
-				0B6C8A679F0E1774945F3777 /* Pods-OnionBrowser.release.xcconfig */,
-				A03A5C05EE3C1632DC4828FF /* Pods-OnionBrowser Tests.debug.xcconfig */,
-				5FE3172A8893F37ED0730F03 /* Pods-OnionBrowser Tests.release.xcconfig */,
 				B3DDE2D1FF53E91CF38EA64F /* Pods-EnvoyBrowser.debug.xcconfig */,
 				A2304E215364DAA9530911D3 /* Pods-EnvoyBrowser.release.xcconfig */,
 			);
@@ -489,13 +475,9 @@
 		6CC21620E2AE7B4037C6401B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A0DB59522747D36200B20436 /* Tor.framework */,
 				A0C3770D1F47342C0039198E /* CoreData.framework */,
-				693145FD1D3EEAE400D08A6A /* Tor.framework */,
 				019516D01B7D8B400078586A /* libz.tbd */,
 				016B2FCC1A5648AE002D2730 /* WebKit.framework */,
-				018333EB1A357D8B00670CD1 /* libPods-OCMock.a */,
-				12570C301D8FEF51AB9F5CDD /* Pods_OnionBrowser_Tests.framework */,
 				281D1B5875D0F60491D274CE /* Pods_EnvoyBrowser.framework */,
 			);
 			name = Frameworks;
