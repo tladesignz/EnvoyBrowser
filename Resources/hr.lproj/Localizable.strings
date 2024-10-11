@@ -4,18 +4,6 @@
 /* No comment provided by engineer. */
 "(not recommended)" = "(ne preporučuje se)";
 
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH1__" = "Onion preglednik je besplatna aplikacija, no za njen razvoj i održavanje treba vremena i resursa.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH2__" = "Aplikaciju možeš podržati slanjem malog doprinosa putem kupnje u aplikaciji, niže dolje. Ovo je jednokratna, ne ponavljajuća transakcija, ali možeš se vratiti u bilo kojem trenutku za slanje daljnjih doprinosa. Programeri Onion preglednika ne prikupljaju niti spremaju ikakve podatke o tvojoj kupnji u aplikaciji.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH3__" = "O drugim načinima pomoći (uključujući Patreon, PayPal, Bitcoin ili Zcash) možeš saznati u odjeljku „Informacije” na stranici „Postavke”.";
-
-/* DonationViewController */
-"__DONATE_THANKS__" = "Hvala lijepo! Svako malo pomaže! Tvoje plaćanje u iznosu od %@ pomaže osigurati stalni razvoj Onion preglednika i alata koji Toru olakšavaju integraciju u druge iOS aplikacije.";
-
 /* SettingsViewController */
 "About" = "Informacije";
 
@@ -34,8 +22,8 @@
 /* CustomSitesViewController, AddSiteViewController */
 "Add Site" = "Dodaj web-stranicu";
 
-/* SyncViewController */
-"Additionally, all bookmarks not existing on the server but in Onion Browser will be created there." = "Pored toga, tamo će se stvoriti sve zabilješke koje ne postoje na poslužitelju, a postoje u Onion pregledniku.";
+/* No comment provided by engineer. */
+"Additionally, all bookmarks not existing on the server but in %@ will be created there." = "Additionally, all bookmarks not existing on the server but in %@ will be created there.";
 
 /* BookmarkViewController */
 "Address" = "Adresa";
@@ -60,9 +48,6 @@
 
 /* SecurityViewController */
 "Allow Persistent Cookies" = "Dozvoli trajne kolačiće";
-
-/* DonationViewController */
-"Are you sure you want to send a %@ tip?" = "Zaista želiš poslati %@?";
 
 /* AppDelegate */
 "Authentication Required" = "Potrebna je autentifikacija";
@@ -108,12 +93,6 @@
 
 /* No comment provided by engineer. */
 "Configure Bridges" = "Konfiguriraj mostove";
-
-/* DonationViewController */
-"Confirm %@" = "Potvrdi %@";
-
-/* DonationViewController */
-"Confirm Purchase" = "Potvrdi kupovinu";
 
 /* CertificateViewController */
 "Connection Information" = "Podaci veze";
@@ -166,9 +145,6 @@
 /* No comment provided by engineer. */
 "Disk Cache" = "Predmemorija diska";
 
-/* DonationViewController */
-"Donate" = "Doniraj";
-
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Donate to %@" = "Donacija za %@";
 
@@ -217,9 +193,6 @@
 /* SettingsViewController */
 "Forget in Background" = "Zaboravi u pozadini";
 
-/* SettingsViewController */
-"Fund Development" = "Podupri razvoj";
-
 /* AppDelegate */
 "Go Back" = "Idi natrag";
 
@@ -241,8 +214,8 @@
 /* AddSiteViewController, SyncViewController */
 "Host" = "Računalo";
 
-/* SyncViewController */
-"If you sync, all bookmarks will be read from the server and added/updated in Onion Browser." = "Ako sinkroniziraš, sve će se zabilješke čitati s poslužitelja i dodati/aktualizirati u Onion pregledniku.";
+/* No comment provided by engineer. */
+"If you sync, all bookmarks will be read from the server and added/updated in %@." = "If you sync, all bookmarks will be read from the server and added/updated in %@.";
 
 /* Tab+UIWebViewDelegate */
 "Ignore for this host" = "Zanemari za ovo računalo";
@@ -264,9 +237,6 @@
 
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Learn more about %@" = "Saznaj više o %@";
-
-/* DonationViewController */
-"Loading in-app purchase data…" = "Učitavanje u aplikaciji spremljenih podataka kupovine …";
 
 /* Storage2ViewController */
 "Local Storage" = "Lokalno spremište";
@@ -328,9 +298,6 @@
 /* AppDelegate, SyncViewController */
 "Password" = "Lozinka";
 
-/* DonationViewController */
-"Payment Sent" = "Plaćanje je poslano";
-
 /* CertificateViewController */
 "Period of Validity" = "Trajanje valjanosti";
 
@@ -348,9 +315,6 @@
 
 /* Tab */
 "Pull to Refresh Page" = "Povuci za aktualiziranje stranice";
-
-/* DonationViewController */
-"Purchase Failure" = "Greška u kupovini";
 
 /* SettingsViewController */
 "Rate on App Store" = "Ocijeni na App Store";
@@ -418,9 +382,6 @@
 /* SecurityPresetsRow; a security level */
 "Silver" = "Srebro";
 
-/* DonationViewController */
-"Sorry, in-app purchase is disabled on your device!" = "Žao nam je, kupovina u aplikaciji je deaktivirana na tvom uređaju!";
-
 /* No comment provided by engineer. */
 "Starting Tor…" = "Starting Tor…";
 
@@ -432,9 +393,6 @@
 
 /* SettingsViewController */
 "Support" = "Podrška";
-
-/* DonationViewController */
-"Support Onion Browser Development" = "Podrži razvoj Onion preglednika";
 
 /* AppDelegate */
 "Switch to Tab %d" = "Prijeđi na karticu %d";
@@ -462,9 +420,6 @@
 
 /* SecurityViewController, placeholder is app name "Onion Browser" */
 "This is your default security setting for every website you visit in %@." = "Ovo je standardna sigurnosna postavka za svako web mjesto koje posjetiš u %@u.";
-
-/* DonationViewController */
-"Tip: %@" = "Doprinos: %@";
 
 /* BookmarkViewController */
 "Title" = "Naslov";
@@ -525,9 +480,6 @@
 
 /* Placeholder is server domain */
 "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk." = "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk.";
-
-/* DonationViewController */
-"You most recently donated %1$@ on %2$@." = "Tvoja nedavna donacija je bila %1$@, %2$@.";
 
 /* No comment provided by engineer. */
 "You're one step closer to private browsing." = "You're one step closer to private browsing.";

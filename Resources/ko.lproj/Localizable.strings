@@ -4,18 +4,6 @@
 /* No comment provided by engineer. */
 "(not recommended)" = "(권장하지 않음)";
 
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH1__" = "Onion 브라우저는 무료 앱이지만 개발 및 유지보수에 시간과 자원이 소요됩니다.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH2__" = "아래의 앱 내 구입을 통해 작은 팁을 보내주면 앱을 지원할 수 있습니다. 이것은 일회성 비반복적인 거래이지만, 언제든지 돌아와서 팁을 보낼 수 있습니다. 앱 내 구입에 대한 정보는 Onion 브라우저 개발자가 수집하거나 저장하지 않습니다.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH3__" = "'설정' 페이지의 '정보' 섹션에서 다른 도움 방법(Patreon, PayPal, 비트코인 또는 Zcash포함)에 대해 배울 수 있습니다.";
-
-/* DonationViewController */
-"__DONATE_THANKS__" = "감사합니다! 조금이라도 도움이 돼요! %@를 지불하면 Tor를 다른 iOS 앱에 쉽게 통합할 수 있는 Onion 브라우저 및 도구에 대한 지속적인 개발을 보장할 수 있습니다.";
-
 /* SettingsViewController */
 "About" = "정보";
 
@@ -34,8 +22,8 @@
 /* CustomSitesViewController, AddSiteViewController */
 "Add Site" = "사이트 추가";
 
-/* SyncViewController */
-"Additionally, all bookmarks not existing on the server but in Onion Browser will be created there." = "또한 서버에 존재하지 않는 모든 책갈피가 서버에 작성됩니다.";
+/* No comment provided by engineer. */
+"Additionally, all bookmarks not existing on the server but in %@ will be created there." = "Additionally, all bookmarks not existing on the server but in %@ will be created there.";
 
 /* BookmarkViewController */
 "Address" = "사이트 주소";
@@ -60,9 +48,6 @@
 
 /* SecurityViewController */
 "Allow Persistent Cookies" = "퍼시스턴트 쿠키 허용";
-
-/* DonationViewController */
-"Are you sure you want to send a %@ tip?" = "팁 %@ 을 보내시겠습니까?";
 
 /* AppDelegate */
 "Authentication Required" = "인증 필요";
@@ -108,12 +93,6 @@
 
 /* No comment provided by engineer. */
 "Configure Bridges" = "브릿지 구성";
-
-/* DonationViewController */
-"Confirm %@" = "%@ 보내기";
-
-/* DonationViewController */
-"Confirm Purchase" = "구매 확인";
 
 /* CertificateViewController */
 "Connection Information" = "연결 정보";
@@ -166,9 +145,6 @@
 /* No comment provided by engineer. */
 "Disk Cache" = "Disk Cache";
 
-/* DonationViewController */
-"Donate" = "기부";
-
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Donate to %@" = "%@에 기부하기";
 
@@ -217,9 +193,6 @@
 /* SettingsViewController */
 "Forget in Background" = "백그라운드에서 잊기";
 
-/* SettingsViewController */
-"Fund Development" = "펀드개발";
-
 /* AppDelegate */
 "Go Back" = "뒤로 가기";
 
@@ -241,8 +214,8 @@
 /* AddSiteViewController, SyncViewController */
 "Host" = "호스트";
 
-/* SyncViewController */
-"If you sync, all bookmarks will be read from the server and added/updated in Onion Browser." = "동기화하면 서버에서 모든 책갈피가 읽혀지고 Onion 브라우저에서 추가, 업데이트됩니다.";
+/* No comment provided by engineer. */
+"If you sync, all bookmarks will be read from the server and added/updated in %@." = "If you sync, all bookmarks will be read from the server and added/updated in %@.";
 
 /* Tab+UIWebViewDelegate */
 "Ignore for this host" = "이 호스트에 대해 무시";
@@ -264,9 +237,6 @@
 
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Learn more about %@" = "%@에 대해 더 알아보기";
-
-/* DonationViewController */
-"Loading in-app purchase data…" = "앱 내 구입 데이터 로드 중...";
 
 /* Storage2ViewController */
 "Local Storage" = "로컬 저장소";
@@ -328,9 +298,6 @@
 /* AppDelegate, SyncViewController */
 "Password" = "비밀번호";
 
-/* DonationViewController */
-"Payment Sent" = "지불됨";
-
 /* CertificateViewController */
 "Period of Validity" = "유효 기간";
 
@@ -348,9 +315,6 @@
 
 /* Tab */
 "Pull to Refresh Page" = "당겨서 페이지 새로 고침";
-
-/* DonationViewController */
-"Purchase Failure" = "결제 실패";
 
 /* SettingsViewController */
 "Rate on App Store" = "App Store에서 평가하기";
@@ -418,9 +382,6 @@
 /* SecurityPresetsRow; a security level */
 "Silver" = "실버";
 
-/* DonationViewController */
-"Sorry, in-app purchase is disabled on your device!" = "죄송합니다. 디바이스에서 앱 내 구입이 비활성화되었습니다!";
-
 /* No comment provided by engineer. */
 "Starting Tor…" = "Starting Tor…";
 
@@ -432,9 +393,6 @@
 
 /* SettingsViewController */
 "Support" = "지원";
-
-/* DonationViewController */
-"Support Onion Browser Development" = "Onion 브라우저 개발 지원";
 
 /* AppDelegate */
 "Switch to Tab %d" = "%d번째 탭으로 전환";
@@ -462,9 +420,6 @@
 
 /* SecurityViewController, placeholder is app name "Onion Browser" */
 "This is your default security setting for every website you visit in %@." = "이것은 %@에서 방문하는 모든 웹사이트에 대한 기본 보안 설정입니다.";
-
-/* DonationViewController */
-"Tip: %@" = "팁: %@";
 
 /* BookmarkViewController */
 "Title" = "제목";
@@ -525,9 +480,6 @@
 
 /* Placeholder is server domain */
 "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk." = "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk.";
-
-/* DonationViewController */
-"You most recently donated %1$@ on %2$@." = "최근에 %2$@에 %1$@를 기부했습니다.";
 
 /* No comment provided by engineer. */
 "You're one step closer to private browsing." = "You're one step closer to private browsing.";

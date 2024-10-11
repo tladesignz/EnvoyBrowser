@@ -1,11 +1,11 @@
 //
 //  Bookmark.swift
-//  OnionBrowser2
+//  EnvoyBrowser
 //
 //  Created by Benjamin Erhart on 08.10.19.
 //  Copyright © 2012 - 2023, Tigas Ventures, LLC (Mike Tigas)
 //
-//  This file is part of Onion Browser. See LICENSE file for redistribution terms.
+//  This file is part of Envoy Browser. See LICENSE file for redistribution terms.
 //
 
 
@@ -32,18 +32,6 @@ open class Bookmark: NSObject {
 
 	private static let defaultBookmarks: [Bookmark] = {
 		var defaults = [Bookmark]()
-
-		defaults.append(Bookmark(name: "DuckDuckGo", url: "https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/"))
-		defaults.append(Bookmark(name: "New York Times", url: "https://www.nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion/"))
-		defaults.append(Bookmark(name: "BBC", url: "https://www.bbcnewsd73hkzno2ini43t4gblxvycyac5aw4gnv7t2rccijh7745uqd.onion/"))
-		defaults.append(Bookmark(name: "ProPublica", url: "https://p53lf57qovyuvwsc6xnrppyply3vtqm7l6pcobkmyqsiofyeznfu5uqd.onion/"))
-		defaults.append(Bookmark(name: "Freedom of the Press Foundation", url: "http://fpfjxcrmw437h6z2xl3w4czl55kvkmxpapg37bbopsafdu7q454byxid.onion/"))
-		defaults.append(Bookmark(name: "Deutsche Welle", url: "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/"))
-
-		defaults.append(Bookmark(name: "Facebook", url: "https://m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion/"))
-
-		defaults.append(Bookmark(name: "Onion Browser official site", url: "https://onionbrowser.com"))
-		defaults.append(Bookmark(name: "The Tor Project", url: "http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion/"))
 
 		return defaults
 	}()
@@ -156,11 +144,11 @@ open class Bookmark: NSObject {
 		}
 
 		template = template
-			.replacingOccurrences(of: "{{ Onion Browser }}",
+			.replacingOccurrences(of: "{{ Envoy Browser }}",
 								  with: Bundle.main.displayName)
-			.replacingOccurrences(of: "{{ Learn more about Onion Browser }}",
+			.replacingOccurrences(of: "{{ Learn more about Envoy Browser }}",
 								  with: String(format: NSLocalizedString("Learn more about %@", comment: ""), Bundle.main.displayName))
-			.replacingOccurrences(of: "{{ Donate to Onion Browser }}",
+			.replacingOccurrences(of: "{{ Donate to Envoy Browser }}",
 								  with: String(format: NSLocalizedString("Donate to %@", comment: ""), Bundle.main.displayName))
 			.replacingOccurrences(of: "{{ Subscribe to Tor Newsletter }}",
 								  with: NSLocalizedString("Subscribe to Tor Newsletter", comment: ""))

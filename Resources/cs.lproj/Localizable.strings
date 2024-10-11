@@ -4,18 +4,6 @@
 /* No comment provided by engineer. */
 "(not recommended)" = "(nedoporučuje se)";
 
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH1__" = "Onion Browser is a free app, but it takes time and resources to develop and maintain.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH2__" = "You can support the app by sending a small tip through an in-app purchase, below. This is a one-time, non-recurring transaction, but you can come back any time to send another. No information about your in-app purchase is collected or stored by the Onion Browser developers.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH3__" = "You can learn about other ways to help (including Patreon, PayPal, Bitcoin, or Zcash) in the 'About' section of the 'Settings' page.";
-
-/* DonationViewController */
-"__DONATE_THANKS__" = "Thank you! Every little bit helps! Your payment of %@ helps ensure continuing development on Onion Browser and tools that make Tor easier to integrate into other iOS apps.";
-
 /* SettingsViewController */
 "About" = "O aplikaci";
 
@@ -34,8 +22,8 @@
 /* CustomSitesViewController, AddSiteViewController */
 "Add Site" = "Přidat Stránku";
 
-/* SyncViewController */
-"Additionally, all bookmarks not existing on the server but in Onion Browser will be created there." = "Všechny záložky, které nejsou na serveru ale jsou v Onion Browser, budou přidány tam.";
+/* No comment provided by engineer. */
+"Additionally, all bookmarks not existing on the server but in %@ will be created there." = "Additionally, all bookmarks not existing on the server but in %@ will be created there.";
 
 /* BookmarkViewController */
 "Address" = "Adresa";
@@ -60,9 +48,6 @@
 
 /* SecurityViewController */
 "Allow Persistent Cookies" = "Povolit trvalé cookies";
-
-/* DonationViewController */
-"Are you sure you want to send a %@ tip?" = "Jste si jistý, že chcete poslat spropitné ve výši %@?";
 
 /* AppDelegate */
 "Authentication Required" = "Vyžadována autentizace";
@@ -108,12 +93,6 @@
 
 /* No comment provided by engineer. */
 "Configure Bridges" = "Nastavit bridge";
-
-/* DonationViewController */
-"Confirm %@" = "Potvrdit %@";
-
-/* DonationViewController */
-"Confirm Purchase" = "Potvrzení nákupu";
 
 /* CertificateViewController */
 "Connection Information" = "Informace o spojení";
@@ -166,9 +145,6 @@
 /* No comment provided by engineer. */
 "Disk Cache" = "Disk Cache";
 
-/* DonationViewController */
-"Donate" = "Darovat";
-
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Donate to %@" = "Přispět %@";
 
@@ -217,9 +193,6 @@
 /* SettingsViewController */
 "Forget in Background" = "Zapomenout na pozadí";
 
-/* SettingsViewController */
-"Fund Development" = "Sponzorovat vývoj";
-
 /* AppDelegate */
 "Go Back" = "Jít zpátky";
 
@@ -241,8 +214,8 @@
 /* AddSiteViewController, SyncViewController */
 "Host" = "Hostitel";
 
-/* SyncViewController */
-"If you sync, all bookmarks will be read from the server and added/updated in Onion Browser." = "Pokud sychronizujete, všechny záložky se načtou ze serveru a budou přidány/aktualizovány v Onion prohlížeči.";
+/* No comment provided by engineer. */
+"If you sync, all bookmarks will be read from the server and added/updated in %@." = "If you sync, all bookmarks will be read from the server and added/updated in %@.";
 
 /* Tab+UIWebViewDelegate */
 "Ignore for this host" = "Ignorovat na tomto serveru";
@@ -264,9 +237,6 @@
 
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Learn more about %@" = "Zjistit více o %@";
-
-/* DonationViewController */
-"Loading in-app purchase data…" = "Načítání dat o nákupech v aplikaci...";
 
 /* Storage2ViewController */
 "Local Storage" = "Místní úložiště";
@@ -328,9 +298,6 @@
 /* AppDelegate, SyncViewController */
 "Password" = "Heslo";
 
-/* DonationViewController */
-"Payment Sent" = "Platba odeslána";
-
 /* CertificateViewController */
 "Period of Validity" = "Interval platnosti";
 
@@ -348,9 +315,6 @@
 
 /* Tab */
 "Pull to Refresh Page" = "Táhnutím znovu načtete";
-
-/* DonationViewController */
-"Purchase Failure" = "Koupě selhala";
 
 /* SettingsViewController */
 "Rate on App Store" = "Hodnotit na App Storu";
@@ -418,9 +382,6 @@
 /* SecurityPresetsRow; a security level */
 "Silver" = "Stříbro";
 
-/* DonationViewController */
-"Sorry, in-app purchase is disabled on your device!" = "Omlouváme se, nákupy v aplikacích jsou na vašem zařízení zakázány.";
-
 /* No comment provided by engineer. */
 "Starting Tor…" = "Starting Tor…";
 
@@ -432,9 +393,6 @@
 
 /* SettingsViewController */
 "Support" = "Podpora";
-
-/* DonationViewController */
-"Support Onion Browser Development" = "Popořit vývoj Onion Browser";
 
 /* AppDelegate */
 "Switch to Tab %d" = "Přejít na panel %d";
@@ -462,9 +420,6 @@
 
 /* SecurityViewController, placeholder is app name "Onion Browser" */
 "This is your default security setting for every website you visit in %@." = "Toto je výchozí nastavení zabezpečení pro všechny vámi navštěvované weby v %@.";
-
-/* DonationViewController */
-"Tip: %@" = "Tip: %@";
 
 /* BookmarkViewController */
 "Title" = "Titul";
@@ -525,9 +480,6 @@
 
 /* Placeholder is server domain */
 "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk." = "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk.";
-
-/* DonationViewController */
-"You most recently donated %1$@ on %2$@." = "Nedávno jste darovali %1$@ na %2$@.";
 
 /* No comment provided by engineer. */
 "You're one step closer to private browsing." = "You're one step closer to private browsing.";

@@ -1,11 +1,11 @@
 //
 //  Tab+WKScriptMessageHandler.swift
-//  OnionBrowser
+//  EnvoyBrowser
 //
 //  Created by Benjamin Erhart on 08.08.22.
 //  Copyright © 2012 - 2023, Tigas Ventures, LLC (Mike Tigas)
 //
-//  This file is part of Onion Browser. See LICENSE file for redistribution terms.
+//  This file is part of Envoy Browser. See LICENSE file for redistribution terms.
 //
 
 import WebKit
@@ -45,12 +45,6 @@ extension Tab: WKScriptMessageHandler {
 		})();
 	"""
 
-	private static let donateScript = """
-		window.showDonate = function() {
-			window.webkit.messageHandlers.showDonate.postMessage(null);
-		};
-	"""
-
 	private static let gpcScript = """
 		navigator.globalPrivacyControl = true;
 	"""
@@ -60,7 +54,6 @@ extension Tab: WKScriptMessageHandler {
 		// Disabled for now. One or both of these seem to cause random crashes.
 //		register(script: Self.errorScript, for: "error", in: configuration)
 //		register(script: Self.logScript, for: "log", in: configuration)
-		register(script: Self.donateScript, for: "showDonate", forMainFrameOnly: true, in: configuration)
 
 		if Settings.sendGpc {
 			register(script: Self.gpcScript, in: configuration)
@@ -83,10 +76,6 @@ extension Tab: WKScriptMessageHandler {
 			let args = message.body as? NSDictionary
 
 			print("[Tab \(index)] [\(args?["severity"] as? String ?? "log")] \(args?["arguments"] ?? "(nil)")")
-
-		case "showDonate":
-			let navC = sceneDelegate?.browsingUi.showSettings()
-			navC?.pushViewController(DonationViewController(), animated: false)
 
 		default:
 			break

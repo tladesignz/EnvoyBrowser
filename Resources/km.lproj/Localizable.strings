@@ -4,18 +4,6 @@
 /* No comment provided by engineer. */
 "(not recommended)" = "(មិនត្រូវបាន​ណែនាំ)";
 
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH1__" = "កម្មវិធី​រុករក Onion គឺ​មិនគិតថ្លៃ​ទេ ប៉ុន្តែ​វា​ត្រូវការ​ពេលវេលា និង​ធនធាន​ដើម្បី​អភិវឌ្ឍ និង​តំហែទាំ។";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH2__" = "អ្នក​អាច​គាំទ្រ​កម្មវិធី​នេះ​ដោយ​ការ​បរិច្ចាគ​បន្តិចបន្តួច​តាមរយៈ​ការទិញ​នៅ​ក្នុង​កម្មវិធី​ខាងក្រោម។ ការ​បរិច្ចាគ​នេះ​តែម្ដង​គត់ មិនកើត​ឡើងម្ដងទៀត​ទេ ប៉ុន្តែ​អ្នក​អាច​ត្រឡប់​មកវិញ​ពេលណា​ក៏បាន​ដើម្បី​បរិច្ចាគ​ម្ដងទៀត។ មិនមាន​ព័ត៌មាន​អំពី​ការ​ទិញ​នៅក្នុង​កម្មវិធី​ត្រូវបាន​ប្រមូល ឬ​រក្សាទុក​ដោយ​អ្នកបង្កើត​កម្មវិធី​រុករក Onion ឡើយ។";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH3__" = "អ្នក​អាច​ឈ្វេងយល់​អំពី​វិធី​ផ្សេងទៀត​ដើម្បី​ជួយ (រួមមាន Patreon, PayPal, Bitcoin ឬ Zcash) នៅក្នុង​ផ្នែក 'អំពី' នៃ​ទំព័រ 'ការកំណត់'។";
-
-/* DonationViewController */
-"__DONATE_THANKS__" = "អរគុណ! រាល់​ការ​ជួយ​បន្តិចបន្តួច! ការទូទាត់​របស់​អ្នក​ចំនួន %@ជួយ​ឱ្យ​មាន​ការ​បន្ត​អភិវឌ្ឍ​លើ​កម្មវិធី​រុករក Onion និង​កម្មវិធី​ផ្សេង​ទៀត​ដែល​ធ្វើ​ឱ្យ Tor ងាយស្រួល​បញ្ចូល​ទៅក្នុង​កម្មវិធី iOS ផ្សេងទៀត។";
-
 /* SettingsViewController */
 "About" = "អំពីកម្មវិធី";
 
@@ -34,8 +22,8 @@
 /* CustomSitesViewController, AddSiteViewController */
 "Add Site" = "បន្ថែម​វេបសាយ";
 
-/* SyncViewController */
-"Additionally, all bookmarks not existing on the server but in Onion Browser will be created there." = "លើសពីនេះ រាល់​ទីចំណាំ​ទាំងអស់​ដែល​មិនមាន​នៅលើ​ម៉ាស៊ីនមេ ប៉ុន្តែ​នៅក្នុង​កម្មវិធី​រុករក Onion នឹង​ត្រូវ​បង្កើត​នៅ​ទីនោះ។";
+/* No comment provided by engineer. */
+"Additionally, all bookmarks not existing on the server but in %@ will be created there." = "Additionally, all bookmarks not existing on the server but in %@ will be created there.";
 
 /* BookmarkViewController */
 "Address" = "អាសយដ្ឋាន";
@@ -60,9 +48,6 @@
 
 /* SecurityViewController */
 "Allow Persistent Cookies" = "អនុញ្ញាត​រក្សាទុក​ខូឃី";
-
-/* DonationViewController */
-"Are you sure you want to send a %@ tip?" = "តើ​អ្នក​ប្រាកដ​អត់​ដែល​អ្នក​ចង់​ផ្ដល់ជំនួយ %@?";
 
 /* AppDelegate */
 "Authentication Required" = "ទាមទារ​យថាភូតកម្ម";
@@ -108,12 +93,6 @@
 
 /* No comment provided by engineer. */
 "Configure Bridges" = "កំណត់ Bridges";
-
-/* DonationViewController */
-"Confirm %@" = "បញ្ជាក់ %@";
-
-/* DonationViewController */
-"Confirm Purchase" = "បញ្ជាក់​ការ​ទិញ";
 
 /* CertificateViewController */
 "Connection Information" = "ព័ត៌មាន​ការ​តភ្ជាប់";
@@ -166,9 +145,6 @@
 /* No comment provided by engineer. */
 "Disk Cache" = "Disk Cache";
 
-/* DonationViewController */
-"Donate" = "បរិច្ចាគ";
-
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Donate to %@" = "បរិច្ចាគ​ទៅ %@";
 
@@ -217,9 +193,6 @@
 /* SettingsViewController */
 "Forget in Background" = "បំភ្លេចនៅផ្នែក​ខាងក្នុង";
 
-/* SettingsViewController */
-"Fund Development" = "មូលនិធិ​អភិវឌ្ឍន៍";
-
 /* AppDelegate */
 "Go Back" = "ត្រឡប់ក្រោយ";
 
@@ -241,8 +214,8 @@
 /* AddSiteViewController, SyncViewController */
 "Host" = "ម៉ាស៊ីន";
 
-/* SyncViewController */
-"If you sync, all bookmarks will be read from the server and added/updated in Onion Browser." = "ប្រសិនបើ​អ្នក​ធ្វើ​សមកាល នោះ​ទីចំណាំ​ទាំងអស់​នឹង​ទាញយក​ពី​ម៉ាស៊ីនមេ ហើយ​នឹង​ត្រូវ​បន្ថែម/ធ្វើបច្ចុប្បន្នភាព​នៅក្នុង​កម្មវិធី​រុករក Onion។";
+/* No comment provided by engineer. */
+"If you sync, all bookmarks will be read from the server and added/updated in %@." = "If you sync, all bookmarks will be read from the server and added/updated in %@.";
 
 /* Tab+UIWebViewDelegate */
 "Ignore for this host" = "បោះបង់​សម្រាប់ម៉ាស៊ីន​នេះ";
@@ -264,9 +237,6 @@
 
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Learn more about %@" = "ឈ្វេងយល់​បន្ថែម​អំពី %@";
-
-/* DonationViewController */
-"Loading in-app purchase data…" = "កំពុង​ផ្ទុក​ទិន្នន័យ​ការទិញ​នៅក្នុង​កម្មវិធី...";
 
 /* Storage2ViewController */
 "Local Storage" = "កន្លែង​ផ្ទុក​ទិន្នន័យ​តំបន់";
@@ -328,9 +298,6 @@
 /* AppDelegate, SyncViewController */
 "Password" = "ពាក្យសម្ងាត់";
 
-/* DonationViewController */
-"Payment Sent" = "ការទូទាត់​ប្រាក់​បាន​បញ្ជូន";
-
 /* CertificateViewController */
 "Period of Validity" = "រយៈពេល​នៃ​សុពលភាព";
 
@@ -348,9 +315,6 @@
 
 /* Tab */
 "Pull to Refresh Page" = "ទាញ​ដើម្បី​ធ្វើឱ្យ​ទំព័រ​ថ្មី​ឡើងវិញ";
-
-/* DonationViewController */
-"Purchase Failure" = "ការទិញបរាជ័យ";
 
 /* SettingsViewController */
 "Rate on App Store" = "ផ្ដល់​ចំណាត់ថ្នាក់​នៅលើ App Store";
@@ -418,9 +382,6 @@
 /* SecurityPresetsRow; a security level */
 "Silver" = "ប្រាក់";
 
-/* DonationViewController */
-"Sorry, in-app purchase is disabled on your device!" = "សុំទោស ការទិញ​នៅក្នុង​កម្មវិធី​ត្រូវបាន​បិទ​លើ​ឧបករណ៍​របស់​អ្នក!";
-
 /* No comment provided by engineer. */
 "Starting Tor…" = "Starting Tor…";
 
@@ -432,9 +393,6 @@
 
 /* SettingsViewController */
 "Support" = "គាំទ្រ";
-
-/* DonationViewController */
-"Support Onion Browser Development" = "គាំទ្រ​ការ​អភិវឌ្ឍ​កម្មវិធី​រុករក Onion";
 
 /* AppDelegate */
 "Switch to Tab %d" = "ប្ដូរ​ទៅ​ផ្ទាំង %d";
@@ -462,9 +420,6 @@
 
 /* SecurityViewController, placeholder is app name "Onion Browser" */
 "This is your default security setting for every website you visit in %@." = "នេះ​ជា​ការកំណត់​សន្តិសុខ​មាន​ស្រាប់​របស់​អ្នក​សម្រាប់​គ្រប់​វេបសាយ​ដែល​អ្នក​ចូលមើល​នៅ %@។";
-
-/* DonationViewController */
-"Tip: %@" = "ជំនួយ៖ %@";
 
 /* BookmarkViewController */
 "Title" = "ចំណងជើង";
@@ -525,9 +480,6 @@
 
 /* Placeholder is server domain */
 "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk." = "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk.";
-
-/* DonationViewController */
-"You most recently donated %1$@ on %2$@." = "អ្នក​បានបរិច្ចាគ​ថ្មីៗ​នេះ %1$@នៅលើ %2$@។";
 
 /* No comment provided by engineer. */
 "You're one step closer to private browsing." = "You're one step closer to private browsing.";

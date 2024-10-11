@@ -1,11 +1,11 @@
 //
 //  Settings.swift
-//  OnionBrowser
+//  EnvoyBrowser
 //
 //  Created by Benjamin Erhart on 18.10.19.
 //  Copyright © 2012 - 2023, Tigas Ventures, LLC (Mike Tigas)
 //
-//  This file is part of Onion Browser. See LICENSE file for redistribution terms.
+//  This file is part of Envoy Browser. See LICENSE file for redistribution terms.
 //
 
 import UIKit

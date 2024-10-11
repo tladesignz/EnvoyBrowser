@@ -1,11 +1,11 @@
 //
 //  SyncViewController.swift
-//  OnionBrowser2
+//  EnvoyBrowser
 //
 //  Created by Benjamin Erhart on 26.02.20.
 //  Copyright © 2020 - 2023, Tigas Ventures, LLC (Mike Tigas)
 //
-//  This file is part of Onion Browser. See LICENSE file for redistribution terms.
+//  This file is part of Envoy Browser. See LICENSE file for redistribution terms.
 //
 
 import UIKit
@@ -20,9 +20,13 @@ class SyncViewController: FixedFormViewController {
 
 		navigationItem.title = NSLocalizedString("Sync Bookmarks", comment: "")
 
-		var desc = NSLocalizedString("If you sync, all bookmarks will be read from the server and added/updated in Onion Browser.", comment: "")
+		var desc = String(
+			format: NSLocalizedString("If you sync, all bookmarks will be read from the server and added/updated in %@.", comment: ""),
+			Bundle.main.displayName)
 		desc += "\n\n"
-		desc += NSLocalizedString("Additionally, all bookmarks not existing on the server but in Onion Browser will be created there.", comment: "")
+		desc += String(
+			format: NSLocalizedString("Additionally, all bookmarks not existing on the server but in %@ will be created there.", comment: ""),
+			Bundle.main.displayName)
 
 		form
 			+++ Section(header: NSLocalizedString("Sync Bookmarks with Nextcloud Server", comment: ""),

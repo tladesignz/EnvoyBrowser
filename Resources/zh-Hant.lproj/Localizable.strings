@@ -4,18 +4,6 @@
 /* No comment provided by engineer. */
 "(not recommended)" = "(不建議)";
 
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH1__" = "Onion Browser 是免費軟體，但開發與維護相當費時費力。";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH2__" = "您可以從下方的程式內購買發送一份小費支援本程式。這是一次性、非訂閱制的交易，但歡迎您隨時回來多送一次。Onion Browser 開發者不會蒐集或儲存任何您的程式內購買資料。";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH3__" = "您可以在「設定」頁面的「關於」章節找到更多幫助我們的方法 (包含透過 Patreon, PayPal, Bitcoin, 或 Zcash)。";
-
-/* DonationViewController */
-"__DONATE_THANKS__" = "非常感謝您！任何一點幫助都非常重要！您的 %@ 款項讓 Onion Browser 和其他容易將 Tor 整合到 iOS 程式的工具能繼續開發。";
-
 /* SettingsViewController */
 "About" = "關於";
 
@@ -34,8 +22,8 @@
 /* CustomSitesViewController, AddSiteViewController */
 "Add Site" = "新增網站";
 
-/* SyncViewController */
-"Additionally, all bookmarks not existing on the server but in Onion Browser will be created there." = "此外，這裏會建立所有儲存在 Onion 瀏覽器的書籤，而非在伺服器。 ";
+/* No comment provided by engineer. */
+"Additionally, all bookmarks not existing on the server but in %@ will be created there." = "Additionally, all bookmarks not existing on the server but in %@ will be created there.";
 
 /* BookmarkViewController */
 "Address" = "網址";
@@ -60,9 +48,6 @@
 
 /* SecurityViewController */
 "Allow Persistent Cookies" = "允許持久性 cookies";
-
-/* DonationViewController */
-"Are you sure you want to send a %@ tip?" = "確定要傳送 %@ 的小費？";
 
 /* AppDelegate */
 "Authentication Required" = "要求驗證";
@@ -108,12 +93,6 @@
 
 /* No comment provided by engineer. */
 "Configure Bridges" = "設定橋接器";
-
-/* DonationViewController */
-"Confirm %@" = "確認 %@";
-
-/* DonationViewController */
-"Confirm Purchase" = "確認購買";
 
 /* CertificateViewController */
 "Connection Information" = "連線資訊";
@@ -166,9 +145,6 @@
 /* No comment provided by engineer. */
 "Disk Cache" = "磁碟快取";
 
-/* DonationViewController */
-"Donate" = "捐款";
-
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Donate to %@" = "捐款給 %@";
 
@@ -217,9 +193,6 @@
 /* SettingsViewController */
 "Forget in Background" = "程式於背景執行時清除資料";
 
-/* SettingsViewController */
-"Fund Development" = "捐助開發";
-
 /* AppDelegate */
 "Go Back" = "上一步";
 
@@ -241,8 +214,8 @@
 /* AddSiteViewController, SyncViewController */
 "Host" = "主機";
 
-/* SyncViewController */
-"If you sync, all bookmarks will be read from the server and added/updated in Onion Browser." = "若同步則全部的書籤可從伺服器讀取並在 Onion 瀏覽器上新增與更新。";
+/* No comment provided by engineer. */
+"If you sync, all bookmarks will be read from the server and added/updated in %@." = "If you sync, all bookmarks will be read from the server and added/updated in %@.";
 
 /* Tab+UIWebViewDelegate */
 "Ignore for this host" = "忽略此主機";
@@ -264,9 +237,6 @@
 
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Learn more about %@" = "進一步了解 %@";
-
-/* DonationViewController */
-"Loading in-app purchase data…" = "正在載入程式內購買資料…";
 
 /* Storage2ViewController */
 "Local Storage" = "本機儲存";
@@ -328,9 +298,6 @@
 /* AppDelegate, SyncViewController */
 "Password" = "密碼";
 
-/* DonationViewController */
-"Payment Sent" = "已送出付款";
-
 /* CertificateViewController */
 "Period of Validity" = "有效期間";
 
@@ -348,9 +315,6 @@
 
 /* Tab */
 "Pull to Refresh Page" = "拉動以重新整理頁面";
-
-/* DonationViewController */
-"Purchase Failure" = "購買失敗";
 
 /* SettingsViewController */
 "Rate on App Store" = "在 App Store 上為我們評價";
@@ -418,9 +382,6 @@
 /* SecurityPresetsRow; a security level */
 "Silver" = "銀牌";
 
-/* DonationViewController */
-"Sorry, in-app purchase is disabled on your device!" = "抱歉，您的裝置停用了程式內購買功能。";
-
 /* No comment provided by engineer. */
 "Starting Tor…" = "正在啟動 Tor…";
 
@@ -432,9 +393,6 @@
 
 /* SettingsViewController */
 "Support" = "支援我們";
-
-/* DonationViewController */
-"Support Onion Browser Development" = "支援 Onion Browser 開發";
 
 /* AppDelegate */
 "Switch to Tab %d" = "切換到%d分頁";
@@ -462,9 +420,6 @@
 
 /* SecurityViewController, placeholder is app name "Onion Browser" */
 "This is your default security setting for every website you visit in %@." = "這是您連上的所有網站的預設安全性等級 %@。";
-
-/* DonationViewController */
-"Tip: %@" = "小費：%@";
 
 /* BookmarkViewController */
 "Title" = "標題";
@@ -525,9 +480,6 @@
 
 /* Placeholder is server domain */
 "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk." = "您可能正在連線到一個試圖偽裝成 \"%@\" 的伺服器，這可能讓您的機敏資訊曝露在風險中。";
-
-/* DonationViewController */
-"You most recently donated %1$@ on %2$@." = "您最近在 %1$@ 捐款了 %2$@ 元。";
 
 /* No comment provided by engineer. */
 "You're one step closer to private browsing." = "您離私密瀏覽更近了一步。";

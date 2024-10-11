@@ -4,18 +4,6 @@
 /* No comment provided by engineer. */
 "(not recommended)" = "(киңәш ителми)";
 
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH1__" = "Onion Browser - түләүсез бер кушымта, ләкин аны төзү һәм эшләтү өчен вакыт һәм ресурслар кирәк.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH2__" = "You can support the app by sending a small tip through an in-app purchase, below. This is a one-time, non-recurring transaction, but you can come back any time to send another. No information about your in-app purchase is collected or stored by the Onion Browser developers.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH3__" = "Сез \"Көйләүләр\" битенең \"Хакында\" бүлегендә булышуның башка ысуллары турында (шул исәптән Patreon, PayPal, Bitcoin, яки Zcash) белә аласыз.";
-
-/* DonationViewController */
-"__DONATE_THANKS__" = "Рәхмәт! Һәр иганә ярдәм итә! Сезнең %@ түләвегез Onion Browser-ның һәм башка iOS кушымталарына Tor-ны интеграцияләүне җиңеләйтә торган коралларның дәвамлы үсешен тәэмин итәргә ярдәм итәчәк.";
-
 /* SettingsViewController */
 "About" = "Хакында";
 
@@ -34,8 +22,8 @@
 /* CustomSitesViewController, AddSiteViewController */
 "Add Site" = "Сайтны өстәү";
 
-/* SyncViewController */
-"Additionally, all bookmarks not existing on the server but in Onion Browser will be created there." = "Шуның өстенә, Onion Browser кушымтасыннан кыстыргычлар серверда ясалачак, әгәр алар элек булмаган булса.";
+/* No comment provided by engineer. */
+"Additionally, all bookmarks not existing on the server but in %@ will be created there." = "Additionally, all bookmarks not existing on the server but in %@ will be created there.";
 
 /* BookmarkViewController */
 "Address" = "Адрес";
@@ -60,9 +48,6 @@
 
 /* SecurityViewController */
 "Allow Persistent Cookies" = "Даими кукиларны рөхсәт итү";
-
-/* DonationViewController */
-"Are you sure you want to send a %@ tip?" = "Сез %@ күләмендә чәйлек җибәрүне раслыйсызмы?";
 
 /* AppDelegate */
 "Authentication Required" = "Аутентификация таләп ителә";
@@ -108,12 +93,6 @@
 
 /* No comment provided by engineer. */
 "Configure Bridges" = "Күперләрне көйләү";
-
-/* DonationViewController */
-"Confirm %@" = "%@-ны раслау";
-
-/* DonationViewController */
-"Confirm Purchase" = "Сатып алуны раслау";
 
 /* CertificateViewController */
 "Connection Information" = "Бәйләнеш турында мәгълүмат";
@@ -166,9 +145,6 @@
 /* No comment provided by engineer. */
 "Disk Cache" = "Диск кәше";
 
-/* DonationViewController */
-"Donate" = "Иганә итү";
-
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Donate to %@" = "%@-га иганә итү";
 
@@ -217,9 +193,6 @@
 /* SettingsViewController */
 "Forget in Background" = "Фондагы оныту";
 
-/* SettingsViewController */
-"Fund Development" = "Программа төзүне финанслау";
-
 /* AppDelegate */
 "Go Back" = "Кире кайту";
 
@@ -241,8 +214,8 @@
 /* AddSiteViewController, SyncViewController */
 "Host" = "Хост";
 
-/* SyncViewController */
-"If you sync, all bookmarks will be read from the server and added/updated in Onion Browser." = "Синхронласагыз, барлык кыстыргычлар сервердан укылачак һәм Onion Browser кушымтасындагы өстәләчәк/яңартылачак.";
+/* No comment provided by engineer. */
+"If you sync, all bookmarks will be read from the server and added/updated in %@." = "If you sync, all bookmarks will be read from the server and added/updated in %@.";
 
 /* Tab+UIWebViewDelegate */
 "Ignore for this host" = "Бу хост өчен игътибар итмә";
@@ -264,9 +237,6 @@
 
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Learn more about %@" = "%@ турында күбрәк белү";
-
-/* DonationViewController */
-"Loading in-app purchase data…" = "Кушымта эчендә сатып алу мәгълүматларын йөкләнә…";
 
 /* Storage2ViewController */
 "Local Storage" = "Локаль саклагыч";
@@ -328,9 +298,6 @@
 /* AppDelegate, SyncViewController */
 "Password" = "Серсүз";
 
-/* DonationViewController */
-"Payment Sent" = "Түләү җибәрелде";
-
 /* CertificateViewController */
 "Period of Validity" = "Яраклылык вакыты";
 
@@ -348,9 +315,6 @@
 
 /* Tab */
 "Pull to Refresh Page" = "Битне яңарту өчен тартыгыз";
-
-/* DonationViewController */
-"Purchase Failure" = "Сатып алу уңышсыз тәмамланмады";
 
 /* SettingsViewController */
 "Rate on App Store" = "App Store-да бәяләү";
@@ -418,9 +382,6 @@
 /* SecurityPresetsRow; a security level */
 "Silver" = "Көмешсу";
 
-/* DonationViewController */
-"Sorry, in-app purchase is disabled on your device!" = "Гафу итегез, җиһазыгызда кушымта эчендә сатып алу сүндерелде!";
-
 /* No comment provided by engineer. */
 "Starting Tor…" = "Tor-ны башла...";
 
@@ -432,9 +393,6 @@
 
 /* SettingsViewController */
 "Support" = "Техник ярдәм";
-
-/* DonationViewController */
-"Support Onion Browser Development" = "Onion браузерының төзүен финанслыгыз";
 
 /* AppDelegate */
 "Switch to Tab %d" = "%d табка күчү";
@@ -462,9 +420,6 @@
 
 /* SecurityViewController, placeholder is app name "Onion Browser" */
 "This is your default security setting for every website you visit in %@." = "Бу %@ белән һәр кергән вебсайт өчен килешенгәнчә хәвефсезлек көйләвегез.";
-
-/* DonationViewController */
-"Tip: %@" = "Киңәш: %@";
 
 /* BookmarkViewController */
 "Title" = "Баш исем";
@@ -525,9 +480,6 @@
 
 /* Placeholder is server domain */
 "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk." = "Сез \"%@\" итеп күрсәтүче серверга тоташкан булырга мөмкин һәм бу сезнең шәхси мәгълүматыгызны куркыныч астына куярга мөмкин.";
-
-/* DonationViewController */
-"You most recently donated %1$@ on %2$@." = "%1$@ өчен соңгы тапкыр %2$@ көнне иганә итегез.";
 
 /* No comment provided by engineer. */
 "You're one step closer to private browsing." = "Сез хосусый гизү өчен бер адым якынрак.";

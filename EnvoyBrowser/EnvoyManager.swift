@@ -1,5 +1,5 @@
 //
-//  TorManager.swift
+//  EnvoyManager.swift
 //  Orbot
 //
 //  Created by Benjamin Erhart on 17.05.21.
@@ -11,7 +11,7 @@ import Network
 import GreatfireEnvoy
 
 
-class TorManager {
+class EnvoyManager {
 
 	enum Status: String, Codable {
 		case stopped = "stopped"
@@ -19,27 +19,7 @@ class TorManager {
 		case started = "started"
 	}
 
-	enum Errors: Error, LocalizedError {
-		case cookieUnreadable
-		case noSocksAddr
-		case smartConnectFailed
-
-		var errorDescription: String? {
-			switch self {
-
-			case .cookieUnreadable:
-				return "Tor cookie unreadable"
-
-			case .noSocksAddr:
-				return "No SOCKS port"
-
-			case .smartConnectFailed:
-				return "Smart Connect failed"
-			}
-		}
-	}
-
-	static let shared = TorManager()
+	static let shared = EnvoyManager()
 
 	static let localhost = "127.0.0.1"
 

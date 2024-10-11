@@ -4,18 +4,6 @@
 /* No comment provided by engineer. */
 "(not recommended)" = "(tidak direkomendasikan)";
 
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH1__" = "Browser Onion adalah aplikasi gratis, tetapi perlu waktu dan sumber daya untuk mengembangkan dan memeliharanya.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH2__" = "Anda dapat mendukung aplikasi ini dengan mengirimkan sedikit tip melalui pembelian in-app di bawah ini.  Ini adalah transaksi satu kali, tidak berulang, tapi Anda dapat kembali kapanpun untuk mengirimkan lagi. Pengembang Onion Browser tidak mengumpulkan atau menyimpan informasi apapun mengenai pembelian in-app Anda.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH3__" = "Anda dapat mempelajari tentang cara lainnya untuk membantu (termasuk Patreon, PayPal, Bitcoin, dan Zcash) di bagian 'Tentang' di halaman 'Pengaturan'.";
-
-/* DonationViewController */
-"__DONATE_THANKS__" = "Terima kasih! Tiap bantuan berharga! Pembayaran Anda sebesar %@ membantu memastikan pengembangan yang berkelanjutan pada Onion Browser dan alat yang membuat Tor lebih mudah untuk diintegrasikan ke dalam aplikasi iOS lainnya.";
-
 /* SettingsViewController */
 "About" = "Tentang";
 
@@ -34,8 +22,8 @@
 /* CustomSitesViewController, AddSiteViewController */
 "Add Site" = "Tambahkan Situs";
 
-/* SyncViewController */
-"Additionally, all bookmarks not existing on the server but in Onion Browser will be created there." = "Sebagai tambahan, semua penada akan dibaca melalui server dan ditambahkan/diperbarui di Onion Browser.";
+/* No comment provided by engineer. */
+"Additionally, all bookmarks not existing on the server but in %@ will be created there." = "Additionally, all bookmarks not existing on the server but in %@ will be created there.";
 
 /* BookmarkViewController */
 "Address" = "Alamat";
@@ -60,9 +48,6 @@
 
 /* SecurityViewController */
 "Allow Persistent Cookies" = "Allow Persistent Cookies";
-
-/* DonationViewController */
-"Are you sure you want to send a %@ tip?" = "Apakah Anda yakin ingin mengirimkan tip sebesar %@?";
 
 /* AppDelegate */
 "Authentication Required" = "Autentikasi Dibutuhkan";
@@ -108,12 +93,6 @@
 
 /* No comment provided by engineer. */
 "Configure Bridges" = "Konfigurasikan Jembatan";
-
-/* DonationViewController */
-"Confirm %@" = "Konfirmasi %@";
-
-/* DonationViewController */
-"Confirm Purchase" = "Konfirmasi Pembelian";
 
 /* CertificateViewController */
 "Connection Information" = "Informasi Koneksi ";
@@ -166,9 +145,6 @@
 /* No comment provided by engineer. */
 "Disk Cache" = "Singgahan Diska";
 
-/* DonationViewController */
-"Donate" = "Donasi";
-
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Donate to %@" = "Donasi ke%@";
 
@@ -217,9 +193,6 @@
 /* SettingsViewController */
 "Forget in Background" = "Lupakan di Latar Belakang";
 
-/* SettingsViewController */
-"Fund Development" = "Pengembangan Dana";
-
 /* AppDelegate */
 "Go Back" = "Kembali";
 
@@ -241,8 +214,8 @@
 /* AddSiteViewController, SyncViewController */
 "Host" = "Host";
 
-/* SyncViewController */
-"If you sync, all bookmarks will be read from the server and added/updated in Onion Browser." = "If you sync, all bookmarks will be read from the server and added/updated in Onion Browser.";
+/* No comment provided by engineer. */
+"If you sync, all bookmarks will be read from the server and added/updated in %@." = "If you sync, all bookmarks will be read from the server and added/updated in %@.";
 
 /* Tab+UIWebViewDelegate */
 "Ignore for this host" = "Acuhkan host ini";
@@ -264,9 +237,6 @@
 
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Learn more about %@" = "Pelajari lebih lanjut tentang %@";
-
-/* DonationViewController */
-"Loading in-app purchase data…" = "Loading in-app purchase data…";
 
 /* Storage2ViewController */
 "Local Storage" = "Penyimpanan Lokal";
@@ -328,9 +298,6 @@
 /* AppDelegate, SyncViewController */
 "Password" = "Kata sandi";
 
-/* DonationViewController */
-"Payment Sent" = "Pembayaran Terkirim";
-
 /* CertificateViewController */
 "Period of Validity" = "Masa Validitas";
 
@@ -348,9 +315,6 @@
 
 /* Tab */
 "Pull to Refresh Page" = "Tarik untuk Memperbaharui Halaman";
-
-/* DonationViewController */
-"Purchase Failure" = "Pembelian Gagal";
 
 /* SettingsViewController */
 "Rate on App Store" = "Beri peringkat di App Store";
@@ -418,9 +382,6 @@
 /* SecurityPresetsRow; a security level */
 "Silver" = "Perak";
 
-/* DonationViewController */
-"Sorry, in-app purchase is disabled on your device!" = "Maaf, pembelian dalam aplikasi dinonaktifkan di perangkat Anda!";
-
 /* No comment provided by engineer. */
 "Starting Tor…" = "Starting Tor…";
 
@@ -432,9 +393,6 @@
 
 /* SettingsViewController */
 "Support" = "Bantuan";
-
-/* DonationViewController */
-"Support Onion Browser Development" = "Support Onion Browser Development";
 
 /* AppDelegate */
 "Switch to Tab %d" = "Ganti ke Tab %d";
@@ -462,9 +420,6 @@
 
 /* SecurityViewController, placeholder is app name "Onion Browser" */
 "This is your default security setting for every website you visit in %@." = "Ini adalah pengaturan keamanan bawaan Anda untuk setiap website yang Anda kunjungi dalam %@.";
-
-/* DonationViewController */
-"Tip: %@" = "Tip: %@";
 
 /* BookmarkViewController */
 "Title" = "Judul";
@@ -525,9 +480,6 @@
 
 /* Placeholder is server domain */
 "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk." = "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk.";
-
-/* DonationViewController */
-"You most recently donated %1$@ on %2$@." = "Anda baru saja mendonasikan %1$@pada %2$@";
 
 /* No comment provided by engineer. */
 "You're one step closer to private browsing." = "You're one step closer to private browsing.";

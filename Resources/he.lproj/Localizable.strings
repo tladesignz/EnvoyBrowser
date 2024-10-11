@@ -4,18 +4,6 @@
 /* No comment provided by engineer. */
 "(not recommended)" = "(לא מומלץ)";
 
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH1__" = "דפדפן Onion הוא יישום חינמי, אבל זה לוקח זמן ומשאבים לפתח ולתחזק אותו.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH2__" = "אתה יכול לתמוך ביישום ע״י שליחת תשר קטן באמצעות רכישה בתוך־יישום, למטה. זאת עסקה חד־פעמית, בלתי־מחזורית, אבל אתה יכול לחזור בכל זמן שהוא כדי לשלוח תשלום נוסף. מידע אודות הרכישה בתוך־היישום שלך אינו נאסף או מאוחסן ע״י מפתחי דפדפן Onion.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH3__" = "אתה יכול ללמוד עוד אודות דרכים אחרות לעזור (כולל Patreon, PayPal, Bitcoin או Zcash) בקטע 'אודות' של העמוד 'הגדרות עולמיות'.";
-
-/* DonationViewController */
-"__DONATE_THANKS__" = "תודה! כל תשר קטן עוזר! התשלום %@ שלך עוזר להבטיח המשך פיתוח של דפדפן Onion וכלים שהופכים את Tor לקל יותר לשילוב לתוך יישומי iOS אחרים.";
-
 /* SettingsViewController */
 "About" = "אודות";
 
@@ -34,8 +22,8 @@
 /* CustomSitesViewController, AddSiteViewController */
 "Add Site" = "הוסף אתר";
 
-/* SyncViewController */
-"Additionally, all bookmarks not existing on the server but in Onion Browser will be created there." = "בנוסף, כל הסימניות שאינן קיימות על השרת אבל קיימות בדפדפן Onion יווצרו שם.";
+/* No comment provided by engineer. */
+"Additionally, all bookmarks not existing on the server but in %@ will be created there." = "Additionally, all bookmarks not existing on the server but in %@ will be created there.";
 
 /* BookmarkViewController */
 "Address" = "כתובת";
@@ -60,9 +48,6 @@
 
 /* SecurityViewController */
 "Allow Persistent Cookies" = "התר עוגיות מתמידות";
-
-/* DonationViewController */
-"Are you sure you want to send a %@ tip?" = "האם אתה בטוח שאתה רוצה לשלוח תשר של %@?";
 
 /* AppDelegate */
 "Authentication Required" = "אימות נדרש";
@@ -108,12 +93,6 @@
 
 /* No comment provided by engineer. */
 "Configure Bridges" = "תצר גשרים";
-
-/* DonationViewController */
-"Confirm %@" = "אשר %@";
-
-/* DonationViewController */
-"Confirm Purchase" = "אשר רכישה";
 
 /* CertificateViewController */
 "Connection Information" = "מידע חיבור";
@@ -166,9 +145,6 @@
 /* No comment provided by engineer. */
 "Disk Cache" = "Disk Cache";
 
-/* DonationViewController */
-"Donate" = "תרום";
-
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Donate to %@" = "%@ תרום אל";
 
@@ -217,9 +193,6 @@
 /* SettingsViewController */
 "Forget in Background" = "שכח ברקע";
 
-/* SettingsViewController */
-"Fund Development" = "ממן פיתוח";
-
 /* AppDelegate */
 "Go Back" = "חזור";
 
@@ -241,8 +214,8 @@
 /* AddSiteViewController, SyncViewController */
 "Host" = "מארח";
 
-/* SyncViewController */
-"If you sync, all bookmarks will be read from the server and added/updated in Onion Browser." = "אם תסנכרן, כל הסימניות ייקראו מהשרת ויתווספו/יעודכנו בדפדפן Onion.";
+/* No comment provided by engineer. */
+"If you sync, all bookmarks will be read from the server and added/updated in %@." = "If you sync, all bookmarks will be read from the server and added/updated in %@.";
 
 /* Tab+UIWebViewDelegate */
 "Ignore for this host" = "התעלם עבור מארח זה";
@@ -264,9 +237,6 @@
 
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Learn more about %@" = "%@ למד עוד על";
-
-/* DonationViewController */
-"Loading in-app purchase data…" = "טוען נתוני רכישה בתוך־יישום...";
 
 /* Storage2ViewController */
 "Local Storage" = "אחסון מקומי";
@@ -328,9 +298,6 @@
 /* AppDelegate, SyncViewController */
 "Password" = "סיסמה";
 
-/* DonationViewController */
-"Payment Sent" = "תשלום נשלח";
-
 /* CertificateViewController */
 "Period of Validity" = "תקופת תוקף";
 
@@ -348,9 +315,6 @@
 
 /* Tab */
 "Pull to Refresh Page" = "משוך כדי לרענן דף";
-
-/* DonationViewController */
-"Purchase Failure" = "כישלון רכישה";
 
 /* SettingsViewController */
 "Rate on App Store" = "דרג בחנות היישומים";
@@ -418,9 +382,6 @@
 /* SecurityPresetsRow; a security level */
 "Silver" = "כסף";
 
-/* DonationViewController */
-"Sorry, in-app purchase is disabled on your device!" = "סליחה, רכישה בתוך־יישום מושבתת במכשיר שלך!";
-
 /* No comment provided by engineer. */
 "Starting Tor…" = "Starting Tor…";
 
@@ -432,9 +393,6 @@
 
 /* SettingsViewController */
 "Support" = "תמיכה";
-
-/* DonationViewController */
-"Support Onion Browser Development" = "תמוך בפיתוח דפדפן Onion";
 
 /* AppDelegate */
 "Switch to Tab %d" = "החלף אל לשונית %d";
@@ -462,9 +420,6 @@
 
 /* SecurityViewController, placeholder is app name "Onion Browser" */
 "This is your default security setting for every website you visit in %@." = "זאת הגדרת ברירת המחדל של האבטחה שלך עבור כל אתר שאתה מבקר בו באמצעות %@.";
-
-/* DonationViewController */
-"Tip: %@" = "תשר: %@";
 
 /* BookmarkViewController */
 "Title" = "כותרת";
@@ -525,9 +480,6 @@
 
 /* Placeholder is server domain */
 "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk." = "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk.";
-
-/* DonationViewController */
-"You most recently donated %1$@ on %2$@." = "תרמת בפעם האחרונה %1$@ ב%2$@.";
 
 /* No comment provided by engineer. */
 "You're one step closer to private browsing." = "You're one step closer to private browsing.";

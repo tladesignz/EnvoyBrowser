@@ -4,18 +4,6 @@
 /* No comment provided by engineer. */
 "(not recommended)" = "(ব্যবহার অনুচিত)";
 
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH1__" = "অনিয়ন ব্রাউজার অ্যাপটি বিনামূল্যে ব্যবহারের জন্য, কিন্তু এটি তৈরি ও রক্ষণাবেক্ষণে সময়ের পাশাপাশি আরো নানারকম খরচ রয়েছে। ";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH2__" = "নিচে, অ্যাপের অভ্যন্তরীণ ক্রয়ের মাধ্যমে অল্প কিছু টিপস‍্ দিয়ে আপনি অ্যাপটিকে সহায়তা করতে পারেন। এখানে দিলে শুধু এই একবারই দেওয়া হবে, বার বার দেওয়া বাধ্যতামূলক হবে না। তবে চাইলে আবারও কখনো এই পেইজে এসে আরো টিপস‍্ দিতে পারবেন। অনিয়ন ব্রাউজারের ডেভেলপারদের পক্ষ থেকে আপনার অ্যাপের অভ্যন্তরীণ ক্রয়-সংশ্লিষ্ট কোনো তথ্য সংগ্রহ বা সংরক্ষণ করা হয় না।";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH3__" = "'সেটিংস' পেইজের 'সম্পর্কে' অংশে গেলে আপনি সাহায্য করার অন্যান্য উপায় (পেট্রিয়ন, পেপ্যাল, বিটকয়েন, জিক্যাশসহ) সম্পর্কে জানতে পারবেন।";
-
-/* DonationViewController */
-"__DONATE_THANKS__" = "ধন্যবাদ! কোনো দানই সামান্য নয়! আপনার %@-এর সাহায্যের ফলে অনিয়ন ব্রাউজার ও অন্যান্য টুল তৈরি অব্যাহত রাখা সম্ভব হবে, যার মাধ্যমে অন্যান্য iOS অ্যাপেও টর ব্যবহারের সুযোগ আরো সহজ হয়ে উঠবে।";
-
 /* SettingsViewController */
 "About" = "সম্পর্কে";
 
@@ -34,8 +22,8 @@
 /* CustomSitesViewController, AddSiteViewController */
 "Add Site" = "সাইট যোগ করুন";
 
-/* SyncViewController */
-"Additionally, all bookmarks not existing on the server but in Onion Browser will be created there." = "Additionally, all bookmarks not existing on the server but in Onion Browser will be created there.";
+/* No comment provided by engineer. */
+"Additionally, all bookmarks not existing on the server but in %@ will be created there." = "Additionally, all bookmarks not existing on the server but in %@ will be created there.";
 
 /* BookmarkViewController */
 "Address" = "ঠিকানা";
@@ -60,9 +48,6 @@
 
 /* SecurityViewController */
 "Allow Persistent Cookies" = "স্থায়ী কুকির অনুমতি দিন";
-
-/* DonationViewController */
-"Are you sure you want to send a %@ tip?" = "আপনি কি নিশ্চিতভাবেই একটি %@ টিপ পাঠাতে চান?";
 
 /* AppDelegate */
 "Authentication Required" = "অনুমোদন প্রয়োজন";
@@ -108,12 +93,6 @@
 
 /* No comment provided by engineer. */
 "Configure Bridges" = "ব্রিজগুলি কনফিগার করুন";
-
-/* DonationViewController */
-"Confirm %@" = "%@ নিশ্চিত করুন";
-
-/* DonationViewController */
-"Confirm Purchase" = "ক্রয় নিশ্চিত করুন";
 
 /* CertificateViewController */
 "Connection Information" = "সংযোগ সম্পর্কিত তথ্য";
@@ -166,9 +145,6 @@
 /* No comment provided by engineer. */
 "Disk Cache" = "Disk Cache";
 
-/* DonationViewController */
-"Donate" = "অনুদান";
-
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Donate to %@" = "%@ অ্যাপে অনুদান করুন";
 
@@ -217,9 +193,6 @@
 /* SettingsViewController */
 "Forget in Background" = "পটভূমিতে ভুলে যান";
 
-/* SettingsViewController */
-"Fund Development" = "তহবিল উন্নয়ন";
-
 /* AppDelegate */
 "Go Back" = "পিছনে যান";
 
@@ -241,8 +214,8 @@
 /* AddSiteViewController, SyncViewController */
 "Host" = "হোস্ট";
 
-/* SyncViewController */
-"If you sync, all bookmarks will be read from the server and added/updated in Onion Browser." = "আপনি সিঙ্ক করলে আপনার সব বুকমার্ক সেই সার্ভার থেকে অনিয়ন ব্রাউজারে নিয়ে আসা কিংবা আপডেট করা হবে।";
+/* No comment provided by engineer. */
+"If you sync, all bookmarks will be read from the server and added/updated in %@." = "If you sync, all bookmarks will be read from the server and added/updated in %@.";
 
 /* Tab+UIWebViewDelegate */
 "Ignore for this host" = "এই হোস্টটির জন্য উপেক্ষা করুন";
@@ -264,9 +237,6 @@
 
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Learn more about %@" = "%@ সম্পর্কে বিস্তারিত জানুন";
-
-/* DonationViewController */
-"Loading in-app purchase data…" = "অ্যাপের অভ্যন্তরীণ ক্রয়-সংশ্লিষ্ট তথ্য লোড হছে...";
 
 /* Storage2ViewController */
 "Local Storage" = "লোকাল স্টোরেজ";
@@ -328,9 +298,6 @@
 /* AppDelegate, SyncViewController */
 "Password" = "পাসওয়ার্ড";
 
-/* DonationViewController */
-"Payment Sent" = "পেমেন্ট পাঠানো হয়েছে";
-
 /* CertificateViewController */
 "Period of Validity" = "কার্যকারিতার সময়সীমা";
 
@@ -348,9 +315,6 @@
 
 /* Tab */
 "Pull to Refresh Page" = "পাতা সতেজ করতে টান দিন";
-
-/* DonationViewController */
-"Purchase Failure" = "ক্রয়ে ব্যর্থতা";
 
 /* SettingsViewController */
 "Rate on App Store" = "অ্যাপস্টোরে রেটিং দিন";
@@ -418,9 +382,6 @@
 /* SecurityPresetsRow; a security level */
 "Silver" = "Silver";
 
-/* DonationViewController */
-"Sorry, in-app purchase is disabled on your device!" = "দুঃখিত, অ্যাপের অভ্যন্তরীণ ক্রয় আপনার ডিভাইসে বন্ধ করা রয়েছে!";
-
 /* No comment provided by engineer. */
 "Starting Tor…" = "Starting Tor…";
 
@@ -432,9 +393,6 @@
 
 /* SettingsViewController */
 "Support" = "সহায়তা";
-
-/* DonationViewController */
-"Support Onion Browser Development" = "অনিয়ন ব্রাউজারের ডেভেলপমেন্টে সহায়তা করুন";
 
 /* AppDelegate */
 "Switch to Tab %d" = "%d ট্যাবে যান";
@@ -462,9 +420,6 @@
 
 /* SecurityViewController, placeholder is app name "Onion Browser" */
 "This is your default security setting for every website you visit in %@." = "%@ দিয়ে যেসব ওয়েবসাইটে যাবেন সেগুলোর সবকটির জন্য এটি নিরাপত্তার ডিফল্ট সেটিং।";
-
-/* DonationViewController */
-"Tip: %@" = "টিপস: %@";
 
 /* BookmarkViewController */
 "Title" = "শিরোনাম";
@@ -525,9 +480,6 @@
 
 /* Placeholder is server domain */
 "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk." = "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk.";
-
-/* DonationViewController */
-"You most recently donated %1$@ on %2$@." = "সম্প্রতি সর্বশেষ %2$@ তারিখে আপনি %1$@ দান করেছেন।";
 
 /* No comment provided by engineer. */
 "You're one step closer to private browsing." = "একান্ত ব্রাউজিং এখন আগের চেয়ে আরেকটু সহজ।";

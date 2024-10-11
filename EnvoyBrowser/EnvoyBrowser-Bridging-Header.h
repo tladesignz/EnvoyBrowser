@@ -1,10 +1,10 @@
 //
-//  OnionBrowser-Bridging-Header.h
-//  OnionBrowser
+//  EnvoyBrowser-Bridging-Header.h
+//  EnvoyBrowser
 //
 //  Copyright © 2012 - 2023, Tigas Ventures, LLC (Mike Tigas)
 //
-//  This file is part of Onion Browser. See LICENSE file for redistribution terms.
+//  This file is part of Envoy Browser. See LICENSE file for redistribution terms.
 //
 
 #import "SSLCertificate.h"

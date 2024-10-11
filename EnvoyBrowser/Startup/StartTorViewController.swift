@@ -1,11 +1,11 @@
 //
 //  StartTorViewController.swift
-//  OnionBrowser
+//  EnvoyBrowser
 //
 //  Created by Benjamin Erhart on 11.10.23.
 //  Copyright © 2023 Tigas Ventures, LLC (Mike Tigas)
 //
-//  This file is part of Onion Browser. See LICENSE file for redistribution terms.
+//  This file is part of Envoy Browser. See LICENSE file for redistribution terms.
 //
 
 import UIKit
@@ -53,7 +53,7 @@ class StartTorViewController: UIViewController {
 		progressView.progress = 0
 		errorLb.isHidden = true
 
-		TorManager.shared.start { [weak self] progress in
+		EnvoyManager.shared.start { [weak self] progress in
 			guard let progress = progress else {
 				return
 			}
@@ -66,7 +66,7 @@ class StartTorViewController: UIViewController {
 				DispatchQueue.main.async {
 					self?.activityIndicator.isHidden = true
 					self?.retryBt.isHidden = false
-					self?.errorLb.text = (error ?? TorManager.Errors.noSocksAddr).localizedDescription
+					self?.errorLb.text = error?.localizedDescription
 					self?.errorLb.isHidden = false
 				}
 

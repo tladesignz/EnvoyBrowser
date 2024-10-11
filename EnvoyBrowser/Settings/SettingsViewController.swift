@@ -1,11 +1,11 @@
 //
 //  SettingsViewController.swift
-//  OnionBrowser2
+//  EnvoyBrowser
 //
 //  Created by Benjamin Erhart on 09.10.19.
 //  Copyright © 2012 - 2023, Tigas Ventures, LLC (Mike Tigas)
 //
-//  This file is part of Onion Browser. See LICENSE file for redistribution terms.
+//  This file is part of Envoy Browser. See LICENSE file for redistribution terms.
 //
 
 import UIKit
@@ -272,39 +272,13 @@ class SettingsViewController: FixedFormViewController {
 		}
 		.onCellSelection { [weak self] _, _ in
 			self?.view.sceneDelegate?.browsingUi.addNewTab(
-				URL(string: "https://github.com/OnionBrowser/OnionBrowser/issues"),
+				URL(string: "https://github.com/tladesignz/EnvoyBrowser/issues"),
 				transition: .notAnimated)
 
 			self?.dismsiss_()
 		}
 
-		if let url = URL(string: "itms-apps://itunes.apple.com/app/id519296448"),
-			UIApplication.shared.canOpenURL(url) {
-
-			section
-			<<< ButtonRow() {
-				$0.title = NSLocalizedString("Rate on App Store", comment: "Button title")
-				$0.cell.textLabel?.numberOfLines = 0
-			}
-			.cellUpdate { cell, _ in
-				cell.textLabel?.textAlignment = .natural
-			}
-			.onCellSelection { _, _ in
-				UIApplication.shared.open(url, options: [:])
-			}
-		}
-
 		section
-		<<< LabelRow() {
-			$0.title = NSLocalizedString("Fund Development", comment: "Button title")
-			$0.cell.textLabel?.numberOfLines = 0
-			$0.cell.accessoryType = .disclosureIndicator
-			$0.cell.selectionStyle = .default
-		}
-		.onCellSelection { [weak self] _, _ in
-			self?.navigationController?.pushViewController(DonationViewController(), animated: true)
-		}
-
 		<<< ButtonRow() {
 			$0.title = NSLocalizedString("About", comment: "Button title")
 			$0.cell.textLabel?.numberOfLines = 0
@@ -314,7 +288,7 @@ class SettingsViewController: FixedFormViewController {
 		}
 		.onCellSelection { [weak self] _, _ in
 			self?.view.sceneDelegate?.browsingUi.addNewTab(
-				URL.aboutOnionBrowser, transition: .notAnimated)
+				URL.aboutEnvoyBrowser, transition: .notAnimated)
 
 			self?.dismsiss_()
 		}

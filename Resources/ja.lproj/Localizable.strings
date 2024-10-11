@@ -4,18 +4,6 @@
 /* No comment provided by engineer. */
 "(not recommended)" = "（非推奨）";
 
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH1__" = "Onion Browserは無料ですが、開発と維持にはコストがかかっています。";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH2__" = "Onion Browserを支援するため、アプリ内課金で送金することができます。この課金は一度だけで、継続課金ではありません。もちろん、繰り返し送金していただいても構いません。課金に関する情報は開発者によって収集されることはありません。";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH3__" = "他の支援方法（Patreon, PayPal, Bitcoin, Zcash）については、一般設定のバージョン情報のページを確認してください。";
-
-/* DonationViewController */
-"__DONATE_THANKS__" = "%@の送金、ありがとうございます。支援は、Onion BrowserとTorがiOSに対応するために活用されます。";
-
 /* SettingsViewController */
 "About" = "バージョン情報";
 
@@ -34,8 +22,8 @@
 /* CustomSitesViewController, AddSiteViewController */
 "Add Site" = "サイトを追加";
 
-/* SyncViewController */
-"Additionally, all bookmarks not existing on the server but in Onion Browser will be created there." = "サーバー上にないがOnion Browserには保存されているお気に入りが作成されます。";
+/* No comment provided by engineer. */
+"Additionally, all bookmarks not existing on the server but in %@ will be created there." = "Additionally, all bookmarks not existing on the server but in %@ will be created there.";
 
 /* BookmarkViewController */
 "Address" = "アドレス";
@@ -60,9 +48,6 @@
 
 /* SecurityViewController */
 "Allow Persistent Cookies" = "永続的クッキーを許可";
-
-/* DonationViewController */
-"Are you sure you want to send a %@ tip?" = "本当に %@ チップを送金しますか？";
 
 /* AppDelegate */
 "Authentication Required" = "認証が必要です";
@@ -108,12 +93,6 @@
 
 /* No comment provided by engineer. */
 "Configure Bridges" = "ブリッジの設定";
-
-/* DonationViewController */
-"Confirm %@" = "%@ を購入します";
-
-/* DonationViewController */
-"Confirm Purchase" = "購入確認";
 
 /* CertificateViewController */
 "Connection Information" = "接続情報";
@@ -166,9 +145,6 @@
 /* No comment provided by engineer. */
 "Disk Cache" = "ディスクキャッシュ";
 
-/* DonationViewController */
-"Donate" = "寄付のお願い";
-
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Donate to %@" = "%@ に寄付";
 
@@ -217,9 +193,6 @@
 /* SettingsViewController */
 "Forget in Background" = "バックグラウンド時に消去";
 
-/* SettingsViewController */
-"Fund Development" = "開発資金を支援";
-
 /* AppDelegate */
 "Go Back" = "戻る";
 
@@ -241,8 +214,8 @@
 /* AddSiteViewController, SyncViewController */
 "Host" = "ホスト";
 
-/* SyncViewController */
-"If you sync, all bookmarks will be read from the server and added/updated in Onion Browser." = "同期すると、サーバー上のすべての「お気に入り」がOnion Browserに追加（更新）されます。";
+/* No comment provided by engineer. */
+"If you sync, all bookmarks will be read from the server and added/updated in %@." = "If you sync, all bookmarks will be read from the server and added/updated in %@.";
 
 /* Tab+UIWebViewDelegate */
 "Ignore for this host" = "このホストを無視";
@@ -264,9 +237,6 @@
 
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Learn more about %@" = "%@ の詳しい情報";
-
-/* DonationViewController */
-"Loading in-app purchase data…" = "購入データの読み込み中…";
 
 /* Storage2ViewController */
 "Local Storage" = "ローカル・ストレージ";
@@ -328,9 +298,6 @@
 /* AppDelegate, SyncViewController */
 "Password" = "パスワード";
 
-/* DonationViewController */
-"Payment Sent" = "送金しました";
-
 /* CertificateViewController */
 "Period of Validity" = "有効期限";
 
@@ -348,9 +315,6 @@
 
 /* Tab */
 "Pull to Refresh Page" = "引っ張ってページ更新";
-
-/* DonationViewController */
-"Purchase Failure" = "支払いに失敗";
 
 /* SettingsViewController */
 "Rate on App Store" = "App Storeでレビューする";
@@ -418,9 +382,6 @@
 /* SecurityPresetsRow; a security level */
 "Silver" = "シルバー";
 
-/* DonationViewController */
-"Sorry, in-app purchase is disabled on your device!" = "アプリ内支払いが無効になっています";
-
 /* No comment provided by engineer. */
 "Starting Tor…" = "Torを開始…";
 
@@ -432,9 +393,6 @@
 
 /* SettingsViewController */
 "Support" = "サポート";
-
-/* DonationViewController */
-"Support Onion Browser Development" = "Onion Browserの開発を支援してください。";
 
 /* AppDelegate */
 "Switch to Tab %d" = "タブ%dへ切り替え";
@@ -462,9 +420,6 @@
 
 /* SecurityViewController, placeholder is app name "Onion Browser" */
 "This is your default security setting for every website you visit in %@." = "以下は %@ のセキュリティの初期設定です。";
-
-/* DonationViewController */
-"Tip: %@" = "チップ: %@";
 
 /* BookmarkViewController */
 "Title" = "タイトル";
@@ -525,9 +480,6 @@
 
 /* Placeholder is server domain */
 "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk." = "あなたが接続しているサーバーは\"%@\"を装っているだけかもしれません。機微に触れる情報にはリスクがあります。";
-
-/* DonationViewController */
-"You most recently donated %1$@ on %2$@." = "前回は %1$@ を %2$@ に寄付しています。";
 
 /* No comment provided by engineer. */
 "You're one step closer to private browsing." = "プライベートブラウジングまであと一歩";

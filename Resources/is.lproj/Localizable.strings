@@ -4,18 +4,6 @@
 /* No comment provided by engineer. */
 "(not recommended)" = "(ekki er mælt með þessu)";
 
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH1__" = "Onion-vafrinn er ókeypis hugbúnaður, en það tekur tíma og aðföng að þróa hann frekar og viðhalda.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH2__" = "Þú getur stutt við gerð forritsins með því að senda litla upphæð í gegnum hnapp fyrir kaup innan forrits hér fyrir neðan. Það er eins-skiptis óendurtekin færsla, en auðvitað geturðu farið í þennan eiginleika aftur og sent meira. Engum upplýsingum um kaup þín innan forrits er safnað eða þær geymdar hjá aðstandendum Onion-vafrans.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH3__" = "Þú getur fundið út aðrar leiðir til að hjálpa (meðal annars í gegnum Patreon, PayPal, Bitcoin eða Zcash) í hlutanum 'Um hugbúnaðinn' á síðunni 'Víðværar stillingar'.";
-
-/* DonationViewController */
-"__DONATE_THANKS__" = "Takk kærlega! Hver króna kemur að gagni! Greiðslan þín upp á %@ hjálpar til við áframhaldandi þrónun á Onion-vafranum og þeim tólum sem gera einfaldara að fella Tor inn í önnur iOS-forrit.";
-
 /* SettingsViewController */
 "About" = "Um hugbúnaðinn";
 
@@ -34,8 +22,8 @@
 /* CustomSitesViewController, AddSiteViewController */
 "Add Site" = "Bæta vefsvæði við";
 
-/* SyncViewController */
-"Additionally, all bookmarks not existing on the server but in Onion Browser will be created there." = "Að auki verða öll bókamerki, sem ekki eru á netþjóninum en finnast í Onion vafranum, búin til hér.";
+/* No comment provided by engineer. */
+"Additionally, all bookmarks not existing on the server but in %@ will be created there." = "Additionally, all bookmarks not existing on the server but in %@ will be created there.";
 
 /* BookmarkViewController */
 "Address" = "Vistfang";
@@ -60,9 +48,6 @@
 
 /* SecurityViewController */
 "Allow Persistent Cookies" = "Leyfa varanlegar vefkökur";
-
-/* DonationViewController */
-"Are you sure you want to send a %@ tip?" = "Ertu viss um að þú viljir senda %@ til stuðnings?";
 
 /* AppDelegate */
 "Authentication Required" = "Auðkenningar krafist";
@@ -108,12 +93,6 @@
 
 /* No comment provided by engineer. */
 "Configure Bridges" = "Stilla brýr";
-
-/* DonationViewController */
-"Confirm %@" = "Staðfesta %@";
-
-/* DonationViewController */
-"Confirm Purchase" = "Staðfesta kaup";
 
 /* CertificateViewController */
 "Connection Information" = "Upplýsingar um tengingar";
@@ -166,9 +145,6 @@
 /* No comment provided by engineer. */
 "Disk Cache" = "Diskminni";
 
-/* DonationViewController */
-"Donate" = "Styrkja";
-
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Donate to %@" = "Styrkja %@";
 
@@ -217,9 +193,6 @@
 /* SettingsViewController */
 "Forget in Background" = "Gleyma þegar forrit er í bakgrunni";
 
-/* SettingsViewController */
-"Fund Development" = "Styrkja þróunina";
-
 /* AppDelegate */
 "Go Back" = "Til baka";
 
@@ -241,8 +214,8 @@
 /* AddSiteViewController, SyncViewController */
 "Host" = "Hýsilþjónn";
 
-/* SyncViewController */
-"If you sync, all bookmarks will be read from the server and added/updated in Onion Browser." = "Ef þú samstillir verða öll bókamerki lesin frá netþjóninum og bætt við eða þau uppfærð í Onion vafranum.";
+/* No comment provided by engineer. */
+"If you sync, all bookmarks will be read from the server and added/updated in %@." = "If you sync, all bookmarks will be read from the server and added/updated in %@.";
 
 /* Tab+UIWebViewDelegate */
 "Ignore for this host" = "Hunsa fyrir þennan hýsil";
@@ -264,9 +237,6 @@
 
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Learn more about %@" = "Fræðstu meira um %@";
-
-/* DonationViewController */
-"Loading in-app purchase data…" = "Hleð inn gögnum um kaup innan forrits…";
 
 /* Storage2ViewController */
 "Local Storage" = "Gagnageymslur á tæki";
@@ -328,9 +298,6 @@
 /* AppDelegate, SyncViewController */
 "Password" = "Lykilorð";
 
-/* DonationViewController */
-"Payment Sent" = "Greiðsla send";
-
 /* CertificateViewController */
 "Period of Validity" = "Gildistími";
 
@@ -348,9 +315,6 @@
 
 /* Tab */
 "Pull to Refresh Page" = "Toga til að endurhlaða síðu";
-
-/* DonationViewController */
-"Purchase Failure" = "Kaupin mistókust";
 
 /* SettingsViewController */
 "Rate on App Store" = "Gefa einkunn í App Store";
@@ -418,9 +382,6 @@
 /* SecurityPresetsRow; a security level */
 "Silver" = "Silfur";
 
-/* DonationViewController */
-"Sorry, in-app purchase is disabled on your device!" = "Því miður, kaup innan forrits eru óvirk á tækinu þínu!";
-
 /* No comment provided by engineer. */
 "Starting Tor…" = "Ræsi Tor…";
 
@@ -432,9 +393,6 @@
 
 /* SettingsViewController */
 "Support" = "Aðstoð";
-
-/* DonationViewController */
-"Support Onion Browser Development" = "Styddu við þróun Onion-vafrans";
 
 /* AppDelegate */
 "Switch to Tab %d" = "Skipta yfir í flipa %d";
@@ -462,9 +420,6 @@
 
 /* SecurityViewController, placeholder is app name "Onion Browser" */
 "This is your default security setting for every website you visit in %@." = "Þetta er sjálfgefna öryggisstillingin fyrir öll vefsvæði sem þú skoðar í %@.";
-
-/* DonationViewController */
-"Tip: %@" = "Styrkur: %@";
 
 /* BookmarkViewController */
 "Title" = "Titill";
@@ -525,9 +480,6 @@
 
 /* Placeholder is server domain */
 "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk." = "Þú gætir verið með tengingu við netjón sem þykist vera \"%@\", sem gæti sett viðkvæmar upplýsingar þínar í hættu.";
-
-/* DonationViewController */
-"You most recently donated %1$@ on %2$@." = "Þú gafst nýlega %1$@ þann %2$@.";
 
 /* No comment provided by engineer. */
 "You're one step closer to private browsing." = "Þú ert einu skrefi nær því að hefja huliðsvafur.";

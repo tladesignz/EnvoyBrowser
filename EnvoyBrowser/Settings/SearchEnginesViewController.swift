@@ -1,11 +1,11 @@
 //
 //  SearchEnginesViewController.swift
-//  OnionBrowser2
+//  EnvoyBrowser
 //
 //  Created by Benjamin Erhart on 01.12.22.
 //  Copyright © 2022 - 2023 Tigas Ventures, LLC (Mike Tigas)
 //
-//  This file is part of Onion Browser. See LICENSE file for redistribution terms.
+//  This file is part of Envoy Browser. See LICENSE file for redistribution terms.
 //
 
 import UIKit

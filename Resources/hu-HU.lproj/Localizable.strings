@@ -4,18 +4,6 @@
 /* No comment provided by engineer. */
 "(not recommended)" = "(nem ajánlott)";
 
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH1__" = "Az Onion Browser egy ingyenes alkalmazás, de időt és erőforrást igényel a fejlesztése és fenntartása.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH2__" = "Támogathatja az appot egy kis támogatás küldésével egy appon belüli vásárlással, alább. Ez egy egyszeri, nem ismétlődő tranzakció, de bármikor visszajöhet még egy küldésére. Nem kerül információ az alkalmazáson belüli vásárlásról gyűjtésre vagy tárolásra az Onion Browser fejlesztői által. ";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH3__" = "Meg tudhat többet arról, milyen módokon segíthet még (beleértve a Patreon, PayPal, Bitcoin, vagy Zcash szolgáltatásokat) a 'Névjegy' szekcióban a 'Beállítások' oldalon.";
-
-/* DonationViewController */
-"__DONATE_THANKS__" = "Köszönjük! Minden kis segítség számít. A %@ támogatás lehetővé teszi, hogy folytassuk az Onion Browser  és olyan eszközök fejlesztését, amivel a Tor könnyebben integrálható más iOS alkalmazásokba.";
-
 /* SettingsViewController */
 "About" = "Névjegy";
 
@@ -34,8 +22,8 @@
 /* CustomSitesViewController, AddSiteViewController */
 "Add Site" = "Oldal hozzáadása";
 
-/* SyncViewController */
-"Additionally, all bookmarks not existing on the server but in Onion Browser will be created there." = "Továbbá, minden könyvjelző, ami nem létezik a szerveren, de létezik az Onion Browser-ben, itt lesz létre hozva.";
+/* No comment provided by engineer. */
+"Additionally, all bookmarks not existing on the server but in %@ will be created there." = "Additionally, all bookmarks not existing on the server but in %@ will be created there.";
 
 /* BookmarkViewController */
 "Address" = "Cím";
@@ -60,9 +48,6 @@
 
 /* SecurityViewController */
 "Allow Persistent Cookies" = "Állandó cookie-k engedélyezése";
-
-/* DonationViewController */
-"Are you sure you want to send a %@ tip?" = "Biztosan szeretne küldeni %@ támogatást?";
 
 /* AppDelegate */
 "Authentication Required" = "Hitelesítés szükséges";
@@ -108,12 +93,6 @@
 
 /* No comment provided by engineer. */
 "Configure Bridges" = "Hidak konfigurálása";
-
-/* DonationViewController */
-"Confirm %@" = "%@ megerősítése";
-
-/* DonationViewController */
-"Confirm Purchase" = "Vásárlás megerősítése";
 
 /* CertificateViewController */
 "Connection Information" = "Csatlakozási információ";
@@ -166,9 +145,6 @@
 /* No comment provided by engineer. */
 "Disk Cache" = "Disk Cache";
 
-/* DonationViewController */
-"Donate" = "Támogatás";
-
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Donate to %@" = "%@ támogatása";
 
@@ -217,9 +193,6 @@
 /* SettingsViewController */
 "Forget in Background" = "Elfelejtés a háttérben";
 
-/* SettingsViewController */
-"Fund Development" = "Fejlesztés támogatása";
-
 /* AppDelegate */
 "Go Back" = "Ugrás vissza";
 
@@ -241,8 +214,8 @@
 /* AddSiteViewController, SyncViewController */
 "Host" = "Kiszolgáló";
 
-/* SyncViewController */
-"If you sync, all bookmarks will be read from the server and added/updated in Onion Browser." = "Ha szinkronizál, minden könyvjelzője beolvasásra kerül a szerverről és frissítésre az Onion Browser-ben.";
+/* No comment provided by engineer. */
+"If you sync, all bookmarks will be read from the server and added/updated in %@." = "If you sync, all bookmarks will be read from the server and added/updated in %@.";
 
 /* Tab+UIWebViewDelegate */
 "Ignore for this host" = "Ignorálás ezen a kiszolgálón";
@@ -264,9 +237,6 @@
 
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Learn more about %@" = "Tudjon meg többet az%@-ről";
-
-/* DonationViewController */
-"Loading in-app purchase data…" = "Az alaklmazáson belüli vásárlás adatainak betöltése...";
 
 /* Storage2ViewController */
 "Local Storage" = "Helyi tároló";
@@ -328,9 +298,6 @@
 /* AppDelegate, SyncViewController */
 "Password" = "Jelszó";
 
-/* DonationViewController */
-"Payment Sent" = "Fizetés elküldve";
-
 /* CertificateViewController */
 "Period of Validity" = "Érvényesség időtartama";
 
@@ -348,9 +315,6 @@
 
 /* Tab */
 "Pull to Refresh Page" = "Húzzon az oldal frissítéséhez";
-
-/* DonationViewController */
-"Purchase Failure" = "Vásárlási hiba";
 
 /* SettingsViewController */
 "Rate on App Store" = "Értékelje az Alkalmazás boltban";
@@ -418,9 +382,6 @@
 /* SecurityPresetsRow; a security level */
 "Silver" = "Ezüst";
 
-/* DonationViewController */
-"Sorry, in-app purchase is disabled on your device!" = "Sajnos az appból vásárlás tiltott az Ön eszközén!";
-
 /* No comment provided by engineer. */
 "Starting Tor…" = "Starting Tor…";
 
@@ -432,9 +393,6 @@
 
 /* SettingsViewController */
 "Support" = "Támogatás";
-
-/* DonationViewController */
-"Support Onion Browser Development" = "Támogassa az Onion Browser fejlesztését";
 
 /* AppDelegate */
 "Switch to Tab %d" = "Váltás az %d fülre";
@@ -462,9 +420,6 @@
 
 /* SecurityViewController, placeholder is app name "Onion Browser" */
 "This is your default security setting for every website you visit in %@." = "Ez az alapértelmezett beállítása minden weboldalhoz amit meglátogat az%@-ből.";
-
-/* DonationViewController */
-"Tip: %@" = "Támogatás: %@";
 
 /* BookmarkViewController */
 "Title" = "Cím";
@@ -525,9 +480,6 @@
 
 /* Placeholder is server domain */
 "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk." = "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk.";
-
-/* DonationViewController */
-"You most recently donated %1$@ on %2$@." = "Épp most küldött %1$@támogatást %2$@ úton.";
 
 /* No comment provided by engineer. */
 "You're one step closer to private browsing." = "You're one step closer to private browsing.";

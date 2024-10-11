@@ -4,18 +4,6 @@
 /* No comment provided by engineer. */
 "(not recommended)" = "(ní mholtar é seo)";
 
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH1__" = "Tá Brabhsálaí Onion ar fáil saor in aisce, ach tógann sé am agus acmhainní é a fhorbairt agus a chothú.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH2__" = "Is féidir leat tacú leis an aip trí shéisín beag a thabhairt dúinn trí cheannachán a dhéanamh san aip. Is idirbheart aon uaire é seo, ach tá tú in ann filleadh agus séisín eile a thabhairt am ar bith. Ní bhailíonn forbróirí an bhrabhsálaí aon eolas maidir leis na ceannacháin a dhéanann tú san aip.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH3__" = "Gheobhaidh tú tuilleadh eolais faoi na bealaí eile is féidir leat tacú linn (Patreon, PayPal, Bitcoin, agus Zcash san áireamh) sa rannán 'Maidir leis' ar an leathanach 'Socruithe'. ";
-
-/* DonationViewController */
-"__DONATE_THANKS__" = "Míle buíochas! Bailíonn brobh beart! Cabhraíonn an íocaíocht %@ a thug tú go mór linn leanúint ar aghaidh leis an obair ar Bhrabhsálaí Onion agus ar uirlisí eile a ligeann d'fhorbróirí Tor a chomhtháthú in aipeanna eile iOS.";
-
 /* SettingsViewController */
 "About" = "Maidir leis";
 
@@ -34,8 +22,8 @@
 /* CustomSitesViewController, AddSiteViewController */
 "Add Site" = "Cuir Suíomh Leis";
 
-/* SyncViewController */
-"Additionally, all bookmarks not existing on the server but in Onion Browser will be created there." = "Chomh maith leis sin, má tá leabharmharc agat i mBrabhsálaí Onion nach bhfuil ar an bhfreastalaí fós, cruthófar é ansin.";
+/* No comment provided by engineer. */
+"Additionally, all bookmarks not existing on the server but in %@ will be created there." = "Additionally, all bookmarks not existing on the server but in %@ will be created there.";
 
 /* BookmarkViewController */
 "Address" = "Seoladh";
@@ -60,9 +48,6 @@
 
 /* SecurityViewController */
 "Allow Persistent Cookies" = "Ceadaigh fianáin sheasmhacha";
-
-/* DonationViewController */
-"Are you sure you want to send a %@ tip?" = "An bhfuil tú cinnte gur mhaith leat séisín a thabhairt do %@?";
 
 /* AppDelegate */
 "Authentication Required" = "Fíordheimhniú de dhíth";
@@ -108,12 +93,6 @@
 
 /* No comment provided by engineer. */
 "Configure Bridges" = "Cumraigh Droichid";
-
-/* DonationViewController */
-"Confirm %@" = "Deimhnigh %@";
-
-/* DonationViewController */
-"Confirm Purchase" = "Deimhniú";
 
 /* CertificateViewController */
 "Connection Information" = "Eolas faoin Cheangal";
@@ -166,9 +145,6 @@
 /* No comment provided by engineer. */
 "Disk Cache" = "Disk Cache";
 
-/* DonationViewController */
-"Donate" = "Bronn";
-
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Donate to %@" = "Tabhair airgead do %@";
 
@@ -217,9 +193,6 @@
 /* SettingsViewController */
 "Forget in Background" = "Dearmad sa Chúlra";
 
-/* SettingsViewController */
-"Fund Development" = "Tacaigh leis an bhForbairt";
-
 /* AppDelegate */
 "Go Back" = "Ar Ais";
 
@@ -241,8 +214,8 @@
 /* AddSiteViewController, SyncViewController */
 "Host" = "Óstach";
 
-/* SyncViewController */
-"If you sync, all bookmarks will be read from the server and added/updated in Onion Browser." = "Má dhéanann tú sioncronú, léifear gach leabharmharc ón bhfreastalaí agus cuirfear le Brabhsálaí Onion iad.";
+/* No comment provided by engineer. */
+"If you sync, all bookmarks will be read from the server and added/updated in %@." = "If you sync, all bookmarks will be read from the server and added/updated in %@.";
 
 /* Tab+UIWebViewDelegate */
 "Ignore for this host" = "Ná déan don óstríomhaire seo";
@@ -264,9 +237,6 @@
 
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Learn more about %@" = "Tuilleadh eolais maidir le %@";
-
-/* DonationViewController */
-"Loading in-app purchase data…" = "Sonraí maidir le ceannacháin san aip á lódáil...";
 
 /* Storage2ViewController */
 "Local Storage" = "Stóras Áitiúil";
@@ -328,9 +298,6 @@
 /* AppDelegate, SyncViewController */
 "Password" = "Focal Faire";
 
-/* DonationViewController */
-"Payment Sent" = "Seoladh an Íocaíocht";
-
 /* CertificateViewController */
 "Period of Validity" = "Tréimhse Bailíochta";
 
@@ -348,9 +315,6 @@
 
 /* Tab */
 "Pull to Refresh Page" = "Tarraing chun an leathanach a athlódáil";
-
-/* DonationViewController */
-"Purchase Failure" = "Theip ar an Íocaíocht";
 
 /* SettingsViewController */
 "Rate on App Store" = "Rátáil san App Store";
@@ -418,9 +382,6 @@
 /* SecurityPresetsRow; a security level */
 "Silver" = "Airgead";
 
-/* DonationViewController */
-"Sorry, in-app purchase is disabled on your device!" = "Ár leithscéal; díchumasaíodh ceannacháin san aip ar an ngléas seo!";
-
 /* No comment provided by engineer. */
 "Starting Tor…" = "Starting Tor…";
 
@@ -432,9 +393,6 @@
 
 /* SettingsViewController */
 "Support" = "Tacaíocht";
-
-/* DonationViewController */
-"Support Onion Browser Development" = "Tacaigh le Forbairt Bhrabhsálaí Onion";
 
 /* AppDelegate */
 "Switch to Tab %d" = "Athraigh go dtí %d";
@@ -462,9 +420,6 @@
 
 /* SecurityViewController, placeholder is app name "Onion Browser" */
 "This is your default security setting for every website you visit in %@." = "Seo é an réamhshocrú slándála ar gach suíomh Gréasáin a dtugann tú cuairt air in %@.";
-
-/* DonationViewController */
-"Tip: %@" = "Séisín: %@";
 
 /* BookmarkViewController */
 "Title" = "Teideal";
@@ -525,9 +480,6 @@
 
 /* Placeholder is server domain */
 "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk." = "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk.";
-
-/* DonationViewController */
-"You most recently donated %1$@ on %2$@." = "An deontas deireanach a thug tú: %1$@ ar %2$@.";
 
 /* No comment provided by engineer. */
 "You're one step closer to private browsing." = "You're one step closer to private browsing.";

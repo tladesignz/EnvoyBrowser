@@ -1,11 +1,11 @@
 //
 //  AppDelegate.swift
-//  OnionBrowser
+//  EnvoyBrowser
 //
 //  Created by Benjamin Erhart on 09.01.20.
 //  Copyright © 2012 - 2023, Tigas Ventures, LLC (Mike Tigas)
 //
-//  This file is part of Onion Browser. See LICENSE file for redistribution terms.
+//  This file is part of Envoy Browser. See LICENSE file for redistribution terms.
 //
 
 import UIKit
@@ -96,7 +96,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 
 		DownloadHelper.purge()
 
-		TorManager.shared.stop()
+		EnvoyManager.shared.stop()
 
 		application.ignoreSnapshotOnNextApplicationLaunch()
 	}
@@ -202,7 +202,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 	func maybeStopTor() {
 		Thread.performOnMain {
 			if self.sceneDelegates.isEmpty {
-				TorManager.shared.stop()
+				EnvoyManager.shared.stop()
 			}
 		}
 	}

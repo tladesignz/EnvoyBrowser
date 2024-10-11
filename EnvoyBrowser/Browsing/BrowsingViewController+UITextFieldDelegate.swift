@@ -1,11 +1,11 @@
 //
 //  BrowsingViewController+UITextFieldDelegate.swift
-//  OnionBrowser
+//  EnvoyBrowser
 //
 //  Created by Benjamin Erhart on 06.11.19.
 //  Copyright © 2012 - 2024, Tigas Ventures, LLC (Mike Tigas)
 //
-//  This file is part of Onion Browser. See LICENSE file for redistribution terms.
+//  This file is part of Envoy Browser. See LICENSE file for redistribution terms.
 //
 
 import UIKit
@@ -191,8 +191,8 @@ extension BrowsingViewController: UITextFieldDelegate {
 			}
 
 			// If credits page, return that.
-			if search.caseInsensitiveCompare(URL.aboutOnionBrowser.absoluteString) == .orderedSame {
-				return URL.aboutOnionBrowser
+			if search.caseInsensitiveCompare(URL.aboutEnvoyBrowser.absoluteString) == .orderedSame {
+				return URL.aboutEnvoyBrowser
 			}
 
 			if search.caseInsensitiveCompare(URL.aboutSecurityLevels.absoluteString) == .orderedSame {

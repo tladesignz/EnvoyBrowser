@@ -4,18 +4,6 @@
 /* No comment provided by engineer. */
 "(not recommended)" = "(không khuyến nghị)";
 
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH1__" = "Onion Browser là ứng dụng miễn phí, nhưng tất nhiên vẫn cần thời gian và chi phí để phát triển và tu sửa.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH2__" = "Bạn có thể hỗ trợ ứng dụng bằng cách ủng hộ một khoản tiền nhỏ qua Mua hàng trên ứng dụng. Giao dịch này chỉ xảy ra một lần, không định kì, nhưng bạn luôn có thể quay lại nếu muốn ủng hộ thêm. Lập trình viên Onion Browser không thu thập hay lưu trữ thông tin thanh toán của bạn.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH3__" = "Bạn có thể tìm hiểu thêm cách ủng hộ (qua Patreon, PayPal, Bitcoin hay Zcash) ở mục 'Thông tin' trong trang 'Cài đặt'.";
-
-/* DonationViewController */
-"__DONATE_THANKS__" = "Cảm ơn bạn! Năng nhặt chặt bị! %@ ủng hộ từ bạn sẽ giúp duy trì sự phát triển của Onion Browser và các công cụ tích hợp Tor với ứng dụng iOS.";
-
 /* SettingsViewController */
 "About" = "Thông tin";
 
@@ -34,8 +22,8 @@
 /* CustomSitesViewController, AddSiteViewController */
 "Add Site" = "Thêm Trang web";
 
-/* SyncViewController */
-"Additionally, all bookmarks not existing on the server but in Onion Browser will be created there." = "Ngoài ra, tất cả dấu trang trên Onion Browser không tồn tại trên máy chủ sẽ được tạo mới trên máy chủ.";
+/* No comment provided by engineer. */
+"Additionally, all bookmarks not existing on the server but in %@ will be created there." = "Additionally, all bookmarks not existing on the server but in %@ will be created there.";
 
 /* BookmarkViewController */
 "Address" = "Địa chỉ";
@@ -60,9 +48,6 @@
 
 /* SecurityViewController */
 "Allow Persistent Cookies" = "Cho phép Cookie vĩnh viễn";
-
-/* DonationViewController */
-"Are you sure you want to send a %@ tip?" = "Bạn có chắc muốn ủng hộ %@?";
 
 /* AppDelegate */
 "Authentication Required" = "Cần xác thực";
@@ -108,12 +93,6 @@
 
 /* No comment provided by engineer. */
 "Configure Bridges" = "Cài đặt cầu nối";
-
-/* DonationViewController */
-"Confirm %@" = "Xác nhận %@";
-
-/* DonationViewController */
-"Confirm Purchase" = "Xác nhận thanh toán";
 
 /* CertificateViewController */
 "Connection Information" = "Thông tin kết nối";
@@ -166,9 +145,6 @@
 /* No comment provided by engineer. */
 "Disk Cache" = "Disk Cache";
 
-/* DonationViewController */
-"Donate" = "Ủng hộ";
-
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Donate to %@" = "Ủng hộ %@";
 
@@ -217,9 +193,6 @@
 /* SettingsViewController */
 "Forget in Background" = "Quên khi ở dưới nền";
 
-/* SettingsViewController */
-"Fund Development" = "Ủng hộ phát triển";
-
 /* AppDelegate */
 "Go Back" = "Quay lại";
 
@@ -241,8 +214,8 @@
 /* AddSiteViewController, SyncViewController */
 "Host" = "Tên miền";
 
-/* SyncViewController */
-"If you sync, all bookmarks will be read from the server and added/updated in Onion Browser." = "Nếu bạn đồng bộ, tất cả dấu trang sẽ được đọc từ máy chủ và thêm/cập nhật vào Onion Browser.";
+/* No comment provided by engineer. */
+"If you sync, all bookmarks will be read from the server and added/updated in %@." = "If you sync, all bookmarks will be read from the server and added/updated in %@.";
 
 /* Tab+UIWebViewDelegate */
 "Ignore for this host" = "Ngoại lệ cho tên miền này";
@@ -264,9 +237,6 @@
 
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Learn more about %@" = "Tìm hiểu thêm về %@";
-
-/* DonationViewController */
-"Loading in-app purchase data…" = "Đang tải dữ liệu mua trong ứng dụng...";
 
 /* Storage2ViewController */
 "Local Storage" = "Dữ liệu cục bộ";
@@ -328,9 +298,6 @@
 /* AppDelegate, SyncViewController */
 "Password" = "Mật khẩu";
 
-/* DonationViewController */
-"Payment Sent" = "Đã thanh toán";
-
 /* CertificateViewController */
 "Period of Validity" = "Thời hạn hiệu lực";
 
@@ -348,9 +315,6 @@
 
 /* Tab */
 "Pull to Refresh Page" = "Kéo để tải lại trang";
-
-/* DonationViewController */
-"Purchase Failure" = "Thanh toán thất bại";
 
 /* SettingsViewController */
 "Rate on App Store" = "Đánh giá trên App Store";
@@ -418,9 +382,6 @@
 /* SecurityPresetsRow; a security level */
 "Silver" = "Bạc";
 
-/* DonationViewController */
-"Sorry, in-app purchase is disabled on your device!" = "Xin lỗi, mua hàng trong ứng dụng đã bị tắt trên thiết bị này!";
-
 /* No comment provided by engineer. */
 "Starting Tor…" = "Starting Tor…";
 
@@ -432,9 +393,6 @@
 
 /* SettingsViewController */
 "Support" = "Hỗ trợ";
-
-/* DonationViewController */
-"Support Onion Browser Development" = "Hỗ trợ phát triển Onion Browser";
 
 /* AppDelegate */
 "Switch to Tab %d" = "Chuyển đến cửa sổ %d";
@@ -462,9 +420,6 @@
 
 /* SecurityViewController, placeholder is app name "Onion Browser" */
 "This is your default security setting for every website you visit in %@." = "Đây là cài đặt bảo mật mặc định của bạn cho mọi trang web bạn truy cập trên %@.";
-
-/* DonationViewController */
-"Tip: %@" = "Mẹo: %@";
 
 /* BookmarkViewController */
 "Title" = "Tiêu đề";
@@ -525,9 +480,6 @@
 
 /* Placeholder is server domain */
 "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk." = "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk.";
-
-/* DonationViewController */
-"You most recently donated %1$@ on %2$@." = "Gần đây bạn đã ủng hộ %1$@ vào %2$@.";
 
 /* No comment provided by engineer. */
 "You're one step closer to private browsing." = "You're one step closer to private browsing.";

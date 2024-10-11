@@ -4,18 +4,6 @@
 /* No comment provided by engineer. */
 "(not recommended)" = "(не рекомендується)";
 
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH1__" = "Onion Browser є безкоштовним додатком, але для його розробки та підтримки потрібні час і ресурси.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH2__" = "Ви можете підтримати додаток, відправивши невеликі чайові через покупку всередині програми (див. Нижче). Це разова, одноразова транзакція, але ви можете підтримати нас і пізніше знову повернувшись сюди. Розробники Onion Browser не збирають і не зберігають ніякої інформації про вашу покупку в додатку.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH3__" = "Ви можете дізнатися про інші способи допомоги (включаючи Patreon, PayPal, Bitcoin або Zcash) в розділі 'Про програму' на сторінці 'Глобальні налаштування'.";
-
-/* DonationViewController */
-"__DONATE_THANKS__" = "Дякуємо! Кожна дрібниця допомагає! Ваш платіж в розмірі%@ допоможе забезпечити безперервний розвиток Onion Browser та інструментів, які полегшують інтеграцію Tor в інші додатки для iOS.";
-
 /* SettingsViewController */
 "About" = "Про";
 
@@ -34,8 +22,8 @@
 /* CustomSitesViewController, AddSiteViewController */
 "Add Site" = "Додати Сайт";
 
-/* SyncViewController */
-"Additionally, all bookmarks not existing on the server but in Onion Browser will be created there." = "Крім того, там будуть створені усі закладки, яких немає на сервері, але які є в Onion Browser.";
+/* No comment provided by engineer. */
+"Additionally, all bookmarks not existing on the server but in %@ will be created there." = "Additionally, all bookmarks not existing on the server but in %@ will be created there.";
 
 /* BookmarkViewController */
 "Address" = "Адреса";
@@ -60,9 +48,6 @@
 
 /* SecurityViewController */
 "Allow Persistent Cookies" = "Дозволити постійні файли cookie";
-
-/* DonationViewController */
-"Are you sure you want to send a %@ tip?" = "Ви дійсно хочете відправити чайові в розмірі %@?";
 
 /* AppDelegate */
 "Authentication Required" = "Необхідна Аутентифікація";
@@ -108,12 +93,6 @@
 
 /* No comment provided by engineer. */
 "Configure Bridges" = "Налаштувати Мости";
-
-/* DonationViewController */
-"Confirm %@" = "Підтвердити %@";
-
-/* DonationViewController */
-"Confirm Purchase" = "Підтвердити покупку";
 
 /* CertificateViewController */
 "Connection Information" = "Інформація про підключення";
@@ -166,9 +145,6 @@
 /* No comment provided by engineer. */
 "Disk Cache" = "Кеш диску";
 
-/* DonationViewController */
-"Donate" = "Пожертва";
-
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Donate to %@" = "Пожертвувати до %@";
 
@@ -217,9 +193,6 @@
 /* SettingsViewController */
 "Forget in Background" = "Забути в фоновому режимі";
 
-/* SettingsViewController */
-"Fund Development" = "Розвиток Фонду";
-
 /* AppDelegate */
 "Go Back" = "Повернутися";
 
@@ -241,8 +214,8 @@
 /* AddSiteViewController, SyncViewController */
 "Host" = "Хост";
 
-/* SyncViewController */
-"If you sync, all bookmarks will be read from the server and added/updated in Onion Browser." = "Якщо ви синхронізуєте закладки, вони читатимуться з сервера та додаватимуться / оновлюватимуться в Onion Browser.";
+/* No comment provided by engineer. */
+"If you sync, all bookmarks will be read from the server and added/updated in %@." = "If you sync, all bookmarks will be read from the server and added/updated in %@.";
 
 /* Tab+UIWebViewDelegate */
 "Ignore for this host" = "Ігнорувати для цього хосту";
@@ -264,9 +237,6 @@
 
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Learn more about %@" = "Дізнатися більше про %@";
-
-/* DonationViewController */
-"Loading in-app purchase data…" = "Завантажте дані про покупку в застосунку...";
 
 /* Storage2ViewController */
 "Local Storage" = "Місцеве зберігання";
@@ -328,9 +298,6 @@
 /* AppDelegate, SyncViewController */
 "Password" = "Пароль";
 
-/* DonationViewController */
-"Payment Sent" = "Платіж відправлено";
-
 /* CertificateViewController */
 "Period of Validity" = "Період дії";
 
@@ -348,9 +315,6 @@
 
 /* Tab */
 "Pull to Refresh Page" = "Потягніть, щоб оновити сторінку";
-
-/* DonationViewController */
-"Purchase Failure" = "Помилка Купівлі";
 
 /* SettingsViewController */
 "Rate on App Store" = "Оцініть в App Store";
@@ -418,9 +382,6 @@
 /* SecurityPresetsRow; a security level */
 "Silver" = "Срібло";
 
-/* DonationViewController */
-"Sorry, in-app purchase is disabled on your device!" = "На жаль, покупка через додаток відключена на вашому пристрої!";
-
 /* No comment provided by engineer. */
 "Starting Tor…" = "Запускання Tor…";
 
@@ -432,9 +393,6 @@
 
 /* SettingsViewController */
 "Support" = "Підтримка";
-
-/* DonationViewController */
-"Support Onion Browser Development" = "Підтримати розробників Onion Browser";
 
 /* AppDelegate */
 "Switch to Tab %d" = "Перейдіть на вкладку %d";
@@ -462,9 +420,6 @@
 
 /* SecurityViewController, placeholder is app name "Onion Browser" */
 "This is your default security setting for every website you visit in %@." = "Це налаштування безпеки за замовчуванням для кожного веб-сайту, який ви відвідуєте в %@.";
-
-/* DonationViewController */
-"Tip: %@" = "Чайові: %@";
 
 /* BookmarkViewController */
 "Title" = "Назва";
@@ -525,9 +480,6 @@
 
 /* Placeholder is server domain */
 "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk." = "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk.";
-
-/* DonationViewController */
-"You most recently donated %1$@ on %2$@." = "Ви нещодавно пожертвували %1$@ на %2$@.";
 
 /* No comment provided by engineer. */
 "You're one step closer to private browsing." = "Ви на крок наблизились до приватного перегляду інтернету.";

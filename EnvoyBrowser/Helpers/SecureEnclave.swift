@@ -1,11 +1,11 @@
 //
 //  SecureEnclave.swift
-//  OnionBrowser2
+//  EnvoyBrowser
 //
 //  Created by Benjamin Erhart on 12.03.20.
 //  Copyright © 2020 - 2023, Tigas Ventures, LLC (Mike Tigas).
 //
-//  This file is part of Onion Browser. See LICENSE file for redistribution terms.
+//  This file is part of Envoy Browser. See LICENSE file for redistribution terms.
 //
 
 import Foundation
@@ -23,7 +23,7 @@ class SecureEnclave: NSObject {
 	/**
 	Tag of the single private key we're using.
 	*/
-	static let tag = "Onion Browser".data(using: .utf8)!
+	static let tag = "Envoy Browser".data(using: .utf8)!
 
 	private static let laContext = LAContext()
 

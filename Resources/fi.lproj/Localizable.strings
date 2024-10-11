@@ -4,18 +4,6 @@
 /* No comment provided by engineer. */
 "(not recommended)" = "(ei suositella)";
 
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH1__" = "Onion-selain on ilmainen sovellus, mutta sen kehitys vaatii aikaa ja resursseja.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH2__" = "Voit tukea sovellusta lähettämällä alta pienen tipin sovelluksen sisäisellä ostolla. Tämä on kertaluonteinen, toistumaton tapahtuma, mutta milloin lähettää sen uudelleen. Onion-selaimen kehittäjät eivät kerää tai tallenna tietoja sovelluksen sisäisistä ostoista.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH3__" = "Voit lukea muista auttamistavoista (mukaan lukien Patreonin, PayPalin, Bitcoinin tai Zcashin) \"Asetukset\" -sivun \"Tietoja\" -osiosta.";
-
-/* DonationViewController */
-"__DONATE_THANKS__" = "Kiitos! Jokainen pala auttaa! %@ maksusi varmistaa Onion-selaimen ja Torin iOS-sovellusintegraatiota helpottavien työkalujen jatkuvan kehityksen.";
-
 /* SettingsViewController */
 "About" = "Tietoja";
 
@@ -34,8 +22,8 @@
 /* CustomSitesViewController, AddSiteViewController */
 "Add Site" = "Lisää sivusto";
 
-/* SyncViewController */
-"Additionally, all bookmarks not existing on the server but in Onion Browser will be created there." = "Lisäksi kaikki palvelimelta puuttuvat Onion-selaimen kirjamerkit luodaan sinne.";
+/* No comment provided by engineer. */
+"Additionally, all bookmarks not existing on the server but in %@ will be created there." = "Additionally, all bookmarks not existing on the server but in %@ will be created there.";
 
 /* BookmarkViewController */
 "Address" = "Osoite";
@@ -60,9 +48,6 @@
 
 /* SecurityViewController */
 "Allow Persistent Cookies" = "Salli pysyvät evästeet";
-
-/* DonationViewController */
-"Are you sure you want to send a %@ tip?" = "Haluatko varmasti lähettää %@ tipin?";
 
 /* AppDelegate */
 "Authentication Required" = "Todennus vaaditaan";
@@ -108,12 +93,6 @@
 
 /* No comment provided by engineer. */
 "Configure Bridges" = "Määritä sillat";
-
-/* DonationViewController */
-"Confirm %@" = "Vahvista %@";
-
-/* DonationViewController */
-"Confirm Purchase" = "Vahvista osto";
 
 /* CertificateViewController */
 "Connection Information" = "Yhteystiedot";
@@ -166,9 +145,6 @@
 /* No comment provided by engineer. */
 "Disk Cache" = "Levyvälimuisti";
 
-/* DonationViewController */
-"Donate" = "Lahjoita";
-
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Donate to %@" = "Lahjoita %@ille";
 
@@ -217,9 +193,6 @@
 /* SettingsViewController */
 "Forget in Background" = "Unohda taustalla";
 
-/* SettingsViewController */
-"Fund Development" = "Rahoita kehitystä";
-
 /* AppDelegate */
 "Go Back" = "Palaa takaisin";
 
@@ -241,8 +214,8 @@
 /* AddSiteViewController, SyncViewController */
 "Host" = "Palvelin";
 
-/* SyncViewController */
-"If you sync, all bookmarks will be read from the server and added/updated in Onion Browser." = "Jos synkronointi on käytössä, luetaan kaikki kirjamerkit palvelimelta ja lisätään/päivitetään Onion-selaimeen.";
+/* No comment provided by engineer. */
+"If you sync, all bookmarks will be read from the server and added/updated in %@." = "If you sync, all bookmarks will be read from the server and added/updated in %@.";
 
 /* Tab+UIWebViewDelegate */
 "Ignore for this host" = "Älä huomoi tällä palvelimella";
@@ -264,9 +237,6 @@
 
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Learn more about %@" = "Lue lisää %@ista";
-
-/* DonationViewController */
-"Loading in-app purchase data…" = "Ladataan sovelluksen sisäisen oston tietoja...";
 
 /* Storage2ViewController */
 "Local Storage" = "Paikallinen tallennustila";
@@ -328,9 +298,6 @@
 /* AppDelegate, SyncViewController */
 "Password" = "Salasana";
 
-/* DonationViewController */
-"Payment Sent" = "Maksu lähetetty";
-
 /* CertificateViewController */
 "Period of Validity" = "Voimassaoloaika";
 
@@ -348,9 +315,6 @@
 
 /* Tab */
 "Pull to Refresh Page" = "Päivitä sivu vetämällä";
-
-/* DonationViewController */
-"Purchase Failure" = "Osto epäonnistui";
 
 /* SettingsViewController */
 "Rate on App Store" = "Arvioi App Storessa";
@@ -418,9 +382,6 @@
 /* SecurityPresetsRow; a security level */
 "Silver" = "Hopea";
 
-/* DonationViewController */
-"Sorry, in-app purchase is disabled on your device!" = "Valitettavasti sovelluksen sisäiset ostot eivät ole käytössä laitteessasi!";
-
 /* No comment provided by engineer. */
 "Starting Tor…" = "Käynnistetään Tor…";
 
@@ -432,9 +393,6 @@
 
 /* SettingsViewController */
 "Support" = "Tuki";
-
-/* DonationViewController */
-"Support Onion Browser Development" = "Tue Onion-selaimen kehitystä";
 
 /* AppDelegate */
 "Switch to Tab %d" = "Vaihda välilehteen %d";
@@ -462,9 +420,6 @@
 
 /* SecurityViewController, placeholder is app name "Onion Browser" */
 "This is your default security setting for every website you visit in %@." = "Tämä on oletusarvoinen suojausasetus kaikille %@issa avatuille sivustoille.";
-
-/* DonationViewController */
-"Tip: %@" = "Tippi: %@";
 
 /* BookmarkViewController */
 "Title" = "Nimi";
@@ -525,9 +480,6 @@
 
 /* Placeholder is server domain */
 "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk." = "Yrität mahdollisesti yhdistää palvelimeen, joka saattaa valheellisesti esittäytyä verkkotunnuksella \"%@\" ja tämä voi vaarantaa luottamuksellisia tietojasi.";
-
-/* DonationViewController */
-"You most recently donated %1$@ on %2$@." = "Lahjoitit viimeksi %1$@ %2$@.";
 
 /* No comment provided by engineer. */
 "You're one step closer to private browsing." = "Olet askeleen lähempänä yksityistä selausta.";

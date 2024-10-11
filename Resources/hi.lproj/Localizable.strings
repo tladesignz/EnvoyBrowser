@@ -4,18 +4,6 @@
 /* No comment provided by engineer. */
 "(not recommended)" = "(सिफारिश नहीं की गई)";
 
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH1__" = "Onion Browser is a free app, but it takes time and resources to develop and maintain.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH2__" = "You can support the app by sending a small tip through an in-app purchase, below. This is a one-time, non-recurring transaction, but you can come back any time to send another. No information about your in-app purchase is collected or stored by the Onion Browser developers.";
-
-/* DonationViewController */
-"__DONATE_EXPLANATION_PARAGRAPH3__" = "You can learn about other ways to help (including Patreon, PayPal, Bitcoin, or Zcash) in the 'About' section of the 'Settings' page.";
-
-/* DonationViewController */
-"__DONATE_THANKS__" = "Thank you! Every little bit helps! Your payment of %@ helps ensure continuing development on Onion Browser and tools that make Tor easier to integrate into other iOS apps.";
-
 /* SettingsViewController */
 "About" = "बारे में";
 
@@ -34,8 +22,8 @@
 /* CustomSitesViewController, AddSiteViewController */
 "Add Site" = "साइट जोड़ें";
 
-/* SyncViewController */
-"Additionally, all bookmarks not existing on the server but in Onion Browser will be created there." = "Additionally, all bookmarks not existing on the server but in Onion Browser will be created there.";
+/* No comment provided by engineer. */
+"Additionally, all bookmarks not existing on the server but in %@ will be created there." = "Additionally, all bookmarks not existing on the server but in %@ will be created there.";
 
 /* BookmarkViewController */
 "Address" = "पता";
@@ -60,9 +48,6 @@
 
 /* SecurityViewController */
 "Allow Persistent Cookies" = "लगातार कुकीज़ की अनुमति दें";
-
-/* DonationViewController */
-"Are you sure you want to send a %@ tip?" = "क्या आप वाकई %@ टिप भेजना चाहते हैं?";
 
 /* AppDelegate */
 "Authentication Required" = "प्रमाणीकरण आवश्यक";
@@ -108,12 +93,6 @@
 
 /* No comment provided by engineer. */
 "Configure Bridges" = "ब्रिड्जस  को कॉन्फ़िगर करें";
-
-/* DonationViewController */
-"Confirm %@" = "Confirm %@";
-
-/* DonationViewController */
-"Confirm Purchase" = "खरीदी की पुष्टि करें";
 
 /* CertificateViewController */
 "Connection Information" = "कनेक्शन जानकारी";
@@ -166,9 +145,6 @@
 /* No comment provided by engineer. */
 "Disk Cache" = "Disk Cache";
 
-/* DonationViewController */
-"Donate" = "दान करें";
-
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Donate to %@" = "को दान दें %@";
 
@@ -217,9 +193,6 @@
 /* SettingsViewController */
 "Forget in Background" = "पृष्ठभूमि में भूल जाओ";
 
-/* SettingsViewController */
-"Fund Development" = "निधि विकास";
-
 /* AppDelegate */
 "Go Back" = "वापस जाओ";
 
@@ -241,8 +214,8 @@
 /* AddSiteViewController, SyncViewController */
 "Host" = "मेज़बान";
 
-/* SyncViewController */
-"If you sync, all bookmarks will be read from the server and added/updated in Onion Browser." = "If you sync, all bookmarks will be read from the server and added/updated in Onion Browser.";
+/* No comment provided by engineer. */
+"If you sync, all bookmarks will be read from the server and added/updated in %@." = "If you sync, all bookmarks will be read from the server and added/updated in %@.";
 
 /* Tab+UIWebViewDelegate */
 "Ignore for this host" = "इस होस्ट के लिए उपेक्षा करें";
@@ -264,9 +237,6 @@
 
 /* Bookmark, placeholder is app name "Onion Browser" */
 "Learn more about %@" = "के बारे में अधिक जानने %@";
-
-/* DonationViewController */
-"Loading in-app purchase data…" = "इन-ऐप खरीदारी डेटा लोड हो रहा है ...";
 
 /* Storage2ViewController */
 "Local Storage" = "स्थानीय भंडार";
@@ -328,9 +298,6 @@
 /* AppDelegate, SyncViewController */
 "Password" = "पासवर्ड";
 
-/* DonationViewController */
-"Payment Sent" = "भुगतान भेजा";
-
 /* CertificateViewController */
 "Period of Validity" = "वैधता की अवधी";
 
@@ -348,9 +315,6 @@
 
 /* Tab */
 "Pull to Refresh Page" = "पुनश्चर्या को खींचें";
-
-/* DonationViewController */
-"Purchase Failure" = "खरीद में विफलता";
 
 /* SettingsViewController */
 "Rate on App Store" = "ऐप स्टोर पर दर";
@@ -418,9 +382,6 @@
 /* SecurityPresetsRow; a security level */
 "Silver" = "Silver";
 
-/* DonationViewController */
-"Sorry, in-app purchase is disabled on your device!" = "क्षमा करें, इन-ऐप खरीदारी आपके डिवाइस पर अक्षम है!";
-
 /* No comment provided by engineer. */
 "Starting Tor…" = "Starting Tor…";
 
@@ -432,9 +393,6 @@
 
 /* SettingsViewController */
 "Support" = "समर्थन";
-
-/* DonationViewController */
-"Support Onion Browser Development" = "समर्थन Onion Browser विकास";
 
 /* AppDelegate */
 "Switch to Tab %d" = "टैब पर स्विच करें %d";
@@ -462,9 +420,6 @@
 
 /* SecurityViewController, placeholder is app name "Onion Browser" */
 "This is your default security setting for every website you visit in %@." = "यह आपके द्वारा देखी जाने वाली प्रत्येक वेबसाइट के लिए आपकी डिफ़ॉल्ट सुरक्षा सेटिंग है %@";
-
-/* DonationViewController */
-"Tip: %@" = "सुझाव:%@";
 
 /* BookmarkViewController */
 "Title" = "शीर्षक";
@@ -525,9 +480,6 @@
 
 /* Placeholder is server domain */
 "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk." = "You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk.";
-
-/* DonationViewController */
-"You most recently donated %1$@ on %2$@." = "आप सबसे हाल ही में %1$@ पर %2$@ दान दिया।";
 
 /* No comment provided by engineer. */
 "You're one step closer to private browsing." = "You're one step closer to private browsing.";
