@@ -229,7 +229,7 @@
 /* SecurityPopUpViewController */
 "Learn More" = "さらに詳しく";
 
-/* Bookmark, placeholder is app name "Onion Browser" */
+/* Bookmark, placeholder is app name "Envoy Browser" */
 "Learn more about %@" = "%@ の詳しい情報";
 
 /* Storage2ViewController */
@@ -406,7 +406,7 @@
 /* SecurityViewController */
 "These might change server behaviour. E.g. show or not show Captchas or return pages meant for desktop browsers." = "サーバーの動作に影響をもたらす可能性があります。例えば、キャプチャを表示したりしなかったり、およびデスクトップブラウザ用のページを表示したりするかもしれない。";
 
-/* SecurityViewController, placeholder is app name "Onion Browser" */
+/* SecurityViewController, placeholder is app name "Envoy Browser" */
 "This is your default security setting for every website you visit in %@." = "以下は %@ のセキュリティの初期設定です。";
 
 /* BookmarkViewController */
@@ -457,7 +457,7 @@
 /* No comment provided by engineer. */
 "WebSQL Databases" = "WebSQLデータベース";
 
-/* Placeholder is 'Onion Browser' */
+/* Placeholder is 'Envoy Browser' */
 "Welcome to %@" = "%@にようこそ";
 
 /* SettingsViewController */

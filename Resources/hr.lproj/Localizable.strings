@@ -229,7 +229,7 @@
 /* SecurityPopUpViewController */
 "Learn More" = "Saznaj više";
 
-/* Bookmark, placeholder is app name "Onion Browser" */
+/* Bookmark, placeholder is app name "Envoy Browser" */
 "Learn more about %@" = "Saznaj više o %@";
 
 /* Storage2ViewController */
@@ -406,7 +406,7 @@
 /* SecurityViewController */
 "These might change server behaviour. E.g. show or not show Captchas or return pages meant for desktop browsers." = "Oni mogu promijeniti ponašanje poslužitelja. Npr. prikazati ili ne prikazati captcha slike ili vratiti stranice koje su namijenjene za desktop preglednike.";
 
-/* SecurityViewController, placeholder is app name "Onion Browser" */
+/* SecurityViewController, placeholder is app name "Envoy Browser" */
 "This is your default security setting for every website you visit in %@." = "Ovo je standardna sigurnosna postavka za svako web mjesto koje posjetiš u %@u.";
 
 /* BookmarkViewController */
@@ -457,7 +457,7 @@
 /* No comment provided by engineer. */
 "WebSQL Databases" = "WebSQL baze podataka";
 
-/* Placeholder is 'Onion Browser' */
+/* Placeholder is 'Envoy Browser' */
 "Welcome to %@" = "Welcome to %@";
 
 /* SettingsViewController */

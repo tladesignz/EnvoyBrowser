@@ -229,7 +229,7 @@
 /* SecurityPopUpViewController */
 "Learn More" = "আরো জানুন";
 
-/* Bookmark, placeholder is app name "Onion Browser" */
+/* Bookmark, placeholder is app name "Envoy Browser" */
 "Learn more about %@" = "%@ সম্পর্কে বিস্তারিত জানুন";
 
 /* Storage2ViewController */
@@ -406,7 +406,7 @@
 /* SecurityViewController */
 "These might change server behaviour. E.g. show or not show Captchas or return pages meant for desktop browsers." = "These might change server behaviour. E.g. show or not show Captchas or return pages meant for desktop browsers.";
 
-/* SecurityViewController, placeholder is app name "Onion Browser" */
+/* SecurityViewController, placeholder is app name "Envoy Browser" */
 "This is your default security setting for every website you visit in %@." = "%@ দিয়ে যেসব ওয়েবসাইটে যাবেন সেগুলোর সবকটির জন্য এটি নিরাপত্তার ডিফল্ট সেটিং।";
 
 /* BookmarkViewController */
@@ -457,7 +457,7 @@
 /* No comment provided by engineer. */
 "WebSQL Databases" = "WebSQL Databases";
 
-/* Placeholder is 'Onion Browser' */
+/* Placeholder is 'Envoy Browser' */
 "Welcome to %@" = "Welcome to %@";
 
 /* SettingsViewController */

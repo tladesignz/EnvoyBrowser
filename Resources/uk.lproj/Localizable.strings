@@ -229,7 +229,7 @@
 /* SecurityPopUpViewController */
 "Learn More" = "Дізнатись більше";
 
-/* Bookmark, placeholder is app name "Onion Browser" */
+/* Bookmark, placeholder is app name "Envoy Browser" */
 "Learn more about %@" = "Дізнатися більше про %@";
 
 /* Storage2ViewController */
@@ -406,7 +406,7 @@
 /* SecurityViewController */
 "These might change server behaviour. E.g. show or not show Captchas or return pages meant for desktop browsers." = "Це може змінити поведінку сервера. Тобто показувати чи не показувати Captcha, або показувати сторінки, призначені для настільних браузерів.";
 
-/* SecurityViewController, placeholder is app name "Onion Browser" */
+/* SecurityViewController, placeholder is app name "Envoy Browser" */
 "This is your default security setting for every website you visit in %@." = "Це налаштування безпеки за замовчуванням для кожного веб-сайту, який ви відвідуєте в %@.";
 
 /* BookmarkViewController */
@@ -457,7 +457,7 @@
 /* No comment provided by engineer. */
 "WebSQL Databases" = "Бази даних WebSQL";
 
-/* Placeholder is 'Onion Browser' */
+/* Placeholder is 'Envoy Browser' */
 "Welcome to %@" = "Вітаємо в %@";
 
 /* SettingsViewController */
