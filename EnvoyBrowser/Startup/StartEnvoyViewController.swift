@@ -1,5 +1,5 @@
 //
-//  StartTorViewController.swift
+//  StartEnvoyViewController.swift
 //  EnvoyBrowser
 //
 //  Created by Benjamin Erhart on 11.10.23.
@@ -10,11 +10,11 @@
 
 import UIKit
 
-class StartTorViewController: UIViewController {
+class StartEnvoyViewController: UIViewController {
 
 	@IBOutlet weak var titleLb: UILabel! {
 		didSet {
-			titleLb.text = NSLocalizedString("Starting Tor…", comment: "")
+			titleLb.text = NSLocalizedString("Starting Envoy…", comment: "")
 		}
 	}
 
@@ -29,12 +29,6 @@ class StartTorViewController: UIViewController {
 	@IBOutlet weak var progressView: UIProgressView!
 
 	@IBOutlet weak var errorLb: UILabel!
-
-	@IBOutlet weak var bridgesBt: UIButton! {
-		didSet {
-			bridgesBt.setTitle(NSLocalizedString("Configure Bridges", comment: ""))
-		}
-	}
 
 
 	override func viewDidAppear(_ animated: Bool) {
@@ -78,12 +72,8 @@ class StartTorViewController: UIViewController {
 					tab.reinitWebView()
 				}
 
-				self?.view.sceneDelegate?.show(nil)
+				self?.view.sceneDelegate?.show(EnvoyManager.shared.checkStatus())
 			}
 		}
-	}
-
-	@IBAction
-	func configureBridges() {
 	}
 }

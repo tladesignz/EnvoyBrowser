@@ -91,9 +91,6 @@
 /* AppDelegate */
 "Close Tab" = "Zavřít panel";
 
-/* No comment provided by engineer. */
-"Configure Bridges" = "Nastavit bridge";
-
 /* CertificateViewController */
 "Connection Information" = "Informace o spojení";
 
@@ -144,9 +141,6 @@
 
 /* No comment provided by engineer. */
 "Disk Cache" = "Disk Cache";
-
-/* Bookmark, placeholder is app name "Onion Browser" */
-"Donate to %@" = "Přispět %@";
 
 /* BrowsingViewController */
 "Done" = "Hotovo";
@@ -316,9 +310,6 @@
 /* Tab */
 "Pull to Refresh Page" = "Táhnutím znovu načtete";
 
-/* SettingsViewController */
-"Rate on App Store" = "Hodnotit na App Storu";
-
 /* AppDelegate */
 "Reload Tab" = "Obnovit záložku";
 
@@ -383,13 +374,10 @@
 "Silver" = "Stříbro";
 
 /* No comment provided by engineer. */
-"Starting Tor…" = "Starting Tor…";
+"Starting Envoy…" = "Starting Envoy…";
 
 /* SettingsViewController */
 "Stop Auto-Complete at First Dot" = "Zastavit našeptávač po první tečce";
-
-/* Bookmark */
-"Subscribe to Tor Newsletter" = "Přihlásit se k odběru Tor novinek";
 
 /* SettingsViewController */
 "Support" = "Podpora";

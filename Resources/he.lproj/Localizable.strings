@@ -91,9 +91,6 @@
 /* AppDelegate */
 "Close Tab" = "סגור לשונית";
 
-/* No comment provided by engineer. */
-"Configure Bridges" = "תצר גשרים";
-
 /* CertificateViewController */
 "Connection Information" = "מידע חיבור";
 
@@ -144,9 +141,6 @@
 
 /* No comment provided by engineer. */
 "Disk Cache" = "Disk Cache";
-
-/* Bookmark, placeholder is app name "Onion Browser" */
-"Donate to %@" = "%@ תרום אל";
 
 /* BrowsingViewController */
 "Done" = "סיים";
@@ -316,9 +310,6 @@
 /* Tab */
 "Pull to Refresh Page" = "משוך כדי לרענן דף";
 
-/* SettingsViewController */
-"Rate on App Store" = "דרג בחנות היישומים";
-
 /* AppDelegate */
 "Reload Tab" = "טען מחדש לשונית";
 
@@ -383,13 +374,10 @@
 "Silver" = "כסף";
 
 /* No comment provided by engineer. */
-"Starting Tor…" = "Starting Tor…";
+"Starting Envoy…" = "Starting Envoy…";
 
 /* SettingsViewController */
 "Stop Auto-Complete at First Dot" = "הפסק השלמה אוטומטית בנקודה ראשונה";
-
-/* Bookmark */
-"Subscribe to Tor Newsletter" = "Tor הירשם כמנוי אל עלון";
 
 /* SettingsViewController */
 "Support" = "תמיכה";

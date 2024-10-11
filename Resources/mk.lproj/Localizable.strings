@@ -91,9 +91,6 @@
 /* AppDelegate */
 "Close Tab" = "Затвори таб";
 
-/* No comment provided by engineer. */
-"Configure Bridges" = "Конфигурирање на мостови";
-
 /* CertificateViewController */
 "Connection Information" = "Информации за поврзувањето";
 
@@ -144,9 +141,6 @@
 
 /* No comment provided by engineer. */
 "Disk Cache" = "Disk Cache";
-
-/* Bookmark, placeholder is app name "Onion Browser" */
-"Donate to %@" = "Донирајте на %@";
 
 /* BrowsingViewController */
 "Done" = "Завршено";
@@ -316,9 +310,6 @@
 /* Tab */
 "Pull to Refresh Page" = "Повлечи за да ја освежиш страната";
 
-/* SettingsViewController */
-"Rate on App Store" = "Рангирајте на Продавницата за апликации";
-
 /* AppDelegate */
 "Reload Tab" = "Повторно вчитај го табот";
 
@@ -383,13 +374,10 @@
 "Silver" = "Сребрено";
 
 /* No comment provided by engineer. */
-"Starting Tor…" = "Starting Tor…";
+"Starting Envoy…" = "Starting Envoy…";
 
 /* SettingsViewController */
 "Stop Auto-Complete at First Dot" = "Стопирај го автоматското-завршување на првата точка";
-
-/* Bookmark */
-"Subscribe to Tor Newsletter" = "Претплатете се да добивате Tor новости";
 
 /* SettingsViewController */
 "Support" = "Поддршка";

@@ -103,7 +103,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 		BlurredSnapshot.remove()
 
-		let vc: UIViewController? = nil
+		let vc = EnvoyManager.shared.checkStatus()
 
 		show(vc)
 

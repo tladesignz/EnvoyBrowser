@@ -91,9 +91,6 @@
 /* AppDelegate */
 "Close Tab" = "Đóng cửa sổ";
 
-/* No comment provided by engineer. */
-"Configure Bridges" = "Cài đặt cầu nối";
-
 /* CertificateViewController */
 "Connection Information" = "Thông tin kết nối";
 
@@ -144,9 +141,6 @@
 
 /* No comment provided by engineer. */
 "Disk Cache" = "Disk Cache";
-
-/* Bookmark, placeholder is app name "Onion Browser" */
-"Donate to %@" = "Ủng hộ %@";
 
 /* BrowsingViewController */
 "Done" = "Xong";
@@ -316,9 +310,6 @@
 /* Tab */
 "Pull to Refresh Page" = "Kéo để tải lại trang";
 
-/* SettingsViewController */
-"Rate on App Store" = "Đánh giá trên App Store";
-
 /* AppDelegate */
 "Reload Tab" = "Tải lại trang";
 
@@ -383,13 +374,10 @@
 "Silver" = "Bạc";
 
 /* No comment provided by engineer. */
-"Starting Tor…" = "Starting Tor…";
+"Starting Envoy…" = "Starting Envoy…";
 
 /* SettingsViewController */
 "Stop Auto-Complete at First Dot" = "Tắt Tự động điền sau dấu chấm đầu tiên";
-
-/* Bookmark */
-"Subscribe to Tor Newsletter" = "Đăng kí Tor Newsletter";
 
 /* SettingsViewController */
 "Support" = "Hỗ trợ";

@@ -34,6 +34,6 @@ class WelcomeViewController: UIViewController {
 	func next() {
 		Settings.didWelcome = true
 
-		view.sceneDelegate?.show(nil)
+		view.sceneDelegate?.show(EnvoyManager.shared.checkStatus())
 	}
 }

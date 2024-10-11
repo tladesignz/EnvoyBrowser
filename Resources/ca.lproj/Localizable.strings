@@ -91,9 +91,6 @@
 /* AppDelegate */
 "Close Tab" = "Tanca la pestanya";
 
-/* No comment provided by engineer. */
-"Configure Bridges" = "Configura els ponts";
-
 /* CertificateViewController */
 "Connection Information" = "Informació de la connexió";
 
@@ -144,9 +141,6 @@
 
 /* No comment provided by engineer. */
 "Disk Cache" = "Memòria cau del disc";
-
-/* Bookmark, placeholder is app name "Onion Browser" */
-"Donate to %@" = "Feu un donatiu a %@";
 
 /* BrowsingViewController */
 "Done" = "Fet";
@@ -316,9 +310,6 @@
 /* Tab */
 "Pull to Refresh Page" = "Llisqueu per a actualitzar";
 
-/* SettingsViewController */
-"Rate on App Store" = "Valora-la a l'App Store";
-
 /* AppDelegate */
 "Reload Tab" = "Torna a carregar les pestanyes";
 
@@ -383,13 +374,10 @@
 "Silver" = "Plata";
 
 /* No comment provided by engineer. */
-"Starting Tor…" = "S'està iniciant el Tor…";
+"Starting Envoy…" = "Starting Envoy…";
 
 /* SettingsViewController */
 "Stop Auto-Complete at First Dot" = "Deixa d'emplenar automàticament al primer punt";
-
-/* Bookmark */
-"Subscribe to Tor Newsletter" = "Subscripció al butlletí de Tor";
 
 /* SettingsViewController */
 "Support" = "Assistència";

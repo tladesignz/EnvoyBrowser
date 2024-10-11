@@ -91,9 +91,6 @@
 /* AppDelegate */
 "Close Tab" = "Închide Fereastra";
 
-/* No comment provided by engineer. */
-"Configure Bridges" = "Configurare Poduri";
-
 /* CertificateViewController */
 "Connection Information" = "Informații despre conexiune";
 
@@ -144,9 +141,6 @@
 
 /* No comment provided by engineer. */
 "Disk Cache" = "Disk Cache";
-
-/* Bookmark, placeholder is app name "Onion Browser" */
-"Donate to %@" = "Donează la %@";
 
 /* BrowsingViewController */
 "Done" = "Terminat";
@@ -316,9 +310,6 @@
 /* Tab */
 "Pull to Refresh Page" = "Trage pentru a reîncărca pagina";
 
-/* SettingsViewController */
-"Rate on App Store" = "Evaluează în App Store";
-
 /* AppDelegate */
 "Reload Tab" = "Reîncarcă Fereastra";
 
@@ -383,13 +374,10 @@
 "Silver" = "Argint";
 
 /* No comment provided by engineer. */
-"Starting Tor…" = "Starting Tor…";
+"Starting Envoy…" = "Starting Envoy…";
 
 /* SettingsViewController */
 "Stop Auto-Complete at First Dot" = "Oprește auto-completarea la primul punct";
-
-/* Bookmark */
-"Subscribe to Tor Newsletter" = "Abonează-te la newsletter-ul Tor";
 
 /* SettingsViewController */
 "Support" = "Ajutor";

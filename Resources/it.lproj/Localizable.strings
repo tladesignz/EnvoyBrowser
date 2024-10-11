@@ -91,9 +91,6 @@
 /* AppDelegate */
 "Close Tab" = "Chiudi scheda";
 
-/* No comment provided by engineer. */
-"Configure Bridges" = "Configura Bridges";
-
 /* CertificateViewController */
 "Connection Information" = "Informaizoni connessione";
 
@@ -144,9 +141,6 @@
 
 /* No comment provided by engineer. */
 "Disk Cache" = "Disk Cache";
-
-/* Bookmark, placeholder is app name "Onion Browser" */
-"Donate to %@" = "Dona a %@";
 
 /* BrowsingViewController */
 "Done" = "Fatto";
@@ -316,9 +310,6 @@
 /* Tab */
 "Pull to Refresh Page" = "trascina verso il basso per ricaricare la pagina";
 
-/* SettingsViewController */
-"Rate on App Store" = "Valute su App Store";
-
 /* AppDelegate */
 "Reload Tab" = "Ricarica scheda";
 
@@ -383,13 +374,10 @@
 "Silver" = "Argento";
 
 /* No comment provided by engineer. */
-"Starting Tor…" = "Starting Tor…";
+"Starting Envoy…" = "Starting Envoy…";
 
 /* SettingsViewController */
 "Stop Auto-Complete at First Dot" = "Stop auto-completamento al primo sito";
-
-/* Bookmark */
-"Subscribe to Tor Newsletter" = "Iscriviti alla Tor Newsletter";
 
 /* SettingsViewController */
 "Support" = "Supporto";

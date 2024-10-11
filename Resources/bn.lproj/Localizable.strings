@@ -91,9 +91,6 @@
 /* AppDelegate */
 "Close Tab" = "ট্যাব বন্ধ করুন";
 
-/* No comment provided by engineer. */
-"Configure Bridges" = "ব্রিজগুলি কনফিগার করুন";
-
 /* CertificateViewController */
 "Connection Information" = "সংযোগ সম্পর্কিত তথ্য";
 
@@ -144,9 +141,6 @@
 
 /* No comment provided by engineer. */
 "Disk Cache" = "Disk Cache";
-
-/* Bookmark, placeholder is app name "Onion Browser" */
-"Donate to %@" = "%@ অ্যাপে অনুদান করুন";
 
 /* BrowsingViewController */
 "Done" = "সম্পন্ন";
@@ -316,9 +310,6 @@
 /* Tab */
 "Pull to Refresh Page" = "পাতা সতেজ করতে টান দিন";
 
-/* SettingsViewController */
-"Rate on App Store" = "অ্যাপস্টোরে রেটিং দিন";
-
 /* AppDelegate */
 "Reload Tab" = "ট্যাব রিলোড করুন";
 
@@ -383,13 +374,10 @@
 "Silver" = "Silver";
 
 /* No comment provided by engineer. */
-"Starting Tor…" = "Starting Tor…";
+"Starting Envoy…" = "Starting Envoy…";
 
 /* SettingsViewController */
 "Stop Auto-Complete at First Dot" = "প্রথম ডটে অটোকমপ্লিট বন্ধ হয়ে যাবে";
-
-/* Bookmark */
-"Subscribe to Tor Newsletter" = "টরের নিউজলেটার পেতে সাবস্ক্রাইব করুন";
 
 /* SettingsViewController */
 "Support" = "সহায়তা";

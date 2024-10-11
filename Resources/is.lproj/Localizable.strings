@@ -91,9 +91,6 @@
 /* AppDelegate */
 "Close Tab" = "Loka flipa";
 
-/* No comment provided by engineer. */
-"Configure Bridges" = "Stilla brýr";
-
 /* CertificateViewController */
 "Connection Information" = "Upplýsingar um tengingar";
 
@@ -144,9 +141,6 @@
 
 /* No comment provided by engineer. */
 "Disk Cache" = "Diskminni";
-
-/* Bookmark, placeholder is app name "Onion Browser" */
-"Donate to %@" = "Styrkja %@";
 
 /* BrowsingViewController */
 "Done" = "Lokið";
@@ -316,9 +310,6 @@
 /* Tab */
 "Pull to Refresh Page" = "Toga til að endurhlaða síðu";
 
-/* SettingsViewController */
-"Rate on App Store" = "Gefa einkunn í App Store";
-
 /* AppDelegate */
 "Reload Tab" = "Endurlesa flipa";
 
@@ -383,13 +374,10 @@
 "Silver" = "Silfur";
 
 /* No comment provided by engineer. */
-"Starting Tor…" = "Ræsi Tor…";
+"Starting Envoy…" = "Starting Envoy…";
 
 /* SettingsViewController */
 "Stop Auto-Complete at First Dot" = "Stöðva sjálfvirka útfyllingu við fyrsta punkt";
-
-/* Bookmark */
-"Subscribe to Tor Newsletter" = "Gerstu áskrifandi að Tor fréttabréfinu";
 
 /* SettingsViewController */
 "Support" = "Aðstoð";

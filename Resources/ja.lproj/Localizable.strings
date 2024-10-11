@@ -91,9 +91,6 @@
 /* AppDelegate */
 "Close Tab" = "タブを閉じる";
 
-/* No comment provided by engineer. */
-"Configure Bridges" = "ブリッジの設定";
-
 /* CertificateViewController */
 "Connection Information" = "接続情報";
 
@@ -144,9 +141,6 @@
 
 /* No comment provided by engineer. */
 "Disk Cache" = "ディスクキャッシュ";
-
-/* Bookmark, placeholder is app name "Onion Browser" */
-"Donate to %@" = "%@ に寄付";
 
 /* BrowsingViewController */
 "Done" = "完了";
@@ -316,9 +310,6 @@
 /* Tab */
 "Pull to Refresh Page" = "引っ張ってページ更新";
 
-/* SettingsViewController */
-"Rate on App Store" = "App Storeでレビューする";
-
 /* AppDelegate */
 "Reload Tab" = "タブを再読み込み";
 
@@ -383,13 +374,10 @@
 "Silver" = "シルバー";
 
 /* No comment provided by engineer. */
-"Starting Tor…" = "Torを開始…";
+"Starting Envoy…" = "Starting Envoy…";
 
 /* SettingsViewController */
 "Stop Auto-Complete at First Dot" = "最初のドットでオートコンプリートを停止する";
-
-/* Bookmark */
-"Subscribe to Tor Newsletter" = "Torニュースレターを購読";
 
 /* SettingsViewController */
 "Support" = "サポート";

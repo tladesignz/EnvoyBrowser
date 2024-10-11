@@ -91,9 +91,6 @@
 /* AppDelegate */
 "Close Tab" = "탭 닫기";
 
-/* No comment provided by engineer. */
-"Configure Bridges" = "브릿지 구성";
-
 /* CertificateViewController */
 "Connection Information" = "연결 정보";
 
@@ -144,9 +141,6 @@
 
 /* No comment provided by engineer. */
 "Disk Cache" = "Disk Cache";
-
-/* Bookmark, placeholder is app name "Onion Browser" */
-"Donate to %@" = "%@에 기부하기";
 
 /* BrowsingViewController */
 "Done" = "완료";
@@ -316,9 +310,6 @@
 /* Tab */
 "Pull to Refresh Page" = "당겨서 페이지 새로 고침";
 
-/* SettingsViewController */
-"Rate on App Store" = "App Store에서 평가하기";
-
 /* AppDelegate */
 "Reload Tab" = "탭 새로고침";
 
@@ -383,13 +374,10 @@
 "Silver" = "실버";
 
 /* No comment provided by engineer. */
-"Starting Tor…" = "Starting Tor…";
+"Starting Envoy…" = "Starting Envoy…";
 
 /* SettingsViewController */
 "Stop Auto-Complete at First Dot" = "첫 번째 도트에서 자동 완성 중지";
-
-/* Bookmark */
-"Subscribe to Tor Newsletter" = "Tor 뉴스레터 구독하기";
 
 /* SettingsViewController */
 "Support" = "지원";

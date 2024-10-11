@@ -91,9 +91,6 @@
 /* AppDelegate */
 "Close Tab" = "Mbylle Skedën";
 
-/* No comment provided by engineer. */
-"Configure Bridges" = "Formësoni Ura";
-
 /* CertificateViewController */
 "Connection Information" = "Të dhëna Lidhjeje";
 
@@ -144,9 +141,6 @@
 
 /* No comment provided by engineer. */
 "Disk Cache" = "Fshehtinë Disku";
-
-/* Bookmark, placeholder is app name "Onion Browser" */
-"Donate to %@" = "Dhuroni për %@";
 
 /* BrowsingViewController */
 "Done" = "U Krye";
@@ -316,9 +310,6 @@
 /* Tab */
 "Pull to Refresh Page" = "Tërhiq për të Rifreskuar Faqen";
 
-/* SettingsViewController */
-"Rate on App Store" = "Vlerësojeni te Shitore Aplikacionesh";
-
 /* AppDelegate */
 "Reload Tab" = "Ringarko Skedën";
 
@@ -383,13 +374,10 @@
 "Silver" = "E argjendtë";
 
 /* No comment provided by engineer. */
-"Starting Tor…" = "Po niset Tor-i ";
+"Starting Envoy…" = "Starting Envoy…";
 
 /* SettingsViewController */
 "Stop Auto-Complete at First Dot" = "Ndale Vetëplotësimin në Pikën e Parë";
-
-/* Bookmark */
-"Subscribe to Tor Newsletter" = "Pajtohuni te Buletini Tor";
 
 /* SettingsViewController */
 "Support" = "Asistencë";

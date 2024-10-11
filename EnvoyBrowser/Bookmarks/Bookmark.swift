@@ -116,30 +116,30 @@ open class Bookmark: NSObject {
 
 			// Render bookmarks.
 			for i in 0 ... 5 {
-				let url: URL
-				let name: String
-				let icon: UIImage
+				var url: URL? = nil
+				var name: String? = nil
+				var icon: UIImage? = nil
 
 				if all.count > i,
-					let tempUrl = all[i].url {
-
+					let tempUrl = all[i].url
+				{
 					url = tempUrl
 
-					name = all[i].name ?? url.host!
+					name = all[i].name ?? url?.host
 					icon = all[i].icon ?? Bookmark.defaultIcon
 				}
-				else {
+				else if defaultBookmarks.count > i {
 					// Make sure that the first 6 default bookmarks are available!
-					url = defaultBookmarks[i].url!
-					name = defaultBookmarks[i].name ?? url.host!
+					url = defaultBookmarks[i].url
+					name = defaultBookmarks[i].name ?? url?.host
 					icon = defaultBookmarks[i].icon ?? Bookmark.defaultIcon
 				}
 
 				template = template
-					.replacingOccurrences(of: "{{ bookmark_url_\(i) }}", with: url.absoluteString)
-					.replacingOccurrences(of: "{{ bookmark_name_\(i) }}", with: name)
+					.replacingOccurrences(of: "{{ bookmark_url_\(i) }}", with: url?.absoluteString ?? "")
+					.replacingOccurrences(of: "{{ bookmark_name_\(i) }}", with: name ?? "")
 					.replacingOccurrences(of: "{{ bookmark_icon_\(i) }}",
-						with: "data:image/png;base64,\(icon.pngData()?.base64EncodedString() ?? "")")
+						with: "data:image/png;base64,\(icon?.pngData()?.base64EncodedString() ?? "")")
 			}
 		}
 
@@ -148,10 +148,6 @@ open class Bookmark: NSObject {
 								  with: Bundle.main.displayName)
 			.replacingOccurrences(of: "{{ Learn more about Envoy Browser }}",
 								  with: String(format: NSLocalizedString("Learn more about %@", comment: ""), Bundle.main.displayName))
-			.replacingOccurrences(of: "{{ Donate to Envoy Browser }}",
-								  with: String(format: NSLocalizedString("Donate to %@", comment: ""), Bundle.main.displayName))
-			.replacingOccurrences(of: "{{ Subscribe to Tor Newsletter }}",
-								  with: NSLocalizedString("Subscribe to Tor Newsletter", comment: ""))
 
 		try? template.write(to: URL.start, atomically: true, encoding: .utf8)
 

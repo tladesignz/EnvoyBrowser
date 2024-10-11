@@ -42,11 +42,13 @@
 		A02885802893FA23007D5AE8 /* WebsiteStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A028857F2893FA23007D5AE8 /* WebsiteStorage.swift */; };
 		A028858228940B93007D5AE8 /* Storage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A028858128940B93007D5AE8 /* Storage2ViewController.swift */; };
 		A02A09082AD6B92800A9334C /* EnvoyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07DD6B42AC5914B00441B48 /* EnvoyManager.swift */; };
-		A02A09122AD6CAF000A9334C /* StartTorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02A09112AD6CAF000A9334C /* StartTorViewController.swift */; };
-		A02A09142AD6E8C000A9334C /* StartTorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A02A09102AD6CAF000A9334C /* StartTorViewController.xib */; };
+		A02A09122AD6CAF000A9334C /* StartEnvoyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02A09112AD6CAF000A9334C /* StartEnvoyViewController.swift */; };
+		A02A09142AD6E8C000A9334C /* StartEnvoyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A02A09102AD6CAF000A9334C /* StartEnvoyViewController.xib */; };
 		A02CB2B523D0B0B300880720 /* AddBookmarkActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02CB2B423D0B0B300880720 /* AddBookmarkActivity.swift */; };
 		A036C3B22937A06C0035AA4F /* AddSearchEngineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A036C3B12937A06C0035AA4F /* AddSearchEngineViewController.swift */; };
 		A03CFA042892B05500F01DB5 /* DownloadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03CFA032892B05500F01DB5 /* DownloadHelper.swift */; };
+		A04E79552CB95E810047D9AD /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04E79542CB95E810047D9AD /* Proxy.swift */; };
+		A04E79572CB9643E0047D9AD /* proxies.plist in Resources */ = {isa = PBXBuildFile; fileRef = A04E79562CB9643E0047D9AD /* proxies.plist */; };
 		A0550649271094A900922E18 /* ua-strings.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0550648271094A900922E18 /* ua-strings.plist */; };
 		A0696EAD2406C7D000512695 /* SyncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0696EAC2406C7D000512695 /* SyncViewController.swift */; };
 		A0696EAF2406D94200512695 /* Nextcloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0696EAE2406D94200512695 /* Nextcloud.swift */; };
@@ -165,8 +167,8 @@
 		A025F27421F62C100034B947 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		A028857F2893FA23007D5AE8 /* WebsiteStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteStorage.swift; sourceTree = "<group>"; };
 		A028858128940B93007D5AE8 /* Storage2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage2ViewController.swift; sourceTree = "<group>"; };
-		A02A09102AD6CAF000A9334C /* StartTorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartTorViewController.xib; sourceTree = "<group>"; };
-		A02A09112AD6CAF000A9334C /* StartTorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTorViewController.swift; sourceTree = "<group>"; };
+		A02A09102AD6CAF000A9334C /* StartEnvoyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartEnvoyViewController.xib; sourceTree = "<group>"; };
+		A02A09112AD6CAF000A9334C /* StartEnvoyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartEnvoyViewController.swift; sourceTree = "<group>"; };
 		A02AB5C12AA5F34000CC6779 /* tt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tt; path = tt.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A02AB5C22AA5F34000CC6779 /* tt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = tt; path = tt.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		A02AB5C32AA5F34000CC6779 /* tt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tt; path = tt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -174,6 +176,8 @@
 		A02CB2B423D0B0B300880720 /* AddBookmarkActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookmarkActivity.swift; sourceTree = "<group>"; };
 		A036C3B12937A06C0035AA4F /* AddSearchEngineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSearchEngineViewController.swift; sourceTree = "<group>"; };
 		A03CFA032892B05500F01DB5 /* DownloadHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadHelper.swift; sourceTree = "<group>"; };
+		A04E79542CB95E810047D9AD /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
+		A04E79562CB9643E0047D9AD /* proxies.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = proxies.plist; sourceTree = "<group>"; };
 		A0550648271094A900922E18 /* ua-strings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ua-strings.plist"; sourceTree = "<group>"; };
 		A06881D02A66ADF60084D26D /* release.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = release.entitlements; sourceTree = "<group>"; };
 		A06881D12A66B0070084D26D /* debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = debug.entitlements; sourceTree = "<group>"; };
@@ -515,8 +519,8 @@
 			children = (
 				A0FA965B2A015EBB005EDC3F /* WelcomeViewController.xib */,
 				A0FA965C2A015EBB005EDC3F /* WelcomeViewController.swift */,
-				A02A09102AD6CAF000A9334C /* StartTorViewController.xib */,
-				A02A09112AD6CAF000A9334C /* StartTorViewController.swift */,
+				A02A09102AD6CAF000A9334C /* StartEnvoyViewController.xib */,
+				A02A09112AD6CAF000A9334C /* StartEnvoyViewController.swift */,
 			);
 			path = Startup;
 			sourceTree = "<group>";
@@ -528,6 +532,7 @@
 				A08563382A04EA1E00A3A7FF /* Localizable.stringsdict */,
 				A085635E2A04EA8C00A3A7FF /* InfoPlist.strings */,
 				A07037C223C74DC900D670EC /* Media.xcassets */,
+				A04E79562CB9643E0047D9AD /* proxies.plist */,
 				A0BF51D123AFBF250096624A /* SearchEngines.plist */,
 				A0550648271094A900922E18 /* ua-strings.plist */,
 				A0A1A3582A03DAB800DE4991 /* security-levels.html */,
@@ -554,6 +559,7 @@
 				A07037C523C7571B00D670EC /* AppDelegate.swift */,
 				A003A1922A0D1628008D8845 /* SceneDelegate.swift */,
 				A07DD6B42AC5914B00441B48 /* EnvoyManager.swift */,
+				A04E79542CB95E810047D9AD /* Proxy.swift */,
 				A0BF523023AFC3580096624A /* EnvoyBrowser-Bridging-Header.h */,
 				A0BF520023AFC3580096624A /* version.h */,
 				A0BF523523AFC3580096624A /* Helpers */,
@@ -789,7 +795,8 @@
 				A0FA965D2A015EBB005EDC3F /* WelcomeViewController.xib in Resources */,
 				A0BF525423AFC3580096624A /* BrowsingViewController.xib in Resources */,
 				A0BF524A23AFC3580096624A /* SecurityPopUpViewController.xib in Resources */,
-				A02A09142AD6E8C000A9334C /* StartTorViewController.xib in Resources */,
+				A04E79572CB9643E0047D9AD /* proxies.plist in Resources */,
+				A02A09142AD6E8C000A9334C /* StartEnvoyViewController.xib in Resources */,
 				A0BF526323AFC3580096624A /* BookmarksViewController.xib in Resources */,
 				A0BF51ED23AFBF250096624A /* start.html in Resources */,
 			);
@@ -911,7 +918,7 @@
 				A0BF526023AFC3580096624A /* BrowsingViewController+Toolbar.swift in Sources */,
 				A004FB2A241A782500451A9E /* SecureEnclave.swift in Sources */,
 				01F2AE391B7FEF5E00D5651A /* SSLCertificate.m in Sources */,
-				A02A09122AD6CAF000A9334C /* StartTorViewController.swift in Sources */,
+				A02A09122AD6CAF000A9334C /* StartEnvoyViewController.swift in Sources */,
 				A0BF527223AFC3580096624A /* SettingsViewController.swift in Sources */,
 				A0BF527723AFC3580096624A /* BlurredSnapshot.swift in Sources */,
 				A013DEDA2434E69A0087D12B /* UIImage+Helpers.swift in Sources */,
@@ -958,6 +965,7 @@
 				A0BF526E23AFC3580096624A /* Storage1ViewController.swift in Sources */,
 				69CBCD471E934228009D5352 /* URLBlockerRuleController.m in Sources */,
 				01F7CB4E1A52FC4E00F42B73 /* NSString+IPAddress.m in Sources */,
+				A04E79552CB95E810047D9AD /* Proxy.swift in Sources */,
 				A0BF525B23AFC3580096624A /* Tab+Gestures.swift in Sources */,
 				A0BF527B23AFC3580096624A /* Formatter.swift in Sources */,
 				A003A1932A0D1628008D8845 /* SceneDelegate.swift in Sources */,

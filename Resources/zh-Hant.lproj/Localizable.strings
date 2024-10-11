@@ -91,9 +91,6 @@
 /* AppDelegate */
 "Close Tab" = "關閉分頁";
 
-/* No comment provided by engineer. */
-"Configure Bridges" = "設定橋接器";
-
 /* CertificateViewController */
 "Connection Information" = "連線資訊";
 
@@ -144,9 +141,6 @@
 
 /* No comment provided by engineer. */
 "Disk Cache" = "磁碟快取";
-
-/* Bookmark, placeholder is app name "Onion Browser" */
-"Donate to %@" = "捐款給 %@";
 
 /* BrowsingViewController */
 "Done" = "已完成";
@@ -316,9 +310,6 @@
 /* Tab */
 "Pull to Refresh Page" = "拉動以重新整理頁面";
 
-/* SettingsViewController */
-"Rate on App Store" = "在 App Store 上為我們評價";
-
 /* AppDelegate */
 "Reload Tab" = "重新載入分頁";
 
@@ -383,13 +374,10 @@
 "Silver" = "銀牌";
 
 /* No comment provided by engineer. */
-"Starting Tor…" = "正在啟動 Tor…";
+"Starting Envoy…" = "Starting Envoy…";
 
 /* SettingsViewController */
 "Stop Auto-Complete at First Dot" = "在第一個句點上停止自動完成";
-
-/* Bookmark */
-"Subscribe to Tor Newsletter" = "訂閱 Tor 電子報";
 
 /* SettingsViewController */
 "Support" = "支援我們";

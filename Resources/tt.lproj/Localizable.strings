@@ -91,9 +91,6 @@
 /* AppDelegate */
 "Close Tab" = "Табны ябу";
 
-/* No comment provided by engineer. */
-"Configure Bridges" = "Күперләрне көйләү";
-
 /* CertificateViewController */
 "Connection Information" = "Бәйләнеш турында мәгълүмат";
 
@@ -144,9 +141,6 @@
 
 /* No comment provided by engineer. */
 "Disk Cache" = "Диск кәше";
-
-/* Bookmark, placeholder is app name "Onion Browser" */
-"Donate to %@" = "%@-га иганә итү";
 
 /* BrowsingViewController */
 "Done" = "Әзер";
@@ -316,9 +310,6 @@
 /* Tab */
 "Pull to Refresh Page" = "Битне яңарту өчен тартыгыз";
 
-/* SettingsViewController */
-"Rate on App Store" = "App Store-да бәяләү";
-
 /* AppDelegate */
 "Reload Tab" = "Табны яңадан йөкләү";
 
@@ -383,13 +374,10 @@
 "Silver" = "Көмешсу";
 
 /* No comment provided by engineer. */
-"Starting Tor…" = "Tor-ны башла...";
+"Starting Envoy…" = "Starting Envoy…";
 
 /* SettingsViewController */
 "Stop Auto-Complete at First Dot" = "Беренче нокта куелгач, автотәмамлауны туктату";
-
-/* Bookmark */
-"Subscribe to Tor Newsletter" = "Tor гәҗитенә язылу";
 
 /* SettingsViewController */
 "Support" = "Техник ярдәм";

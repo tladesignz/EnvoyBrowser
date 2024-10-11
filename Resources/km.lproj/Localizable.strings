@@ -91,9 +91,6 @@
 /* AppDelegate */
 "Close Tab" = "បិទផ្ទាំង";
 
-/* No comment provided by engineer. */
-"Configure Bridges" = "កំណត់ Bridges";
-
 /* CertificateViewController */
 "Connection Information" = "ព័ត៌មាន​ការ​តភ្ជាប់";
 
@@ -144,9 +141,6 @@
 
 /* No comment provided by engineer. */
 "Disk Cache" = "Disk Cache";
-
-/* Bookmark, placeholder is app name "Onion Browser" */
-"Donate to %@" = "បរិច្ចាគ​ទៅ %@";
 
 /* BrowsingViewController */
 "Done" = "រួចរាល់";
@@ -316,9 +310,6 @@
 /* Tab */
 "Pull to Refresh Page" = "ទាញ​ដើម្បី​ធ្វើឱ្យ​ទំព័រ​ថ្មី​ឡើងវិញ";
 
-/* SettingsViewController */
-"Rate on App Store" = "ផ្ដល់​ចំណាត់ថ្នាក់​នៅលើ App Store";
-
 /* AppDelegate */
 "Reload Tab" = "ផ្ទុក​ផ្ទាំង​ឡើងវិញ";
 
@@ -383,13 +374,10 @@
 "Silver" = "ប្រាក់";
 
 /* No comment provided by engineer. */
-"Starting Tor…" = "Starting Tor…";
+"Starting Envoy…" = "Starting Envoy…";
 
 /* SettingsViewController */
 "Stop Auto-Complete at First Dot" = "បញ្ឈប់​ការ​បំពេញ​ដោយស្វ័យប្រវត្តិ​នៅ First Dot";
-
-/* Bookmark */
-"Subscribe to Tor Newsletter" = "ចុះឈ្មោះ​ក្នុង​ព្រឹត្តិបត្រ​ព័ត៌មាន​របស់ Tor";
 
 /* SettingsViewController */
 "Support" = "គាំទ្រ";

@@ -91,9 +91,6 @@
 /* AppDelegate */
 "Close Tab" = "Κλείσιμο καρτέλας";
 
-/* No comment provided by engineer. */
-"Configure Bridges" = "Διαμόρφωση γεφυρών";
-
 /* CertificateViewController */
 "Connection Information" = "Πληροφορίες σύνδεσης";
 
@@ -144,9 +141,6 @@
 
 /* No comment provided by engineer. */
 "Disk Cache" = "Disk Cache";
-
-/* Bookmark, placeholder is app name "Onion Browser" */
-"Donate to %@" = "Συνεισφέρετε στο%@";
 
 /* BrowsingViewController */
 "Done" = "Τέλος";
@@ -316,9 +310,6 @@
 /* Tab */
 "Pull to Refresh Page" = "Τραβήξτε για ανανέωση της σελίδας";
 
-/* SettingsViewController */
-"Rate on App Store" = "Βαθμολογήστε στο App Store";
-
 /* AppDelegate */
 "Reload Tab" = "Επαναφόρτωση δεδομένων";
 
@@ -383,13 +374,10 @@
 "Silver" = "Ασημένιο";
 
 /* No comment provided by engineer. */
-"Starting Tor…" = "Starting Tor…";
+"Starting Envoy…" = "Starting Envoy…";
 
 /* SettingsViewController */
 "Stop Auto-Complete at First Dot" = "Τερματισμός αυτόματης συμπλήρωσης στη πρώτη τελεία.";
-
-/* Bookmark */
-"Subscribe to Tor Newsletter" = "Γραφτείτε στο Newsletter του Tor";
 
 /* SettingsViewController */
 "Support" = "Υποστήριξη";

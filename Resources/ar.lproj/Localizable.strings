@@ -91,9 +91,6 @@
 /* AppDelegate */
 "Close Tab" = "إغلاق التبويبة ";
 
-/* No comment provided by engineer. */
-"Configure Bridges" = "ضبط الجسور";
-
 /* CertificateViewController */
 "Connection Information" = "معلومات الإتصال";
 
@@ -144,9 +141,6 @@
 
 /* No comment provided by engineer. */
 "Disk Cache" = "ذاكرة التخزين المؤقت على القرص";
-
-/* Bookmark, placeholder is app name "Onion Browser" */
-"Donate to %@" = "تبرع إلى %@";
 
 /* BrowsingViewController */
 "Done" = "انتهى";
@@ -316,9 +310,6 @@
 /* Tab */
 "Pull to Refresh Page" = "اسحب/ي لتحديث الصفحة";
 
-/* SettingsViewController */
-"Rate on App Store" = "التقييم على الآب ستور";
-
 /* AppDelegate */
 "Reload Tab" = "إعادة تحميل التبويبة";
 
@@ -383,13 +374,10 @@
 "Silver" = "فضة";
 
 /* No comment provided by engineer. */
-"Starting Tor…" = "Starting Tor…";
+"Starting Envoy…" = "Starting Envoy…";
 
 /* SettingsViewController */
 "Stop Auto-Complete at First Dot" = "ايقاف الإكمال التلقائي عند النقطة الأولى";
-
-/* Bookmark */
-"Subscribe to Tor Newsletter" = "اشتراك في الرسالة الإخبارية ل Tor";
 
 /* SettingsViewController */
 "Support" = "الدعم الفني";

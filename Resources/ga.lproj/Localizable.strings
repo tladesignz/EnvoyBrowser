@@ -91,9 +91,6 @@
 /* AppDelegate */
 "Close Tab" = "Dún an Cluaisín";
 
-/* No comment provided by engineer. */
-"Configure Bridges" = "Cumraigh Droichid";
-
 /* CertificateViewController */
 "Connection Information" = "Eolas faoin Cheangal";
 
@@ -144,9 +141,6 @@
 
 /* No comment provided by engineer. */
 "Disk Cache" = "Disk Cache";
-
-/* Bookmark, placeholder is app name "Onion Browser" */
-"Donate to %@" = "Tabhair airgead do %@";
 
 /* BrowsingViewController */
 "Done" = "Déanta";
@@ -316,9 +310,6 @@
 /* Tab */
 "Pull to Refresh Page" = "Tarraing chun an leathanach a athlódáil";
 
-/* SettingsViewController */
-"Rate on App Store" = "Rátáil san App Store";
-
 /* AppDelegate */
 "Reload Tab" = "Athlódáil an Cluaisín";
 
@@ -383,13 +374,10 @@
 "Silver" = "Airgead";
 
 /* No comment provided by engineer. */
-"Starting Tor…" = "Starting Tor…";
+"Starting Envoy…" = "Starting Envoy…";
 
 /* SettingsViewController */
 "Stop Auto-Complete at First Dot" = "Stop uathlíonadh ag an chéad phonc";
-
-/* Bookmark */
-"Subscribe to Tor Newsletter" = "Liostáil le Nuachtlitir Tor";
 
 /* SettingsViewController */
 "Support" = "Tacaíocht";

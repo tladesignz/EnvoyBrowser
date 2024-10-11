@@ -21,13 +21,7 @@ class EnvoyManager {
 
 	static let shared = EnvoyManager()
 
-	static let localhost = "127.0.0.1"
-
 	var status = Status.stopped
-
-	private var envoyRunning: Bool {
-		Envoy.shared.proxy != .direct
-	}
 
 
 	func start(_ progressCallback: @escaping (_ progress: Int?) -> Void,
@@ -35,19 +29,22 @@ class EnvoyManager {
 	{
 		status = .starting
 
-		if !envoyRunning {
-			Task {
-				await Envoy.shared.start(urls: [])
+		Task {
+			let proxies = Proxy.fetch()
+			print("[\(String(describing: type(of: self)))] proxies=\(proxies)")
 
-				if Envoy.shared.proxy != .direct {
-					status = .started
-				}
-				else {
-					status = .stopped
-				}
+			await Envoy.shared.start(urls: proxies.map({ $0.url }), testDirect: false)
 
-				completion(nil)
+			print("[\(String(describing: type(of: self)))] selected=\(Envoy.shared.proxy)")
+
+			if Envoy.shared.proxy != .direct {
+				status = .started
 			}
+			else {
+				status = .stopped
+			}
+
+			completion(nil)
 		}
 	}
 
@@ -57,6 +54,23 @@ class EnvoyManager {
 		Envoy.shared.stop()
 	}
 
+	/**
+	 Check's Envoy's status, and if not working, returns a view controller to show instead of the browser UI.
+
+	 - returns: A view controller to show instead of the browser UI, if status is not good.
+	 */
+	func checkStatus() -> UIViewController? {
+		if !Settings.didWelcome {
+			return WelcomeViewController()
+		}
+
+		if status == .started {
+			return nil
+		}
+
+		// No Envoy proxy running. Let the user start it!
+		return StartEnvoyViewController()
+	}
 
 	// MARK: Private Methods
 

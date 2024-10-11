@@ -91,9 +91,6 @@
 /* AppDelegate */
 "Close Tab" = "بستن تب";
 
-/* No comment provided by engineer. */
-"Configure Bridges" = "پیکربندی پل ها";
-
 /* CertificateViewController */
 "Connection Information" = "اطلاعات اتصال";
 
@@ -144,9 +141,6 @@
 
 /* No comment provided by engineer. */
 "Disk Cache" = "Disk Cache";
-
-/* Bookmark, placeholder is app name "Onion Browser" */
-"Donate to %@" = "به %@ اهدا کنید";
 
 /* BrowsingViewController */
 "Done" = "انجام شد";
@@ -316,9 +310,6 @@
 /* Tab */
 "Pull to Refresh Page" = "برای بازآوری صفحه بکشید";
 
-/* SettingsViewController */
-"Rate on App Store" = "در اپ‌استور به ما امتیاز دهید";
-
 /* AppDelegate */
 "Reload Tab" = "بارگیری دوباره برگه";
 
@@ -383,13 +374,10 @@
 "Silver" = "نقره‌ای";
 
 /* No comment provided by engineer. */
-"Starting Tor…" = "Starting Tor…";
+"Starting Envoy…" = "Starting Envoy…";
 
 /* SettingsViewController */
 "Stop Auto-Complete at First Dot" = "توقف تکمیل خودکار در اولین نقطه";
-
-/* Bookmark */
-"Subscribe to Tor Newsletter" = "در خبرنامه Tor عضو شوید";
 
 /* SettingsViewController */
 "Support" = "پشتیبانی";
