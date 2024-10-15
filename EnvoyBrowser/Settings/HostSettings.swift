@@ -31,7 +31,6 @@ class HostSettings: NSObject {
 	private static let ignoreTlsErrorsKey = "ignore_tls_errors"
 	private static let whitelistCookiesKey = "whitelist_cookies"
 	private static let universalLinkProtectionKey = "universal_link_protection"
-	private static let followOnionLocationHeaderKey = "follow_onion_location_header"
 	private static let userAgentKey = "user_agent"
 	private static let javaScriptKey = "javascript"
 	private static let orientationAndMotionKey = "orientation_and_motion"
@@ -194,17 +193,6 @@ class HostSettings: NSObject {
 		}
 	}
 
-	var followOnionLocationHeader: Bool {
-		get {
-			get(HostSettings.followOnionLocationHeaderKey) == HostSettings.true
-		}
-		set {
-			raw[HostSettings.followOnionLocationHeaderKey] = newValue
-				? HostSettings.true
-				: HostSettings.false
-		}
-	}
-
 	/**
 	User Agent string to use. Will walk up the domain levels ending at the default settings,
 	if not explicitly set for this host.
@@ -289,7 +277,6 @@ class HostSettings: NSObject {
 				Self.ignoreTlsErrorsKey: Self.false,
 				Self.whitelistCookiesKey: Self.false,
 				Self.universalLinkProtectionKey: Self.true,
-				Self.followOnionLocationHeaderKey: Self.false,
 				Self.userAgentKey: "",
 				Self.javaScriptKey: Self.true,
 				Self.orientationAndMotionKey: Self.false,

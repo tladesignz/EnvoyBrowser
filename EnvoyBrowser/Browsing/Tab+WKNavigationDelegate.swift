@@ -86,36 +86,6 @@ extension Tab: WKNavigationDelegate {
 	func webView(_ webView: WKWebView, decidePolicyFor navigationResponse: WKNavigationResponse,
 				 decisionHandler: @escaping (WKNavigationResponsePolicy) -> Void)
 	{
-		let url = webView.url
-
-		// Redirect to provided Onion-Location, if any available, and
-		// - was not already served over an onion site,
-		// - was served over HTTPS,
-		// - isn't switched off by the user,
-		// - is a valid URL with http: or https: protocol and a .onion hostname,
-		//
-		// https://community.torproject.org/onion-services/advanced/onion-location/
-		if !(url?.host?.lowercased().hasSuffix(".onion") ?? false)
-			&& url?.scheme?.lowercased() == "https"
-			&& HostSettings.for(url?.host).followOnionLocationHeader,
-		   let headers = (navigationResponse.response as? HTTPURLResponse)?.allHeaderFields,
-		   let olHeader = headers.first(where: { ($0.key as? String)?.lowercased() == "onion-location" })?.value as? String,
-		   let onionLocation = URL(string: olHeader),
-		   ["http", "https"].contains(onionLocation.scheme?.lowercased())
-			&& onionLocation.host?.lowercased().hasSuffix(".onion") ?? false
-		{
-			print("[\(String(describing: type(of: self)))] Redirect to Onion-Location=\(onionLocation.absoluteString)")
-
-			decisionHandler(.cancel)
-
-			DispatchQueue.main.async { [weak self] in
-				self?.load(onionLocation)
-			}
-
-			return
-		}
-
-
 		if navigationResponse.canShowMIMEType {
 			decisionHandler(.allow)
 		}
@@ -363,7 +333,7 @@ extension Tab: WKNavigationDelegate {
 
 		print("[Tab \(index)] showing error dialog: \(msg) (\(error)")
 
-		var alert = AlertHelper.build(message: msg)
+		let alert = AlertHelper.build(message: msg)
 
 		// self.url will hold the URL of the WKWebView which is the last
 		// *successful* request.
