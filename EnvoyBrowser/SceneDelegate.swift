@@ -106,11 +106,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 		let vc = EnvoyManager.shared.checkStatus()
 
 		show(vc)
-
-		// Seems, we're running via Tor. Set up bookmarks, if not done, yet.
-		if vc == nil {
-			Bookmark.firstRunSetup()
-		}
 	}
 
 	func windowScene(_ windowScene: UIWindowScene,
@@ -169,6 +164,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 		if window == nil {
 			window = UIWindow(frame: UIScreen.main.bounds)
 			window?.backgroundColor = .accent
+		}
+
+		// Seems, we're running via Envoy. Set up bookmarks, if not done, yet.
+		if viewController == nil {
+			Bookmark.firstRunSetup()
 		}
 
 		var viewController = viewController
