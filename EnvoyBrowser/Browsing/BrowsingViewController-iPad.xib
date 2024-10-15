@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BrowsingViewController" customModule="OnionBrowser" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BrowsingViewController" customModule="EnvoyBrowser" customModuleProvider="target">
             <connections>
                 <outlet property="actionBt" destination="1VD-Cu-Lj9" id="S9J-w8-39C"/>
                 <outlet property="backBt" destination="BdK-kV-qOx" id="lBX-aw-jmb"/>
@@ -30,7 +29,6 @@
                 <outlet property="tabsBt" destination="tXa-df-pw3" id="MF4-TY-hBS"/>
                 <outlet property="tabsCollection" destination="Q4p-od-FKg" id="j7p-Ue-kyG"/>
                 <outlet property="tabsTools" destination="LVl-ag-DII" id="9fD-CX-dxq"/>
-                <outlet property="torBt" destination="4n6-Gc-zi4" id="k4Z-yF-jeX"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -103,10 +101,10 @@
                             </connections>
                         </button>
                         <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M16-AT-yxd">
-                            <rect key="frame" x="232" y="38" width="302" height="34"/>
+                            <rect key="frame" x="232" y="38" width="348" height="34"/>
                             <subviews>
                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="mql-7P-9gx">
-                                    <rect key="frame" x="8" y="0.0" width="294" height="34"/>
+                                    <rect key="frame" x="8" y="0.0" width="340" height="34"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="webSearch" returnKeyType="go" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                     <connections>
@@ -129,18 +127,6 @@
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
                         </view>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4n6-Gc-zi4">
-                            <rect key="frame" x="550" y="40" width="30" height="30"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="30" id="FiD-RS-QJq"/>
-                                <constraint firstAttribute="height" constant="30" id="xaV-BG-kNi"/>
-                            </constraints>
-                            <color key="tintColor" name="Accent"/>
-                            <state key="normal" image="onion"/>
-                            <connections>
-                                <action selector="action:" destination="-1" eventType="touchUpInside" id="L03-fl-a6K"/>
-                            </connections>
-                        </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1VD-Cu-Lj9">
                             <rect key="frame" x="596" y="40" width="30" height="30"/>
                             <constraints>
@@ -204,12 +190,10 @@
                         <constraint firstItem="h1A-Yg-f5F" firstAttribute="centerY" secondItem="M16-AT-yxd" secondAttribute="centerY" id="8lm-5x-HNH"/>
                         <constraint firstItem="N7h-ch-TdU" firstAttribute="leading" secondItem="RJ2-NH-hB6" secondAttribute="leading" id="8yN-xl-M3O"/>
                         <constraint firstItem="tXa-df-pw3" firstAttribute="leading" secondItem="Bey-cX-aqp" secondAttribute="trailing" constant="16" id="92y-2f-cDg"/>
-                        <constraint firstItem="4n6-Gc-zi4" firstAttribute="leading" secondItem="M16-AT-yxd" secondAttribute="trailing" constant="16" id="AIZ-wL-b51"/>
                         <constraint firstItem="M16-AT-yxd" firstAttribute="centerY" secondItem="nTb-gO-JY9" secondAttribute="centerY" id="Byz-tI-82M"/>
+                        <constraint firstItem="1VD-Cu-Lj9" firstAttribute="leading" secondItem="M16-AT-yxd" secondAttribute="trailing" constant="16" id="Fhp-Z4-Ye2"/>
                         <constraint firstItem="nTb-gO-JY9" firstAttribute="leading" secondItem="BdK-kV-qOx" secondAttribute="trailing" constant="16" id="Hj3-H1-1cX"/>
-                        <constraint firstItem="1VD-Cu-Lj9" firstAttribute="leading" secondItem="4n6-Gc-zi4" secondAttribute="trailing" constant="16" id="IQT-QS-RzX"/>
                         <constraint firstItem="M16-AT-yxd" firstAttribute="leading" secondItem="SP4-s8-0b8" secondAttribute="trailing" constant="16" id="KgZ-h0-Hkc"/>
-                        <constraint firstItem="4n6-Gc-zi4" firstAttribute="centerY" secondItem="M16-AT-yxd" secondAttribute="centerY" id="QyS-g0-6L4"/>
                         <constraint firstItem="M16-AT-yxd" firstAttribute="centerY" secondItem="BdK-kV-qOx" secondAttribute="centerY" id="SGv-WK-JRg"/>
                         <constraint firstAttribute="trailing" secondItem="N7h-ch-TdU" secondAttribute="trailing" id="Wwu-IY-Qu6"/>
                         <constraint firstItem="SP4-s8-0b8" firstAttribute="leading" secondItem="fgM-cO-WGo" secondAttribute="trailing" constant="16" id="Y8b-H5-Bd9"/>
@@ -326,7 +310,6 @@
         <image name="bookmarks" width="14" height="18"/>
         <image name="forward" width="11" height="19"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
-        <image name="onion" width="19" height="21"/>
         <image name="settings" width="21" height="20"/>
         <image name="share" width="17" height="22"/>
         <image name="shield" width="31" height="39"/>
@@ -335,7 +318,7 @@
             <color red="0.24699999392032623" green="0.16899999976158142" blue="0.31000000238418579" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="scrollViewTexturedBackgroundColor">
-            <color red="0.43529411764705878" green="0.44313725490196082" blue="0.47450980392156861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.43529411764705883" green="0.44313725490196076" blue="0.47450980392156861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

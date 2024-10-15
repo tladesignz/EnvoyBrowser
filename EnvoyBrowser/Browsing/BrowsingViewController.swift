@@ -60,7 +60,6 @@ class BrowsingViewController: UIViewController, TabDelegate {
 		return button
 	}()
 
-	@IBOutlet weak var torBt: UIButton?
 	@IBOutlet weak var progress: UIProgressView?
 	@IBOutlet weak var container: UIView?
 	@IBOutlet weak var containerBottomConstraint2Toolbar: NSLayoutConstraint? // Not available on iPad
@@ -323,9 +322,6 @@ class BrowsingViewController: UIViewController, TabDelegate {
 				currentTab?.refresh()
 			}
 			updateReloadBt()
-
-		case torBt:
-			break
 
 		case backBt:
 			currentTab?.goBack()
