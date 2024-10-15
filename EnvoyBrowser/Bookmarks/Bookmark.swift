@@ -33,6 +33,12 @@ open class Bookmark: NSObject {
 	private static let defaultBookmarks: [Bookmark] = {
 		var defaults = [Bookmark]()
 
+		defaults.append(Bookmark(name: "FreeBrowser", url: "https://freebrowser.org/"))
+		defaults.append(Bookmark(name: "DuckDuckGo", url: "https://duckduckgo.com/"))
+
+		defaults.append(Bookmark(name: "ProPublica", url: "https://www.propublica.org"))
+		defaults.append(Bookmark(name: "Freedom of the Press Foundation", url: "https://freedom.press"))
+
 		return defaults
 	}()
 
